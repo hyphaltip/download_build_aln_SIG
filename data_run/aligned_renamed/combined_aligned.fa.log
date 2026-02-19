@@ -1,0 +1,1301 @@
+Physical cores: 8
+Logical cores:  8
+Memory:         24GB
+Extensions:     SSE3
+
+WARNING: Partition ACT: There are undetermined columns in the alignment (only gaps)
+WARNING: Partition ACT: Sequences Cercospora_apii_CBS_110813 and Cercospora_apii_CBS_110816 are identical
+WARNING: Partition ACT: Sequences Cercospora_apii_CBS_114418 and Cercospora_apii_CBS_114485 are identical
+WARNING: Partition ACT: Sequences Cercospora_apii_CBS_116455 and Cercospora_apii_CBS_116504 are identical
+WARNING: Partition ACT: Sequences Cercospora_apii_CBS_116455 and Cercospora_apii_CBS_116507 are identical
+WARNING: Partition ACT: Sequences Cercospora_apiicola_CBS_116457 and Cercospora_apiicola_CPC_10266 are identical
+WARNING: Partition ACT: Sequences Cercospora_apiicola_CBS_132644 and Cercospora_apiicola_CPC_10279 are identical
+WARNING: Partition ACT: Sequences Cercospora_armoraciae_CBS_132654 and Cercospora_armoraciae_CPC_11364 are identical
+WARNING: Partition ACT: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CPC_10168 are identical
+WARNING: Partition ACT: Sequences Cercospora_beticola_CBS_116501 and Cercospora_beticola_CBS_116502 are identical
+WARNING: Partition ACT: Sequences Cercospora_beticola_CBS_116501 and Cercospora_beticola_CBS_116503 are identical
+WARNING: Partition ACT: Sequences Cercospora_beticola_CBS_116501 and Cercospora_beticola_CBS_116506 are identical
+WARNING: Partition ACT: Sequences Cercospora_beticola_CBS_116501 and Cercospora_beticola_CPC_10197 are identical
+WARNING: Partition ACT: Sequences Cercospora_beticola_CBS_116501 and Cercospora_beticola_CPC_10204 are identical
+WARNING: Partition ACT: Sequences Cercospora_beticola_CBS_123.31 and Cercospora_beticola_CBS_125.31 are identical
+WARNING: Partition ACT: Sequences Cercospora_beticola_CBS_123907 and Cercospora_beticola_CBS_123908 are identical
+WARNING: Partition ACT: Sequences Cercospora_beticola_CBS_123907 and Cercospora_beticola_CPC_14618 are identical
+WARNING: Partition ACT: Sequences Cercospora_beticola_CBS_123907 and Cercospora_beticola_CPC_14619 are identical
+WARNING: Partition ACT: Sequences Cercospora_beticola_CBS_132655 and Cercospora_beticola_CPC_11344 are identical
+WARNING: Partition ACT: Sequences Cercospora_beticola_CPC_10195 and Cercospora_beticola_CPC_12022 are identical
+WARNING: Partition ACT: Sequences Cercospora_beticola_CPC_10195 and Cercospora_beticola_CPC_12027 are identical
+WARNING: Partition ACT: Sequences Cercospora_beticola_CPC_10195 and Cercospora_beticola_CPC_12031 are identical
+WARNING: Partition ACT: Sequences Cercospora_beticola_CPC_12028 and Cercospora_beticola_CPC_12029 are identical
+WARNING: Partition ACT: Sequences Cercospora_canescenscomplex_CPC_4408 and Cercospora_canescenscomplex_CPC_4409 are identical
+WARNING: Partition ACT: Sequences Cercospora_kikuchii_CBS_128.27 and Cercospora_kikuchii_CBS_135.28 are identical
+WARNING: Partition ACT: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17966 are identical
+WARNING: Partition ACT: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17968 are identical
+WARNING: Partition ACT: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17969 are identical
+WARNING: Partition ACT: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17975 are identical
+WARNING: Partition ACT: Sequences Cercospora_sojina_CPC_17965 and Cercospora_sojina_CPC_17967 are identical
+WARNING: Partition ACT: Sequences Cercospora_sojina_CPC_17965 and Cercospora_sojina_CPC_17972 are identical
+WARNING: Partition ACT: Sequences Cercospora_sojina_CPC_17965 and Cercospora_sojina_CPC_17973 are identical
+WARNING: Partition ACT: Sequences Cercospora_sojina_CPC_17965 and Cercospora_sojina_CPC_17976 are identical
+WARNING: Partition ACT: Sequences Cercospora_sojina_CPC_17965 and Cercospora_sojina_CPC_17977 are identical
+WARNING: Partition ACT: Sequences Cercospora_zeae-maydis_CBS_117755 and Cercospora_zeae-maydis_CBS_117757 are identical
+WARNING: Partition ACT: Sequences Cercospora_zeae-maydis_CBS_117755 and Cercospora_zeae-maydis_CBS_117758 are identical
+WARNING: Partition ACT: Sequences Cercospora_zeae-maydis_CBS_117755 and Cercospora_zeae-maydis_CBS_117761 are identical
+WARNING: Partition ACT: Sequences Cercospora_zeae-maydis_CBS_117755 and Cercospora_zeae-maydis_CBS_117762 are identical
+WARNING: Partition ACT: Sequences Cercospora_zeae-maydis_CBS_117759 and Cercospora_zeae-maydis_CBS_117760 are identical
+WARNING: Partition ACT: Sequences Cercospora_zeae-maydis_CBS_117759 and Cercospora_zeae-maydis_CBS_117763 are identical
+WARNING: Partition ACT: Sequences Cercosporacf.citrulina_CBS_119395 and Cercosporacf.citrulina_CBS_132669 are identical
+WARNING: Partition ACT: Sequences Cercosporasp._I_CBS_114815 and Cercosporasp._I_CBS_114818 are identical
+WARNING: Partition ACT: Sequences Cercosporasp._I_CBS_132597 and Cercosporasp._I_CPC_10616 are identical
+WARNING: Partition ACT: Sequences Cercosporasp._P_CBS_112649 and Cercosporasp._P_CBS_112722 are identical
+WARNING: Partition ACT: Sequences Cercosporasp._P_CBS_112649 and Cercosporasp._P_CBS_115609 are identical
+WARNING: Partition ACT: Sequences Cercosporasp._P_CBS_112728 and Cercosporasp._P_CBS_112730 are identical
+WARNING: Partition ACT: Sequences Cercosporasp._P_CBS_112728 and Cercosporasp._P_CBS_112894 are identical
+WARNING: Partition ACT: Sequences Cercosporasp._Q_CBS_115410 and Cercosporasp._Q_CBS_115411 are identical
+WARNING: Partition ACT: Sequences Cercosporasp._Q_CBS_115410 and Cercosporasp._Q_CBS_115412 are identical
+WARNING: Partition ACT: Sequence Cercosporasp._R_CBS_114644 contains only gaps
+WARNING: Partition ACT: There are undetermined columns in the alignment (only gaps)
+WARNING: Partition CAL: Sequences Cercospora_apii_CBS_110813 and Cercospora_apii_CBS_110816 are identical
+WARNING: Partition CAL: Sequences Cercospora_apii_CBS_114418 and Cercospora_apii_CBS_114485 are identical
+WARNING: Partition CAL: Sequences Cercospora_apii_CBS_116455 and Cercospora_apii_CBS_116504 are identical
+WARNING: Partition CAL: Sequences Cercospora_apii_CBS_116455 and Cercospora_apii_CBS_116507 are identical
+WARNING: Partition CAL: Sequences Cercospora_apiicola_CBS_116457 and Cercospora_apiicola_CPC_10266 are identical
+WARNING: Partition CAL: Sequences Cercospora_apiicola_CBS_132644 and Cercospora_apiicola_CPC_10279 are identical
+WARNING: Partition CAL: Sequences Cercospora_armoraciae_CBS_132654 and Cercospora_armoraciae_CPC_11364 are identical
+WARNING: Partition CAL: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CPC_10168 are identical
+WARNING: Partition CAL: Sequences Cercospora_beticola_CBS_116501 and Cercospora_beticola_CBS_116502 are identical
+WARNING: Partition CAL: Sequences Cercospora_beticola_CBS_116501 and Cercospora_beticola_CBS_116503 are identical
+WARNING: Partition CAL: Sequences Cercospora_beticola_CBS_116501 and Cercospora_beticola_CBS_116506 are identical
+WARNING: Partition CAL: Sequences Cercospora_beticola_CBS_116501 and Cercospora_beticola_CPC_10197 are identical
+WARNING: Partition CAL: Sequences Cercospora_beticola_CBS_116501 and Cercospora_beticola_CPC_10204 are identical
+WARNING: Partition CAL: Sequences Cercospora_beticola_CBS_117556 and Cercospora_beticola_CBS_123.31 are identical
+WARNING: Partition CAL: Sequences Cercospora_beticola_CBS_117556 and Cercospora_beticola_CBS_125.31 are identical
+WARNING: Partition CAL: Sequences Cercospora_beticola_CBS_123907 and Cercospora_beticola_CBS_123908 are identical
+WARNING: Partition CAL: Sequences Cercospora_beticola_CBS_123907 and Cercospora_beticola_CPC_14618 are identical
+WARNING: Partition CAL: Sequences Cercospora_beticola_CBS_123907 and Cercospora_beticola_CPC_14619 are identical
+WARNING: Partition CAL: Sequences Cercospora_beticola_CBS_132655 and Cercospora_beticola_CPC_11344 are identical
+WARNING: Partition CAL: Sequences Cercospora_beticola_CPC_10195 and Cercospora_beticola_CPC_12022 are identical
+WARNING: Partition CAL: Sequences Cercospora_beticola_CPC_10195 and Cercospora_beticola_CPC_12027 are identical
+WARNING: Partition CAL: Sequences Cercospora_beticola_CPC_10195 and Cercospora_beticola_CPC_12031 are identical
+WARNING: Partition CAL: Sequences Cercospora_beticola_CPC_12028 and Cercospora_beticola_CPC_12029 are identical
+WARNING: Partition CAL: Sequences Cercospora_canescenscomplex_CPC_4408 and Cercospora_canescenscomplex_CPC_4409 are identical
+WARNING: Partition CAL: Sequences Cercospora_kikuchii_CBS_128.27 and Cercospora_kikuchii_CBS_135.28 are identical
+WARNING: Partition CAL: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17964 are identical
+WARNING: Partition CAL: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17966 are identical
+WARNING: Partition CAL: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17968 are identical
+WARNING: Partition CAL: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17969 are identical
+WARNING: Partition CAL: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17975 are identical
+WARNING: Partition CAL: Sequences Cercospora_sojina_CPC_17965 and Cercospora_sojina_CPC_17967 are identical
+WARNING: Partition CAL: Sequences Cercospora_sojina_CPC_17965 and Cercospora_sojina_CPC_17972 are identical
+WARNING: Partition CAL: Sequences Cercospora_sojina_CPC_17965 and Cercospora_sojina_CPC_17973 are identical
+WARNING: Partition CAL: Sequences Cercospora_sojina_CPC_17965 and Cercospora_sojina_CPC_17976 are identical
+WARNING: Partition CAL: Sequences Cercospora_sojina_CPC_17965 and Cercospora_sojina_CPC_17977 are identical
+WARNING: Partition CAL: Sequences Cercospora_zeae-maydis_CBS_117755 and Cercospora_zeae-maydis_CBS_117757 are identical
+WARNING: Partition CAL: Sequences Cercospora_zeae-maydis_CBS_117755 and Cercospora_zeae-maydis_CBS_117758 are identical
+WARNING: Partition CAL: Sequences Cercospora_zeae-maydis_CBS_117755 and Cercospora_zeae-maydis_CBS_117761 are identical
+WARNING: Partition CAL: Sequences Cercospora_zeae-maydis_CBS_117755 and Cercospora_zeae-maydis_CBS_117762 are identical
+WARNING: Partition CAL: Sequences Cercospora_zeae-maydis_CBS_117756 and Cercospora_zeae-maydis_CBS_117759 are identical
+WARNING: Partition CAL: Sequences Cercospora_zeae-maydis_CBS_117756 and Cercospora_zeae-maydis_CBS_117760 are identical
+WARNING: Partition CAL: Sequences Cercospora_zeae-maydis_CBS_117756 and Cercospora_zeae-maydis_CBS_117763 are identical
+WARNING: Partition CAL: Sequences Cercosporacf.citrulina_CBS_119395 and Cercosporacf.citrulina_CBS_132669 are identical
+WARNING: Partition CAL: Sequences Cercosporacf.nicotianae_CBS_131.32 and Cercosporacf.nicotianae_CBS_570.69 are identical
+WARNING: Partition CAL: Sequences Cercosporasp._I_CBS_114815 and Cercosporasp._I_CBS_114818 are identical
+WARNING: Partition CAL: Sequences Cercosporasp._I_CBS_115117 and Cercosporasp._I_CBS_115121 are identical
+WARNING: Partition CAL: Sequences Cercosporasp._I_CBS_132597 and Cercosporasp._I_CPC_10616 are identical
+WARNING: Partition CAL: Sequences Cercosporasp._P_CBS_112649 and Cercosporasp._P_CBS_112722 are identical
+WARNING: Partition CAL: Sequences Cercosporasp._P_CBS_112649 and Cercosporasp._P_CBS_115609 are identical
+WARNING: Partition CAL: Sequences Cercosporasp._P_CBS_112728 and Cercosporasp._P_CBS_112730 are identical
+WARNING: Partition CAL: Sequences Cercosporasp._P_CBS_112728 and Cercosporasp._P_CBS_112894 are identical
+WARNING: Partition CAL: Sequences Cercosporasp._P_CBS_116365 and Cercosporasp._Q_CPC_10550 are identical
+WARNING: Partition CAL: Sequences Cercosporasp._Q_CBS_115410 and Cercosporasp._Q_CBS_115411 are identical
+WARNING: Partition CAL: Sequences Cercosporasp._Q_CBS_115410 and Cercosporasp._Q_CBS_115412 are identical
+WARNING: Partition HIS: Sequences Cercospora_apii_CBS_110813 and Cercospora_apii_CBS_110816 are identical
+WARNING: Partition HIS: Sequences Cercospora_apii_CBS_110813 and Cercospora_apii_CPC_5112 are identical
+WARNING: Partition HIS: Sequences Cercospora_apii_CBS_110813 and Cercospora_beticola_CBS_115478 are identical
+WARNING: Partition HIS: Sequences Cercospora_apii_CBS_110813 and Cercospora_beticola_CBS_548.71 are identical
+WARNING: Partition HIS: Sequences Cercospora_apii_CBS_114418 and Cercospora_apii_CBS_114485 are identical
+WARNING: Partition HIS: Sequences Cercospora_apii_CBS_116455 and Cercospora_apii_CBS_116504 are identical
+WARNING: Partition HIS: Sequences Cercospora_apii_CBS_116455 and Cercospora_apii_CBS_116507 are identical
+WARNING: Partition HIS: Sequences Cercospora_apii_CBS_127.31 and Cercospora_apii_CBS_152.52 are identical
+WARNING: Partition HIS: Sequences Cercospora_apii_CBS_127.31 and Cercospora_apii_CPC_5260 are identical
+WARNING: Partition HIS: Sequences Cercospora_apii_CBS_127.31 and Cercospora_beticola_CBS_117556 are identical
+WARNING: Partition HIS: Sequences Cercospora_apii_CBS_127.31 and Cercospora_beticola_CBS_123.31 are identical
+WARNING: Partition HIS: Sequences Cercospora_apii_CBS_127.31 and Cercospora_beticola_CBS_124.31 are identical
+WARNING: Partition HIS: Sequences Cercospora_apii_CBS_127.31 and Cercospora_beticola_CBS_125.31 are identical
+WARNING: Partition HIS: Sequences Cercospora_apii_CBS_536.71 and Cercospora_beticola_CBS_116.47 are identical
+WARNING: Partition HIS: Sequences Cercospora_apii_CBS_536.71 and Cercospora_beticola_CBS_122.31 are identical
+WARNING: Partition HIS: Sequences Cercospora_apii_CBS_536.71 and Cercospora_beticola_CPC_5123 are identical
+WARNING: Partition HIS: Sequences Cercospora_apii_CBS_536.71 and Cercospora_beticola_CPC_5125 are identical
+WARNING: Partition HIS: Sequences Cercospora_apii_CBS_536.71 and Cercospora_beticola_CPC_5128 are identical
+WARNING: Partition HIS: Sequences Cercospora_apii_MUCC_567 and Cercospora_apii_MUCC_593 are identical
+WARNING: Partition HIS: Sequences Cercospora_apiicola_CBS_116457 and Cercospora_apiicola_CPC_10266 are identical
+WARNING: Partition HIS: Sequences Cercospora_apiicola_CBS_132644 and Cercospora_apiicola_CPC_10220 are identical
+WARNING: Partition HIS: Sequences Cercospora_apiicola_CBS_132644 and Cercospora_apiicola_CPC_10279 are identical
+WARNING: Partition HIS: Sequences Cercospora_armoraciae_CBS_132654 and Cercospora_armoraciae_CPC_11364 are identical
+WARNING: Partition HIS: Sequences Cercospora_armoraciae_CBS_258.67 and Cercospora_armoraciae_CBS_540.71 are identical
+WARNING: Partition HIS: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CPC_10168 are identical
+WARNING: Partition HIS: Sequences Cercospora_beticola_CBS_116501 and Cercospora_beticola_CBS_116502 are identical
+WARNING: Partition HIS: Sequences Cercospora_beticola_CBS_116501 and Cercospora_beticola_CBS_116503 are identical
+WARNING: Partition HIS: Sequences Cercospora_beticola_CBS_116501 and Cercospora_beticola_CBS_116506 are identical
+WARNING: Partition HIS: Sequences Cercospora_beticola_CBS_116501 and Cercospora_beticola_CPC_10197 are identical
+WARNING: Partition HIS: Sequences Cercospora_beticola_CBS_116501 and Cercospora_beticola_CPC_10204 are identical
+WARNING: Partition HIS: Sequences Cercospora_beticola_CBS_123907 and Cercospora_beticola_CBS_123908 are identical
+WARNING: Partition HIS: Sequences Cercospora_beticola_CBS_123907 and Cercospora_beticola_CBS_132673 are identical
+WARNING: Partition HIS: Sequences Cercospora_beticola_CBS_123907 and Cercospora_beticola_CPC_14618 are identical
+WARNING: Partition HIS: Sequences Cercospora_beticola_CBS_123907 and Cercospora_beticola_CPC_14619 are identical
+WARNING: Partition HIS: Sequences Cercospora_beticola_CBS_132655 and Cercospora_beticola_CPC_11344 are identical
+WARNING: Partition HIS: Sequences Cercospora_beticola_CPC_10195 and Cercospora_beticola_CPC_12022 are identical
+WARNING: Partition HIS: Sequences Cercospora_beticola_CPC_10195 and Cercospora_beticola_CPC_12027 are identical
+WARNING: Partition HIS: Sequences Cercospora_beticola_CPC_10195 and Cercospora_beticola_CPC_12031 are identical
+WARNING: Partition HIS: Sequences Cercospora_beticola_CPC_12028 and Cercospora_beticola_CPC_12029 are identical
+WARNING: Partition HIS: Sequences Cercospora_beticola_CPC_12028 and Cercospora_beticola_CPC_12030 are identical
+WARNING: Partition HIS: Sequences Cercospora_canescenscomplex_CPC_4408 and Cercospora_canescenscomplex_CPC_4409 are identical
+WARNING: Partition HIS: Sequences Cercospora_cf._alchemillicola_CPC_5126 and Cercospora_cf._alchemillicola_CPC_5127 are identical
+WARNING: Partition HIS: Sequences Cercospora_cf._alchemillicola_CPC_5126 and Cercosporasp._I_CBS_114815 are identical
+WARNING: Partition HIS: Sequences Cercospora_cf._alchemillicola_CPC_5126 and Cercosporasp._I_CBS_114818 are identical
+WARNING: Partition HIS: Sequences Cercospora_fagopyri_CBS_132623 and Cercospora_fagopyri_CBS_132671 are identical
+WARNING: Partition HIS: Sequences Cercospora_kikuchii_CBS_128.27 and Cercospora_kikuchii_CBS_135.28 are identical
+WARNING: Partition HIS: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17964 are identical
+WARNING: Partition HIS: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17965 are identical
+WARNING: Partition HIS: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17966 are identical
+WARNING: Partition HIS: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17967 are identical
+WARNING: Partition HIS: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17968 are identical
+WARNING: Partition HIS: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17969 are identical
+WARNING: Partition HIS: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17972 are identical
+WARNING: Partition HIS: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17973 are identical
+WARNING: Partition HIS: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17974 are identical
+WARNING: Partition HIS: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17975 are identical
+WARNING: Partition HIS: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17976 are identical
+WARNING: Partition HIS: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17977 are identical
+WARNING: Partition HIS: Sequences Cercospora_violae_MUCC_129 and Cercospora_violae_MUCC_133 are identical
+WARNING: Partition HIS: Sequences Cercospora_zeae-maydis_CBS_117755 and Cercospora_zeae-maydis_CBS_117757 are identical
+WARNING: Partition HIS: Sequences Cercospora_zeae-maydis_CBS_117755 and Cercospora_zeae-maydis_CBS_117758 are identical
+WARNING: Partition HIS: Sequences Cercospora_zeae-maydis_CBS_117755 and Cercospora_zeae-maydis_CBS_117761 are identical
+WARNING: Partition HIS: Sequences Cercospora_zeae-maydis_CBS_117755 and Cercospora_zeae-maydis_CBS_117762 are identical
+WARNING: Partition HIS: Sequences Cercospora_zeae-maydis_CBS_117756 and Cercospora_zeae-maydis_CBS_117759 are identical
+WARNING: Partition HIS: Sequences Cercospora_zeae-maydis_CBS_117756 and Cercospora_zeae-maydis_CBS_117760 are identical
+WARNING: Partition HIS: Sequences Cercospora_zeae-maydis_CBS_117756 and Cercospora_zeae-maydis_CBS_117763 are identical
+WARNING: Partition HIS: Sequences Cercospora_zebrina_CBS_118790 and Cercospora_zebrina_CBS_118791 are identical
+WARNING: Partition HIS: Sequences Cercosporacf.citrulina_CBS_119395 and Cercosporacf.citrulina_CBS_132669 are identical
+WARNING: Partition HIS: Sequences Cercosporacf.citrulina_MUCC_576 and Cercosporacf.citrulina_MUCC_577 are identical
+WARNING: Partition HIS: Sequences Cercosporacf.flagellaris_CBS_143.51 and Cercosporacf.flagellaris_CPC_1052 are identical
+WARNING: Partition HIS: Sequences Cercosporacf.nicotianae_CBS_131.32 and Cercosporacf.nicotianae_CBS_570.69 are identical
+WARNING: Partition HIS: Sequences Cercosporasp._I_CBS_115117 and Cercosporasp._I_CBS_115121 are identical
+WARNING: Partition HIS: Sequences Cercosporasp._I_CBS_132597 and Cercosporasp._I_CPC_10616 are identical
+WARNING: Partition HIS: Sequences Cercosporasp._P_CBS_112649 and Cercosporasp._P_CBS_112722 are identical
+WARNING: Partition HIS: Sequences Cercosporasp._P_CBS_112649 and Cercosporasp._P_CBS_115609 are identical
+WARNING: Partition HIS: Sequences Cercosporasp._P_CBS_112728 and Cercosporasp._P_CBS_112730 are identical
+WARNING: Partition HIS: Sequences Cercosporasp._P_CBS_112728 and Cercosporasp._P_CBS_112894 are identical
+WARNING: Partition HIS: Sequences Cercosporasp._P_CBS_115413 and Cercosporasp._P_CPC_5327 are identical
+WARNING: Partition HIS: Sequences Cercosporasp._P_CBS_116365 and Cercosporasp._P_CBS_132645 are identical
+WARNING: Partition HIS: Sequences Cercosporasp._P_CBS_116365 and Cercosporasp._Q_CPC_10550 are identical
+WARNING: Partition HIS: Sequences Cercosporasp._Q_CBS_115410 and Cercosporasp._Q_CBS_115411 are identical
+WARNING: Partition HIS: Sequences Cercosporasp._Q_CBS_115410 and Cercosporasp._Q_CBS_115412 are identical
+WARNING: Partition HIS: Sequences Cercosporasp._Q_CBS_115536 and Cercosporasp._Q_CBS_115537 are identical
+WARNING: Partition ITS: There are undetermined columns in the alignment (only gaps)
+WARNING: Partition ITS: Sequences Cercospora_althaeina_CBS_126.26 and Cercospora_althaeina_CBS_248.67 are identical
+WARNING: Partition ITS: Sequences Cercospora_apii_CBS_110813 and Cercospora_apii_CBS_110816 are identical
+WARNING: Partition ITS: Sequences Cercospora_apii_CBS_110813 and Cercospora_apii_CBS_553.71 are identical
+WARNING: Partition ITS: Sequences Cercospora_apii_CBS_110813 and Cercospora_apii_CPC_5112 are identical
+WARNING: Partition ITS: Sequences Cercospora_apii_CBS_110813 and Cercospora_beticola_CBS_115478 are identical
+WARNING: Partition ITS: Sequences Cercospora_apii_CBS_110813 and Cercospora_beticola_CBS_539.71 are identical
+WARNING: Partition ITS: Sequences Cercospora_apii_CBS_110813 and Cercospora_beticola_CBS_548.71 are identical
+WARNING: Partition ITS: Sequences Cercospora_apii_CBS_110813 and Cercospora_beticola_CPC_5370 are identical
+WARNING: Partition ITS: Sequences Cercospora_apii_CBS_110813 and Cercosporacf.resedae_CBS_257.67 are identical
+WARNING: Partition ITS: Sequences Cercospora_apii_CBS_114418 and Cercospora_apii_CBS_114485 are identical
+WARNING: Partition ITS: Sequences Cercospora_apii_CBS_116455 and Cercospora_apii_CBS_116504 are identical
+WARNING: Partition ITS: Sequences Cercospora_apii_CBS_116455 and Cercospora_apii_CBS_116507 are identical
+WARNING: Partition ITS: Sequences Cercospora_apii_CBS_127.31 and Cercospora_apii_CBS_152.52 are identical
+WARNING: Partition ITS: Sequences Cercospora_apii_CBS_127.31 and Cercospora_apii_CPC_5260 are identical
+WARNING: Partition ITS: Sequences Cercospora_apii_CBS_127.31 and Cercospora_beticola_CBS_117556 are identical
+WARNING: Partition ITS: Sequences Cercospora_apii_CBS_127.31 and Cercospora_beticola_CBS_123.31 are identical
+WARNING: Partition ITS: Sequences Cercospora_apii_CBS_127.31 and Cercospora_beticola_CBS_124.31 are identical
+WARNING: Partition ITS: Sequences Cercospora_apii_CBS_127.31 and Cercospora_beticola_CBS_125.31 are identical
+WARNING: Partition ITS: Sequences Cercospora_apii_CBS_536.71 and Cercospora_beticola_CBS_116.47 are identical
+WARNING: Partition ITS: Sequences Cercospora_apii_CBS_536.71 and Cercospora_beticola_CBS_122.31 are identical
+WARNING: Partition ITS: Sequences Cercospora_apii_CBS_536.71 and Cercospora_beticola_CPC_5123 are identical
+WARNING: Partition ITS: Sequences Cercospora_apii_CBS_536.71 and Cercospora_beticola_CPC_5125 are identical
+WARNING: Partition ITS: Sequences Cercospora_apii_CBS_536.71 and Cercospora_beticola_CPC_5128 are identical
+WARNING: Partition ITS: Sequences Cercospora_apii_MUCC_567 and Cercospora_apii_MUCC_593 are identical
+WARNING: Partition ITS: Sequences Cercospora_apiicola_CBS_116457 and Cercospora_apiicola_CBS_132644 are identical
+WARNING: Partition ITS: Sequences Cercospora_apiicola_CBS_116457 and Cercospora_apiicola_CPC_10220 are identical
+WARNING: Partition ITS: Sequences Cercospora_apiicola_CBS_116457 and Cercospora_apiicola_CPC_10266 are identical
+WARNING: Partition ITS: Sequences Cercospora_apiicola_CBS_116457 and Cercospora_apiicola_CPC_10279 are identical
+WARNING: Partition ITS: Sequences Cercospora_apiicola_CBS_132666 and Cercospora_apiicola_CPC_11641 are identical
+WARNING: Partition ITS: Sequences Cercospora_armoraciae_CBS_132654 and Cercospora_armoraciae_CPC_11364 are identical
+WARNING: Partition ITS: Sequences Cercospora_armoraciae_CBS_258.67 and Cercospora_armoraciae_CBS_540.71 are identical
+WARNING: Partition ITS: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CBS_116501 are identical
+WARNING: Partition ITS: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CBS_116502 are identical
+WARNING: Partition ITS: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CBS_116503 are identical
+WARNING: Partition ITS: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CBS_116506 are identical
+WARNING: Partition ITS: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CPC_10168 are identical
+WARNING: Partition ITS: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CPC_10195 are identical
+WARNING: Partition ITS: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CPC_10197 are identical
+WARNING: Partition ITS: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CPC_10204 are identical
+WARNING: Partition ITS: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CPC_12022 are identical
+WARNING: Partition ITS: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CPC_12027 are identical
+WARNING: Partition ITS: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CPC_12031 are identical
+WARNING: Partition ITS: Sequences Cercospora_beticola_CBS_117.47 and Cercospora_beticola_CBS_132655 are identical
+WARNING: Partition ITS: Sequences Cercospora_beticola_CBS_117.47 and Cercospora_beticola_CPC_11344 are identical
+WARNING: Partition ITS: Sequences Cercospora_beticola_CBS_123907 and Cercospora_beticola_CBS_123908 are identical
+WARNING: Partition ITS: Sequences Cercospora_beticola_CBS_123907 and Cercospora_beticola_CBS_132673 are identical
+WARNING: Partition ITS: Sequences Cercospora_beticola_CBS_123907 and Cercospora_beticola_CPC_14618 are identical
+WARNING: Partition ITS: Sequences Cercospora_beticola_CBS_123907 and Cercospora_beticola_CPC_14619 are identical
+WARNING: Partition ITS: Sequences Cercospora_beticola_CPC_12028 and Cercospora_beticola_CPC_12029 are identical
+WARNING: Partition ITS: Sequences Cercospora_beticola_CPC_12028 and Cercospora_beticola_CPC_12030 are identical
+WARNING: Partition ITS: Sequences Cercospora_canescenscomplex_CBS_111133 and Cercospora_canescenscomplex_CBS_111134 are identical
+WARNING: Partition ITS: Sequences Cercospora_canescenscomplex_CBS_111133 and Cercospora_canescenscomplex_CPC_4408 are identical
+WARNING: Partition ITS: Sequences Cercospora_canescenscomplex_CBS_111133 and Cercospora_canescenscomplex_CPC_4409 are identical
+WARNING: Partition ITS: Sequences Cercospora_canescenscomplex_CBS_132658 and Cercospora_canescenscomplex_CBS_132659 are identical
+WARNING: Partition ITS: Sequences Cercospora_cf._alchemillicola_CPC_5126 and Cercospora_cf._alchemillicola_CPC_5127 are identical
+WARNING: Partition ITS: Sequences Cercospora_cf._alchemillicola_CPC_5126 and Cercosporasp._I_CBS_114815 are identical
+WARNING: Partition ITS: Sequences Cercospora_cf._alchemillicola_CPC_5126 and Cercosporasp._I_CBS_114818 are identical
+WARNING: Partition ITS: Sequences Cercospora_fagopyri_CBS_132623 and Cercospora_fagopyri_CBS_132671 are identical
+WARNING: Partition ITS: Sequences Cercospora_kikuchii_CBS_128.27 and Cercospora_kikuchii_CBS_135.28 are identical
+WARNING: Partition ITS: Sequences Cercospora_sojina_CBS_132615 and Cercospora_sojina_CPC_11420 are identical
+WARNING: Partition ITS: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17964 are identical
+WARNING: Partition ITS: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17965 are identical
+WARNING: Partition ITS: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17966 are identical
+WARNING: Partition ITS: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17967 are identical
+WARNING: Partition ITS: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17968 are identical
+WARNING: Partition ITS: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17969 are identical
+WARNING: Partition ITS: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17972 are identical
+WARNING: Partition ITS: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17973 are identical
+WARNING: Partition ITS: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17974 are identical
+WARNING: Partition ITS: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17975 are identical
+WARNING: Partition ITS: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17976 are identical
+WARNING: Partition ITS: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17977 are identical
+WARNING: Partition ITS: Sequences Cercospora_violae_CBS_251.67 and Cercospora_violae_CPC_5368 are identical
+WARNING: Partition ITS: Sequences Cercospora_violae_MUCC_129 and Cercospora_violae_MUCC_133 are identical
+WARNING: Partition ITS: Sequences Cercospora_zeae-maydis_CBS_117755 and Cercospora_zeae-maydis_CBS_117757 are identical
+WARNING: Partition ITS: Sequences Cercospora_zeae-maydis_CBS_117755 and Cercospora_zeae-maydis_CBS_117758 are identical
+WARNING: Partition ITS: Sequences Cercospora_zeae-maydis_CBS_117755 and Cercospora_zeae-maydis_CBS_117761 are identical
+WARNING: Partition ITS: Sequences Cercospora_zeae-maydis_CBS_117755 and Cercospora_zeae-maydis_CBS_117762 are identical
+WARNING: Partition ITS: Sequences Cercospora_zeae-maydis_CBS_117755 and Cercospora_zeae-maydis_CBS_132668 are identical
+WARNING: Partition ITS: Sequences Cercospora_zeae-maydis_CBS_117756 and Cercospora_zeae-maydis_CBS_117759 are identical
+WARNING: Partition ITS: Sequences Cercospora_zeae-maydis_CBS_117756 and Cercospora_zeae-maydis_CBS_117760 are identical
+WARNING: Partition ITS: Sequences Cercospora_zeae-maydis_CBS_117756 and Cercospora_zeae-maydis_CBS_117763 are identical
+WARNING: Partition ITS: Sequences Cercospora_zebrina_CBS_108.22 and Cercospora_zebrina_CBS_137.56 are identical
+WARNING: Partition ITS: Sequences Cercospora_zebrina_CBS_112723 and Cercospora_zebrina_CBS_112736 are identical
+WARNING: Partition ITS: Sequences Cercospora_zebrina_CBS_118789 and Cercospora_zebrina_CBS_118790 are identical
+WARNING: Partition ITS: Sequences Cercospora_zebrina_CBS_118789 and Cercospora_zebrina_CBS_118791 are identical
+WARNING: Partition ITS: Sequences Cercosporacf.chenopodii_CPC_15763 and Cercosporacf.chenopodii_CPC_15859 are identical
+WARNING: Partition ITS: Sequences Cercosporacf.citrulina_CBS_119395 and Cercosporacf.citrulina_CBS_132669 are identical
+WARNING: Partition ITS: Sequences Cercosporacf.citrulina_MUCC_576 and Cercosporacf.citrulina_MUCC_577 are identical
+WARNING: Partition ITS: Sequences Cercosporacf.flagellaris_CBS_115482 and Cercosporacf.flagellaris_CPC_4411 are identical
+WARNING: Partition ITS: Sequences Cercosporacf.flagellaris_CBS_143.51 and Cercosporacf.flagellaris_CPC_1052 are identical
+WARNING: Partition ITS: Sequences Cercosporacf.nicotianae_CBS_131.32 and Cercosporacf.nicotianae_CBS_570.69 are identical
+WARNING: Partition ITS: Sequences Cercosporacf.richardiicola_MUCC_138 and Cercosporacf.sigesbeckiae_MUCC_849 are identical
+WARNING: Partition ITS: Sequences Cercosporasp._I_CBS_114816 and Cercosporasp._I_CBS_114817 are identical
+WARNING: Partition ITS: Sequences Cercosporasp._I_CBS_115117 and Cercosporasp._I_CBS_115121 are identical
+WARNING: Partition ITS: Sequences Cercosporasp._I_CBS_132597 and Cercosporasp._I_CPC_10616 are identical
+WARNING: Partition ITS: Sequences Cercosporasp._M_CBS_132596 and Cercosporasp._P_CPC_10552 are identical
+WARNING: Partition ITS: Sequences Cercosporasp._P_CBS_112649 and Cercosporasp._P_CBS_112722 are identical
+WARNING: Partition ITS: Sequences Cercosporasp._P_CBS_112649 and Cercosporasp._P_CBS_115609 are identical
+WARNING: Partition ITS: Sequences Cercosporasp._P_CBS_112728 and Cercosporasp._P_CBS_112730 are identical
+WARNING: Partition ITS: Sequences Cercosporasp._P_CBS_112728 and Cercosporasp._P_CBS_112894 are identical
+WARNING: Partition ITS: Sequences Cercosporasp._P_CBS_113996 and Cercosporasp._Q_CBS_113997 are identical
+WARNING: Partition ITS: Sequences Cercosporasp._P_CBS_115413 and Cercosporasp._P_CPC_5327 are identical
+WARNING: Partition ITS: Sequences Cercosporasp._P_CBS_115413 and Cercosporasp._Q_CBS_115410 are identical
+WARNING: Partition ITS: Sequences Cercosporasp._P_CBS_115413 and Cercosporasp._Q_CBS_115411 are identical
+WARNING: Partition ITS: Sequences Cercosporasp._P_CBS_115413 and Cercosporasp._Q_CBS_115412 are identical
+WARNING: Partition ITS: Sequences Cercosporasp._P_CBS_115413 and Cercosporasp._Q_CBS_115536 are identical
+WARNING: Partition ITS: Sequences Cercosporasp._P_CBS_115413 and Cercosporasp._Q_CBS_115537 are identical
+WARNING: Partition ITS: Sequences Cercosporasp._P_CBS_116365 and Cercosporasp._P_CBS_132645 are identical
+WARNING: Partition ITS: Sequences Cercosporasp._P_CBS_116365 and Cercosporasp._Q_CPC_10550 are identical
+WARNING: Partition ITS: Sequences Cercosporasp._P_CBS_116365 and Cercosporasp._Q_CPC_10551 are identical
+WARNING: Partition ITS: Sequences Cercosporasp._P_CBS_132660 and Cercosporasp._P_CPC_11630 are identical
+WARNING: Partition ITS: Sequences Cercosporasp._P_CPC_11633 and Cercosporasp._Q_CBS_132661 are identical
+WARNING: Partition ITS: Sequences Cercosporasp._Q_CBS_132663 and Cercosporasp._Q_CPC_11539 are identical
+WARNING: Partition ITS: Sequences Cercosporasp._Q_CBS_132679 and Cercosporasp._Q_CBS_132682 are identical
+WARNING: Partition ITS: Sequences Cercosporasp._Q_CBS_132681 and Cercosporasp._Q_CPC_15875 are identical
+WARNING: Partition ITS: Sequence Cercospora_beticola_CBS_116456 contains only gaps
+WARNING: Partition ITS: Sequence Cercosporasp._R_CBS_114644 contains only gaps
+WARNING: Partition ITS: There are undetermined columns in the alignment (only gaps)
+WARNING: Partition TEF: There are undetermined columns in the alignment (only gaps)
+WARNING: Partition TEF: Sequences Cercospora_alchemillicola_CPC_5259___TYPE and Cercospora_cf._alchemillicola_CPC_5126 are identical
+WARNING: Partition TEF: Sequences Cercospora_alchemillicola_CPC_5259___TYPE and Cercospora_cf._alchemillicola_CPC_5127 are identical
+WARNING: Partition TEF: Sequences Cercospora_alchemillicola_CPC_5259___TYPE and Cercosporasp._I_CBS_114815 are identical
+WARNING: Partition TEF: Sequences Cercospora_alchemillicola_CPC_5259___TYPE and Cercosporasp._I_CBS_114818 are identical
+WARNING: Partition TEF: Sequences Cercospora_althaeina_CBS_126.26 and Cercospora_althaeina_CBS_248.67 are identical
+WARNING: Partition TEF: Sequences Cercospora_apii_CBS_110813 and Cercospora_apii_CBS_110816 are identical
+WARNING: Partition TEF: Sequences Cercospora_apii_CBS_110813 and Cercospora_apii_CBS_553.71 are identical
+WARNING: Partition TEF: Sequences Cercospora_apii_CBS_110813 and Cercospora_apii_CPC_5112 are identical
+WARNING: Partition TEF: Sequences Cercospora_apii_CBS_110813 and Cercospora_apii_MUCC_573 are identical
+WARNING: Partition TEF: Sequences Cercospora_apii_CBS_110813 and Cercospora_beticola_CBS_115478 are identical
+WARNING: Partition TEF: Sequences Cercospora_apii_CBS_110813 and Cercospora_beticola_CBS_539.71 are identical
+WARNING: Partition TEF: Sequences Cercospora_apii_CBS_110813 and Cercospora_beticola_CBS_548.71 are identical
+WARNING: Partition TEF: Sequences Cercospora_apii_CBS_110813 and Cercospora_beticola_CPC_5370 are identical
+WARNING: Partition TEF: Sequences Cercospora_apii_CBS_110813 and Cercospora_beticola_MUCC_568 are identical
+WARNING: Partition TEF: Sequences Cercospora_apii_CBS_110813 and Cercosporacf.resedae_CBS_257.67 are identical
+WARNING: Partition TEF: Sequences Cercospora_apii_CBS_114416 and Cercospora_dispori_CBS_132608 are identical
+WARNING: Partition TEF: Sequences Cercospora_apii_CBS_114418 and Cercospora_apii_CBS_114485 are identical
+WARNING: Partition TEF: Sequences Cercospora_apii_CBS_116455 and Cercospora_apii_CBS_116504 are identical
+WARNING: Partition TEF: Sequences Cercospora_apii_CBS_116455 and Cercospora_apii_CBS_116507 are identical
+WARNING: Partition TEF: Sequences Cercospora_apii_CBS_127.31 and Cercospora_apii_CBS_152.52 are identical
+WARNING: Partition TEF: Sequences Cercospora_apii_CBS_127.31 and Cercospora_apii_CPC_5260 are identical
+WARNING: Partition TEF: Sequences Cercospora_apii_CBS_127.31 and Cercospora_beticola_CBS_117556 are identical
+WARNING: Partition TEF: Sequences Cercospora_apii_CBS_127.31 and Cercospora_beticola_CBS_123.31 are identical
+WARNING: Partition TEF: Sequences Cercospora_apii_CBS_127.31 and Cercospora_beticola_CBS_124.31 are identical
+WARNING: Partition TEF: Sequences Cercospora_apii_CBS_127.31 and Cercospora_beticola_CBS_125.31 are identical
+WARNING: Partition TEF: Sequences Cercospora_apii_CBS_127.31 and Cercospora_beticola_CBS_126.31 are identical
+WARNING: Partition TEF: Sequences Cercospora_apii_CBS_536.71 and Cercospora_beticola_CBS_116.47 are identical
+WARNING: Partition TEF: Sequences Cercospora_apii_CBS_536.71 and Cercospora_beticola_CBS_122.31 are identical
+WARNING: Partition TEF: Sequences Cercospora_apii_CBS_536.71 and Cercospora_beticola_CPC_5123 are identical
+WARNING: Partition TEF: Sequences Cercospora_apii_CBS_536.71 and Cercospora_beticola_CPC_5125 are identical
+WARNING: Partition TEF: Sequences Cercospora_apii_CBS_536.71 and Cercospora_beticola_CPC_5128 are identical
+WARNING: Partition TEF: Sequences Cercospora_apii_MUCC_567 and Cercospora_apii_MUCC_593 are identical
+WARNING: Partition TEF: Sequences Cercospora_apiicola_CBS_116457 and Cercospora_apiicola_CBS_132644 are identical
+WARNING: Partition TEF: Sequences Cercospora_apiicola_CBS_116457 and Cercospora_apiicola_CPC_10220 are identical
+WARNING: Partition TEF: Sequences Cercospora_apiicola_CBS_116457 and Cercospora_apiicola_CPC_10265 are identical
+WARNING: Partition TEF: Sequences Cercospora_apiicola_CBS_116457 and Cercospora_apiicola_CPC_10266 are identical
+WARNING: Partition TEF: Sequences Cercospora_apiicola_CBS_116457 and Cercospora_apiicola_CPC_10279 are identical
+WARNING: Partition TEF: Sequences Cercospora_apiicola_CBS_132666 and Cercospora_apiicola_CPC_11641 are identical
+WARNING: Partition TEF: Sequences Cercospora_armoraciae_CBS_115409 and Cercospora_armoraciae_CBS_250.67 are identical
+WARNING: Partition TEF: Sequences Cercospora_armoraciae_CBS_132654 and Cercospora_armoraciae_CPC_11364 are identical
+WARNING: Partition TEF: Sequences Cercospora_armoraciae_CBS_258.67 and Cercospora_armoraciae_CBS_540.71 are identical
+WARNING: Partition TEF: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CBS_116456 are identical
+WARNING: Partition TEF: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CBS_116501 are identical
+WARNING: Partition TEF: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CBS_116502 are identical
+WARNING: Partition TEF: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CBS_116503 are identical
+WARNING: Partition TEF: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CBS_116505 are identical
+WARNING: Partition TEF: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CBS_116506 are identical
+WARNING: Partition TEF: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CPC_10166 are identical
+WARNING: Partition TEF: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CPC_10168 are identical
+WARNING: Partition TEF: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CPC_10195 are identical
+WARNING: Partition TEF: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CPC_10197 are identical
+WARNING: Partition TEF: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CPC_10204 are identical
+WARNING: Partition TEF: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CPC_12022 are identical
+WARNING: Partition TEF: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CPC_12027 are identical
+WARNING: Partition TEF: Sequences Cercospora_beticola_CBS_116454 and Cercospora_beticola_CPC_12031 are identical
+WARNING: Partition TEF: Sequences Cercospora_beticola_CBS_117.47 and Cercospora_beticola_CBS_132655 are identical
+WARNING: Partition TEF: Sequences Cercospora_beticola_CBS_117.47 and Cercospora_beticola_CPC_11344 are identical
+WARNING: Partition TEF: Sequences Cercospora_beticola_CBS_117.47 and Cercospora_beticola_CPC_12028 are identical
+WARNING: Partition TEF: Sequences Cercospora_beticola_CBS_117.47 and Cercospora_beticola_CPC_12029 are identical
+WARNING: Partition TEF: Sequences Cercospora_beticola_CBS_117.47 and Cercospora_beticola_CPC_12030 are identical
+WARNING: Partition TEF: Sequences Cercospora_beticola_CBS_117.47 and Cercosporacf.resedae_CBS_118793 are identical
+WARNING: Partition TEF: Sequences Cercospora_beticola_CBS_123907 and Cercospora_beticola_CBS_123908 are identical
+WARNING: Partition TEF: Sequences Cercospora_beticola_CBS_123907 and Cercospora_beticola_CBS_132673 are identical
+WARNING: Partition TEF: Sequences Cercospora_beticola_CBS_123907 and Cercospora_beticola_CPC_14618 are identical
+WARNING: Partition TEF: Sequences Cercospora_beticola_CBS_123907 and Cercospora_beticola_CPC_14619 are identical
+WARNING: Partition TEF: Sequences Cercospora_canescenscomplex_CBS_111133 and Cercospora_canescenscomplex_CBS_111134 are identical
+WARNING: Partition TEF: Sequences Cercospora_canescenscomplex_CBS_111133 and Cercospora_canescenscomplex_CPC_4408 are identical
+WARNING: Partition TEF: Sequences Cercospora_canescenscomplex_CBS_111133 and Cercospora_canescenscomplex_CPC_4409 are identical
+WARNING: Partition TEF: Sequences Cercospora_canescenscomplex_CBS_132658 and Cercospora_canescenscomplex_CBS_132659 are identical
+WARNING: Partition TEF: Sequences Cercospora_capsici_CBS_118712 and Cercospora_capsici_CPC_12307 are identical
+WARNING: Partition TEF: Sequences Cercospora_delaireae_CBS_132595 and Cercospora_ricinella_CPC_10104 are identical
+WARNING: Partition TEF: Sequences Cercospora_delaireae_CPC_10627 and Cercospora_delaireae_CPC_10628 are identical
+WARNING: Partition TEF: Sequences Cercospora_delaireae_CPC_10627 and Cercospora_delaireae_CPC_10629 are identical
+WARNING: Partition TEF: Sequences Cercospora_fagopyri_CBS_132623 and Cercospora_fagopyri_CBS_132671 are identical
+WARNING: Partition TEF: Sequences Cercospora_fagopyri_MUCC_130 and Cercospora_fagopyri_MUCC_866 are identical
+WARNING: Partition TEF: Sequences Cercospora_kikuchii_CBS_128.27 and Cercospora_kikuchii_CBS_135.28 are identical
+WARNING: Partition TEF: Sequences Cercospora_kikuchii_CBS_128.27 and Cercosporacf.richardiicola_MUCC_128 are identical
+WARNING: Partition TEF: Sequences Cercospora_kikuchii_CBS_128.27 and Cercosporacf.richardiicola_MUCC_132 are identical
+WARNING: Partition TEF: Sequences Cercospora_kikuchii_CBS_128.27 and Cercosporacf.richardiicola_MUCC_138 are identical
+WARNING: Partition TEF: Sequences Cercospora_kikuchii_CBS_128.27 and Cercosporacf.richardiicola_MUCC_578 are identical
+WARNING: Partition TEF: Sequences Cercospora_kikuchii_CBS_128.27 and Cercosporacf.richardiicola_MUCC_582 are identical
+WARNING: Partition TEF: Sequences Cercospora_kikuchii_CBS_128.27 and Cercosporacf.sigesbeckiae_MUCC_587 are identical
+WARNING: Partition TEF: Sequences Cercospora_kikuchii_CBS_128.27 and Cercosporacf.sigesbeckiae_MUCC_589 are identical
+WARNING: Partition TEF: Sequences Cercospora_kikuchii_CBS_128.27 and Cercosporacf.sigesbeckiae_MUCC_849 are identical
+WARNING: Partition TEF: Sequences Cercospora_kikuchii_CBS_128.27 and Cercosporasp._P_CBS_112649 are identical
+WARNING: Partition TEF: Sequences Cercospora_kikuchii_CBS_128.27 and Cercosporasp._P_CBS_112722 are identical
+WARNING: Partition TEF: Sequences Cercospora_kikuchii_CBS_128.27 and Cercosporasp._P_CBS_112728 are identical
+WARNING: Partition TEF: Sequences Cercospora_kikuchii_CBS_128.27 and Cercosporasp._P_CBS_112730 are identical
+WARNING: Partition TEF: Sequences Cercospora_kikuchii_CBS_128.27 and Cercosporasp._P_CBS_112894 are identical
+WARNING: Partition TEF: Sequences Cercospora_kikuchii_CBS_128.27 and Cercosporasp._P_CBS_115609 are identical
+WARNING: Partition TEF: Sequences Cercospora_kikuchii_CBS_128.27 and Cercosporasp._P_CBS_132664 are identical
+WARNING: Partition TEF: Sequences Cercospora_kikuchii_CBS_128.27 and Cercosporasp._P_CPC_4002 are identical
+WARNING: Partition TEF: Sequences Cercospora_kikuchii_CBS_128.27 and Cercosporasp._P_MUCC_771 are identical
+WARNING: Partition TEF: Sequences Cercospora_lactucae-sativae_CBS_132604 and Cercosporasp._K_CBS_132603 are identical
+WARNING: Partition TEF: Sequences Cercospora_lactucae-sativae_MUCC_570 and Cercospora_lactucae-sativae_MUCC_571 are identical
+WARNING: Partition TEF: Sequences Cercospora_sojina_CBS_132615 and Cercospora_sojina_CPC_11420 are identical
+WARNING: Partition TEF: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17964 are identical
+WARNING: Partition TEF: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17965 are identical
+WARNING: Partition TEF: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17966 are identical
+WARNING: Partition TEF: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17967 are identical
+WARNING: Partition TEF: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17968 are identical
+WARNING: Partition TEF: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17969 are identical
+WARNING: Partition TEF: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17970 are identical
+WARNING: Partition TEF: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17972 are identical
+WARNING: Partition TEF: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17973 are identical
+WARNING: Partition TEF: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17974 are identical
+WARNING: Partition TEF: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17975 are identical
+WARNING: Partition TEF: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17976 are identical
+WARNING: Partition TEF: Sequences Cercospora_sojina_CBS_132684 and Cercospora_sojina_CPC_17977 are identical
+WARNING: Partition TEF: Sequences Cercospora_violae_CBS_251.67 and Cercospora_violae_CPC_5368 are identical
+WARNING: Partition TEF: Sequences Cercospora_violae_MUCC_129 and Cercospora_violae_MUCC_133 are identical
+WARNING: Partition TEF: Sequences Cercospora_violae_MUCC_129 and Cercospora_violae_MUCC_136 are identical
+WARNING: Partition TEF: Sequences Cercospora_zeae-maydis_CBS_117755 and Cercospora_zeae-maydis_CBS_117757 are identical
+WARNING: Partition TEF: Sequences Cercospora_zeae-maydis_CBS_117755 and Cercospora_zeae-maydis_CBS_117758 are identical
+WARNING: Partition TEF: Sequences Cercospora_zeae-maydis_CBS_117755 and Cercospora_zeae-maydis_CBS_117761 are identical
+WARNING: Partition TEF: Sequences Cercospora_zeae-maydis_CBS_117755 and Cercospora_zeae-maydis_CBS_117762 are identical
+WARNING: Partition TEF: Sequences Cercospora_zeae-maydis_CBS_117755 and Cercospora_zeae-maydis_CBS_132668 are identical
+WARNING: Partition TEF: Sequences Cercospora_zeae-maydis_CBS_117756 and Cercospora_zeae-maydis_CBS_117759 are identical
+WARNING: Partition TEF: Sequences Cercospora_zeae-maydis_CBS_117756 and Cercospora_zeae-maydis_CBS_117760 are identical
+WARNING: Partition TEF: Sequences Cercospora_zeae-maydis_CBS_117756 and Cercospora_zeae-maydis_CBS_117763 are identical
+WARNING: Partition TEF: Sequences Cercospora_zebrina_CBS_108.22 and Cercospora_zebrina_CBS_112723 are identical
+WARNING: Partition TEF: Sequences Cercospora_zebrina_CBS_108.22 and Cercospora_zebrina_CBS_112736 are identical
+WARNING: Partition TEF: Sequences Cercospora_zebrina_CBS_108.22 and Cercospora_zebrina_CBS_129.39 are identical
+WARNING: Partition TEF: Sequences Cercospora_zebrina_CBS_108.22 and Cercospora_zebrina_CBS_137.56 are identical
+WARNING: Partition TEF: Sequences Cercospora_zebrina_CBS_108.22 and Cercospora_zebrina_CBS_537.71 are identical
+WARNING: Partition TEF: Sequences Cercospora_zebrina_CBS_112893 and Cercospora_zebrina_CBS_114359 are identical
+WARNING: Partition TEF: Sequences Cercospora_zebrina_CBS_113070 and Cercospora_zebrina_CPC_5473 are identical
+WARNING: Partition TEF: Sequences Cercospora_zebrina_CBS_118789 and Cercospora_zebrina_CBS_118790 are identical
+WARNING: Partition TEF: Sequences Cercospora_zebrina_CBS_118789 and Cercospora_zebrina_CBS_118791 are identical
+WARNING: Partition TEF: Sequences Cercosporacf.brunkii_MUCC_732 and Cercosporacf.flagellaris_CBS_115482 are identical
+WARNING: Partition TEF: Sequences Cercosporacf.brunkii_MUCC_732 and Cercosporacf.flagellaris_CPC_4411 are identical
+WARNING: Partition TEF: Sequences Cercosporacf.brunkii_MUCC_732 and Cercosporacf.flagellaris_MUCC_127 are identical
+WARNING: Partition TEF: Sequences Cercosporacf.brunkii_MUCC_732 and Cercosporacf.flagellaris_MUCC_735 are identical
+WARNING: Partition TEF: Sequences Cercosporacf.brunkii_MUCC_732 and Cercosporacf.flagellaris_MUCC_831 are identical
+WARNING: Partition TEF: Sequences Cercosporacf.chenopodii_CBS_132594 and Cercosporasp._B_CBS_132602 are identical
+WARNING: Partition TEF: Sequences Cercosporacf.chenopodii_CPC_15763 and Cercosporacf.chenopodii_CPC_15859 are identical
+WARNING: Partition TEF: Sequences Cercosporacf.citrulina_CBS_119395 and Cercosporacf.citrulina_CBS_132669 are identical
+WARNING: Partition TEF: Sequences Cercosporacf.citrulina_MUCC_576 and Cercosporacf.citrulina_MUCC_577 are identical
+WARNING: Partition TEF: Sequences Cercosporacf.flagellaris_CBS_132637 and Cercosporacf.flagellaris_CPC_10124 are identical
+WARNING: Partition TEF: Sequences Cercosporacf.flagellaris_CBS_132646 and Cercosporacf.flagellaris_CPC_10684 are identical
+WARNING: Partition TEF: Sequences Cercosporacf.flagellaris_CBS_132648 and Cercosporacf.flagellaris_CBS_132653 are identical
+WARNING: Partition TEF: Sequences Cercosporacf.flagellaris_CBS_143.51 and Cercosporacf.flagellaris_CPC_1051 are identical
+WARNING: Partition TEF: Sequences Cercosporacf.flagellaris_CBS_143.51 and Cercosporacf.flagellaris_CPC_1052 are identical
+WARNING: Partition TEF: Sequences Cercosporacf.malloti_MUCC_575 and Cercosporacf.malloti_MUCC_787 are identical
+WARNING: Partition TEF: Sequences Cercosporacf.nicotianae_CBS_131.32 and Cercosporacf.nicotianae_CBS_570.69 are identical
+WARNING: Partition TEF: Sequences Cercosporacf.sigesbeckiae_CBS_132621 and Cercosporacf.sigesbeckiae_CBS_132675 are identical
+WARNING: Partition TEF: Sequences Cercosporacf.sigesbeckiae_CBS_132641 and Cercosporacf.sigesbeckiae_CBS_132642 are identical
+WARNING: Partition TEF: Sequences Cercosporacf.sigesbeckiae_CBS_132641 and Cercosporasp._N_CBS_132619 are identical
+WARNING: Partition TEF: Sequences Cercosporacf.sigesbeckiae_CBS_132641 and Cercosporasp._P_CBS_113996 are identical
+WARNING: Partition TEF: Sequences Cercosporacf.sigesbeckiae_CBS_132641 and Cercosporasp._P_CBS_132662 are identical
+WARNING: Partition TEF: Sequences Cercosporacf.sigesbeckiae_CBS_132641 and Cercosporasp._Q_CBS_113997 are identical
+WARNING: Partition TEF: Sequences Cercosporacf.sigesbeckiae_CBS_132641 and Cercosporasp._Q_CBS_132656 are identical
+WARNING: Partition TEF: Sequences Cercosporacf.sigesbeckiae_CBS_132641 and Cercosporasp._Q_CBS_132663 are identical
+WARNING: Partition TEF: Sequences Cercosporacf.sigesbeckiae_CBS_132641 and Cercosporasp._Q_CPC_11539 are identical
+WARNING: Partition TEF: Sequences Cercosporacf.sigesbeckiae_CBS_132641 and Cercosporasp._Q_CPC_11639 are identical
+WARNING: Partition TEF: Sequences Cercosporasp._I_CBS_114816 and Cercosporasp._I_CBS_114817 are identical
+WARNING: Partition TEF: Sequences Cercosporasp._I_CBS_115117 and Cercosporasp._I_CBS_115121 are identical
+WARNING: Partition TEF: Sequences Cercosporasp._I_CBS_132597 and Cercosporasp._I_CBS_132643 are identical
+WARNING: Partition TEF: Sequences Cercosporasp._I_CBS_132597 and Cercosporasp._I_CPC_10616 are identical
+WARNING: Partition TEF: Sequences Cercosporasp._M_CBS_132596 and Cercosporasp._P_CBS_116365 are identical
+WARNING: Partition TEF: Sequences Cercosporasp._M_CBS_132596 and Cercosporasp._P_CBS_132645 are identical
+WARNING: Partition TEF: Sequences Cercosporasp._M_CBS_132596 and Cercosporasp._P_CPC_10552 are identical
+WARNING: Partition TEF: Sequences Cercosporasp._M_CBS_132596 and Cercosporasp._Q_CPC_10550 are identical
+WARNING: Partition TEF: Sequences Cercosporasp._M_CBS_132596 and Cercosporasp._Q_CPC_10551 are identical
+WARNING: Partition TEF: Sequences Cercosporasp._P_CBS_115413 and Cercosporasp._P_CPC_5327 are identical
+WARNING: Partition TEF: Sequences Cercosporasp._P_CBS_115413 and Cercosporasp._Q_CBS_115410 are identical
+WARNING: Partition TEF: Sequences Cercosporasp._P_CBS_115413 and Cercosporasp._Q_CBS_115411 are identical
+WARNING: Partition TEF: Sequences Cercosporasp._P_CBS_115413 and Cercosporasp._Q_CBS_115412 are identical
+WARNING: Partition TEF: Sequences Cercosporasp._P_CBS_115413 and Cercosporasp._Q_CBS_115536 are identical
+WARNING: Partition TEF: Sequences Cercosporasp._P_CBS_115413 and Cercosporasp._Q_CBS_115537 are identical
+WARNING: Partition TEF: Sequences Cercosporasp._P_CBS_132660 and Cercosporasp._P_CPC_11630 are identical
+WARNING: Partition TEF: Sequences Cercosporasp._P_CPC_11633 and Cercosporasp._Q_CBS_132661 are identical
+WARNING: Partition TEF: Sequences Cercosporasp._Q_CBS_132679 and Cercosporasp._Q_CBS_132681 are identical
+WARNING: Partition TEF: Sequences Cercosporasp._Q_CBS_132679 and Cercosporasp._Q_CBS_132682 are identical
+WARNING: Partition TEF: Sequences Cercosporasp._Q_CBS_132679 and Cercosporasp._Q_CPC_15875 are identical
+WARNING: Partition TEF: Sequence Cercosporasp._R_CBS_114644 contains only gaps
+WARNING: Partition TEF: There are undetermined columns in the alignment (only gaps)
+WARNING: MSA has not enough sites to infer reliable results
+WARNING: MSA has not enough sites to infer reliable results
+Creating new checkpoint file: combined_aligned.fa.ckp
+--------------------------------------------------------------------------------
+ModelTest-NG v0.1.7
+
+Input data:
+  MSA:        combined_aligned.fa
+  Tree:       Maximum parsimony
+    file:           -
+  #taxa:            361
+  #sites:           8621
+  #patterns (sum):  1009
+  Max. thread mem:  59 MB
+
+Output:
+  Log:           combined_aligned.fa.log
+  Starting tree: combined_aligned.fa.tree
+  Results:       combined_aligned.fa.out
+
+Selection options:
+  # dna schemes:      3
+  # dna models:       12
+  include model parameters:
+    Uniform:         true
+    p-inv (+I):      true
+    gamma (+G):      true
+    both (+I+G):     true
+    free rates (+R): false
+    fixed freqs:     false
+    estimated freqs: true
+    #categories:     4
+  gamma rates mode:   mean
+  asc bias:           none
+  epsilon (opt):      0.01
+  epsilon (par):      0.05
+  keep branches:      false
+
+Additional options:
+  verbosity:        very low
+  threads:          8/8
+  RNG seed:         12345
+  subtree repeats:  disabled
+Partitions:    combined_aligned.partition
+               5 partitions
+                  5 DNA partitions
+--------------------------------------------------------------------------------
+modeltest-ng was called as follows: 
+>> modeltest-ng -i combined_aligned.fa -q combined_aligned.partition -T raxml -p 8 
+
+
+Partition 1/5
+
+ ----ID---  ----MODEL---- ---Time--- -Elapsed--- -------LnL------- -Alpha- -P-inv-
+
+Computation of likelihood scores completed. It took 0h:00:02
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  HKY+G4             5     -2880.8134     12322.4833         0.0000    0.9971
+       2  HKY+I+G4           6     -2882.1753     12334.2689        11.7856    0.0028
+       3  GTR+G4             9     -2871.5369     12340.1781        17.6948    0.0001
+       4  GTR+I+G4          10     -2873.1452     12352.4567        29.9734    0.0000
+       5  F81+G4             4     -2933.8498     12419.4941        97.0108    0.0000
+       6  F81+I+G4           5     -2935.1848     12431.2261       108.7428    0.0000
+       7  HKY+I              5     -3014.4335     12589.7235       267.2402    0.0000
+       8  GTR+I              9     -2999.3534     12595.8111       273.3278    0.0000
+       9  F81+I              4     -3066.4148     12684.6240       362.1408    0.0000
+      10  HKY                4     -3094.6022     12740.9989       418.5156    0.0000
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              HKY+G4
+lnL:                -2880.8134
+Frequencies:        0.2579 0.2815 0.2508 0.2099
+Subst. Rates:       1.0000 2.9537 1.0000 1.0000 2.9537 1.0000 
+Inv. sites prop:    -
+Gamma shape:        0.2929
+Score:              12322.4833
+Weight:             0.9971
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.9972
+Gamma-Inv:          0.0028
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.3303
+Alpha:              0.2929
+Alpha-P.Inv:        0.3067
+P.Inv-Alpha:        0.0219
+Frequencies:        0.2579 0.2815 0.2508 0.2099 
+
+Commands:
+  > phyml  -i combined_aligned.fa -m 010010 -f m -v 0 -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s combined_aligned.fa -m GTRGAMMAX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa combined_aligned.fa --model HKY+G4
+  > paup -s combined_aligned.fa
+  > iqtree -s combined_aligned.fa -m HKY+G4
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+G4             9     -2871.5369      7199.0739         0.0000    0.9266
+       2  GTR+I+G4          10     -2873.1452      7204.2905         5.2166    0.0682
+       3  HKY+G4             5     -2880.8134      7209.6269        10.5530    0.0047
+       4  HKY+I+G4           6     -2882.1753      7214.3505        15.2766    0.0004
+       5  F81+G4             4     -2933.8498      7313.6997       114.6258    0.0000
+       6  F81+I+G4           5     -2935.1848      7318.3697       119.2958    0.0000
+       7  GTR+I              9     -2999.3534      7454.7069       255.6330    0.0000
+       8  HKY+I              5     -3014.4335      7476.8671       277.7932    0.0000
+       9  F81+I              4     -3066.4148      7578.8296       379.7557    0.0000
+      10  GTR                8     -3081.6757      7617.3514       418.2775    0.0000
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              GTR+G4
+lnL:                -2871.5369
+Frequencies:        0.2601 0.2825 0.2746 0.1828
+Subst. Rates:       0.8513 2.6720 1.9781 0.9258 4.2647 1.0000 
+Inv. sites prop:    -
+Gamma shape:        0.2912
+Score:              7199.0739
+Weight:             0.9266
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.9313
+Gamma-Inv:          0.0687
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.3305
+Alpha:              0.2912
+Alpha-P.Inv:        0.3055
+P.Inv-Alpha:        0.0222
+Frequencies:        0.2601 0.2824 0.2745 0.1831 
+
+Commands:
+  > phyml  -i combined_aligned.fa -m 012345 -f m -v 0 -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s combined_aligned.fa -m GTRGAMMAX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa combined_aligned.fa --model GTR+G4
+  > paup -s combined_aligned.fa
+  > iqtree -s combined_aligned.fa -m GTR+G4
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+G4             9     -2871.5369      7333.0739         0.0000    0.9188
+       2  GTR+I+G4          10     -2873.1452      7338.2905         5.2166    0.0677
+       3  HKY+G4             5     -2880.8134      7341.6269         8.5530    0.0128
+       4  HKY+I+G4           6     -2882.1753      7347.3505        14.2766    0.0007
+       5  F81+G4             4     -2933.8498      7445.6997       112.6258    0.0000
+       6  F81+I+G4           5     -2935.1848      7450.3697       117.2958    0.0000
+       7  GTR+I              9     -2999.3534      7588.7069       255.6330    0.0000
+       8  HKY+I              5     -3014.4335      7608.8671       275.7932    0.0000
+       9  F81+I              4     -3066.4148      7710.8296       377.7557    0.0000
+      10  GTR                8     -3081.6757      7751.3514       418.2775    0.0000
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              GTR+G4
+lnL:                -2871.5369
+Frequencies:        0.2601 0.2825 0.2746 0.1828
+Subst. Rates:       0.8513 2.6720 1.9781 0.9258 4.2647 1.0000 
+Inv. sites prop:    -
+Gamma shape:        0.2912
+Score:              7333.0739
+Weight:             0.9188
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.9316
+Gamma-Inv:          0.0684
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.3305
+Alpha:              0.2912
+Alpha-P.Inv:        0.3055
+P.Inv-Alpha:        0.0222
+Frequencies:        0.2601 0.2824 0.2743 0.1833 
+
+Commands:
+  > phyml  -i combined_aligned.fa -m 012345 -f m -v 0 -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s combined_aligned.fa -m GTRGAMMAX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa combined_aligned.fa --model GTR+G4
+  > paup -s combined_aligned.fa
+  > iqtree -s combined_aligned.fa -m GTR+G4
+
+Partition 2/5
+
+ ----ID---  ----MODEL---- ---Time--- -Elapsed--- -------LnL------- -Alpha- -P-inv-
+
+Computation of likelihood scores completed. It took 0h:00:06
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  HKY+I+G4           6     -3487.9690     13545.8563         0.0000    0.9028
+       2  HKY+G4             5     -3494.7292     13550.3148         4.4585    0.0972
+       3  GTR+I+G4          10     -3482.1928     13570.5518        24.6956    0.0000
+       4  GTR+G4             9     -3488.6612     13574.4267        28.5704    0.0000
+       5  HKY+I              5     -3542.7472     13646.3507       100.4944    0.0000
+       6  GTR+I              9     -3536.3680     13669.8403       123.9840    0.0000
+       7  F81+I+G4           5     -3646.7263     13854.3090       308.4527    0.0000
+       8  F81+G4             4     -3654.4133     13860.6210       314.7648    0.0000
+       9  F81+I              4     -3695.0716     13941.9377       396.0814    0.0000
+      10  HKY                4     -3768.3918     14088.5780       542.7217    0.0000
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              HKY+I+G4
+lnL:                -3487.9690
+Frequencies:        0.2365 0.3394 0.2383 0.1858
+Subst. Rates:       1.0000 5.6443 1.0000 1.0000 5.6443 1.0000 
+Inv. sites prop:    0.4180
+Gamma shape:        0.7611
+Score:              13545.8563
+Weight:             0.9028
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0972
+Gamma-Inv:          0.9028
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.5431
+Alpha:              0.2908
+Alpha-P.Inv:        0.7611
+P.Inv-Alpha:        0.4180
+Frequencies:        0.2366 0.3396 0.2382 0.1856 
+
+Commands:
+  > phyml  -i combined_aligned.fa -m 010010 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s combined_aligned.fa -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa combined_aligned.fa --model HKY+I+G4
+  > paup -s combined_aligned.fa
+  > iqtree -s combined_aligned.fa -m HKY+I+G4
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+I+G4          10     -3482.1928      8422.3856         0.0000    0.8518
+       2  HKY+I+G4           6     -3487.9690      8425.9379         3.5523    0.1442
+       3  GTR+G4             9     -3488.6612      8433.3225        10.9368    0.0036
+       4  HKY+G4             5     -3494.7292      8437.4584        15.0727    0.0005
+       5  GTR+I              9     -3536.3680      8528.7360       106.3504    0.0000
+       6  HKY+I              5     -3542.7472      8533.4943       111.1087    0.0000
+       7  F81+I+G4           5     -3646.7263      8741.4526       319.0670    0.0000
+       8  F81+G4             4     -3654.4133      8754.8266       332.4409    0.0000
+       9  F81+I              4     -3695.0716      8836.1433       413.7576    0.0000
+      10  GTR                8     -3750.5636      8955.1271       532.7415    0.0000
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              GTR+I+G4
+lnL:                -3482.1928
+Frequencies:        0.2545 0.3257 0.2610 0.1588
+Subst. Rates:       0.7647 3.1633 0.7901 0.6681 5.9424 1.0000 
+Inv. sites prop:    0.3506
+Gamma shape:        0.6225
+Score:              8422.3856
+Weight:             0.8518
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0040
+Gamma-Inv:          0.9960
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.5309
+Alpha:              0.2836
+Alpha-P.Inv:        0.6426
+P.Inv-Alpha:        0.3604
+Frequencies:        0.2519 0.3277 0.2577 0.1627 
+
+Commands:
+  > phyml  -i combined_aligned.fa -m 012345 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s combined_aligned.fa -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa combined_aligned.fa --model GTR+I+G4
+  > paup -s combined_aligned.fa
+  > iqtree -s combined_aligned.fa -m GTR+I+G4
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+I+G4          10     -3482.1928      8556.3856         0.0000    0.7783
+       2  HKY+I+G4           6     -3487.9690      8558.9379         2.5523    0.2172
+       3  GTR+G4             9     -3488.6612      8567.3225        10.9368    0.0033
+       4  HKY+G4             5     -3494.7292      8569.4584        13.0727    0.0011
+       5  GTR+I              9     -3536.3680      8662.7360       106.3504    0.0000
+       6  HKY+I              5     -3542.7472      8665.4943       109.1087    0.0000
+       7  F81+I+G4           5     -3646.7263      8873.4526       317.0670    0.0000
+       8  F81+G4             4     -3654.4133      8886.8266       330.4409    0.0000
+       9  F81+I              4     -3695.0716      8968.1433       411.7576    0.0000
+      10  GTR                8     -3750.5636      9089.1271       532.7415    0.0000
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              GTR+I+G4
+lnL:                -3482.1928
+Frequencies:        0.2545 0.3257 0.2610 0.1588
+Subst. Rates:       0.7647 3.1633 0.7901 0.6681 5.9424 1.0000 
+Inv. sites prop:    0.3506
+Gamma shape:        0.6225
+Score:              8556.3856
+Weight:             0.7783
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0044
+Gamma-Inv:          0.9956
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.5324
+Alpha:              0.2847
+Alpha-P.Inv:        0.6528
+P.Inv-Alpha:        0.3653
+Frequencies:        0.2506 0.3287 0.2560 0.1647 
+
+Commands:
+  > phyml  -i combined_aligned.fa -m 012345 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s combined_aligned.fa -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa combined_aligned.fa --model GTR+I+G4
+  > paup -s combined_aligned.fa
+  > iqtree -s combined_aligned.fa -m GTR+I+G4
+
+Partition 3/5
+
+ ----ID---  ----MODEL---- ---Time--- -Elapsed--- -------LnL------- -Alpha- -P-inv-
+
+Computation of likelihood scores completed. It took 0h:00:10
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  HKY+I+G4           6     -3987.6771     14545.2725         0.0000    0.9999
+       2  GTR+I+G4          10     -3979.2623     14564.6907        19.4182    0.0001
+       3  GTR+G4             9     -4028.7372     14654.5787       109.3061    0.0000
+       4  HKY+G4             5     -4050.0948     14661.0460       115.7734    0.0000
+       5  F81+I+G4           5     -4079.9203     14720.6969       175.4244    0.0000
+       6  F81+G4             4     -4149.2683     14850.3311       305.0585    0.0000
+       7  HKY+I              5     -4290.3025     15141.4615       596.1889    0.0000
+       8  GTR+I              9     -4274.0005     15145.1053       599.8328    0.0000
+       9  F81+I              4     -4441.5748     15434.9441       889.6716    0.0000
+      10  GTR                8     -4803.8198     16195.6819      1650.4093    0.0000
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              HKY+I+G4
+lnL:                -3987.6771
+Frequencies:        0.1666 0.4129 0.1894 0.2312
+Subst. Rates:       1.0000 3.8666 1.0000 1.0000 3.8666 1.0000 
+Inv. sites prop:    0.5528
+Gamma shape:        0.4053
+Score:              14545.2725
+Weight:             0.9999
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.6295
+Alpha:              0.2112
+Alpha-P.Inv:        0.4053
+P.Inv-Alpha:        0.5528
+Frequencies:        0.1666 0.4129 0.1894 0.2312 
+
+Commands:
+  > phyml  -i combined_aligned.fa -m 010010 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s combined_aligned.fa -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa combined_aligned.fa --model HKY+I+G4
+  > paup -s combined_aligned.fa
+  > iqtree -s combined_aligned.fa -m HKY+I+G4
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+I+G4          10     -3979.2623      9416.5245         0.0000    0.9880
+       2  HKY+I+G4           6     -3987.6771      9425.3542         8.8297    0.0120
+       3  GTR+G4             9     -4028.7372      9513.4744        96.9499    0.0000
+       4  HKY+G4             5     -4050.0948      9548.1896       131.6651    0.0000
+       5  F81+I+G4           5     -4079.9203      9607.8405       191.3160    0.0000
+       6  F81+G4             4     -4149.2683      9744.5366       328.0121    0.0000
+       7  GTR+I              9     -4274.0005     10004.0011       587.4766    0.0000
+       8  HKY+I              5     -4290.3025     10028.6051       612.0806    0.0000
+       9  F81+I              4     -4441.5748     10329.1497       912.6252    0.0000
+      10  GTR                8     -4803.8198     11061.6396      1645.1151    0.0000
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              GTR+I+G4
+lnL:                -3979.2623
+Frequencies:        0.2074 0.4022 0.2077 0.1827
+Subst. Rates:       0.4340 0.9943 0.2620 0.3630 2.9396 1.0000 
+Inv. sites prop:    0.5917
+Gamma shape:        0.5069
+Score:              9416.5245
+Weight:             0.9880
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.6097
+Alpha:              0.2111
+Alpha-P.Inv:        0.5057
+P.Inv-Alpha:        0.5912
+Frequencies:        0.2069 0.4023 0.2075 0.1832 
+
+Commands:
+  > phyml  -i combined_aligned.fa -m 012345 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s combined_aligned.fa -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa combined_aligned.fa --model GTR+I+G4
+  > paup -s combined_aligned.fa
+  > iqtree -s combined_aligned.fa -m GTR+I+G4
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+I+G4          10     -3979.2623      9550.5245         0.0000    0.9804
+       2  HKY+I+G4           6     -3987.6771      9558.3542         7.8297    0.0196
+       3  GTR+G4             9     -4028.7372      9647.4744        96.9499    0.0000
+       4  HKY+G4             5     -4050.0948      9680.1896       129.6651    0.0000
+       5  F81+I+G4           5     -4079.9203      9739.8405       189.3160    0.0000
+       6  F81+G4             4     -4149.2683      9876.5366       326.0121    0.0000
+       7  GTR+I              9     -4274.0005     10138.0011       587.4766    0.0000
+       8  HKY+I              5     -4290.3025     10160.6051       610.0806    0.0000
+       9  F81+I              4     -4441.5748     10461.1497       910.6252    0.0000
+      10  GTR                8     -4803.8198     11195.6396      1645.1151    0.0000
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              GTR+I+G4
+lnL:                -3979.2623
+Frequencies:        0.2074 0.4022 0.2077 0.1827
+Subst. Rates:       0.4340 0.9943 0.2620 0.3630 2.9396 1.0000 
+Inv. sites prop:    0.5917
+Gamma shape:        0.5069
+Score:              9550.5245
+Weight:             0.9804
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.6097
+Alpha:              0.2111
+Alpha-P.Inv:        0.5049
+P.Inv-Alpha:        0.5909
+Frequencies:        0.2066 0.4024 0.2074 0.1836 
+
+Commands:
+  > phyml  -i combined_aligned.fa -m 012345 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s combined_aligned.fa -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa combined_aligned.fa --model GTR+I+G4
+  > paup -s combined_aligned.fa
+  > iqtree -s combined_aligned.fa -m GTR+I+G4
+
+Partition 4/5
+
+ ----ID---  ----MODEL---- ---Time--- -Elapsed--- -------LnL------- -Alpha- -P-inv-
+
+Computation of likelihood scores completed. It took 0h:00:12
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+I+G4          10     -9375.8629     25357.8921         0.0000    1.0000
+       2  HKY+I+G4           6     -9422.3824     25414.6833        56.7912    0.0000
+       3  GTR+G4             9     -9431.7862     25460.6767       102.7847    0.0000
+       4  GTR+I              9     -9439.6578     25476.4198       118.5277    0.0000
+       5  F81+I+G4           5     -9465.2384     25491.3331       133.4411    0.0000
+       6  HKY+I              5     -9488.2535     25537.3635       179.4714    0.0000
+       7  HKY+G4             5     -9494.1436     25549.1436       191.2516    0.0000
+       8  F81+G4             4     -9523.7902     25599.3748       241.4827    0.0000
+       9  GTR                8     -9521.3463     25630.7348       272.8428    0.0000
+      10  F81+I              4     -9540.4795     25632.7534       274.8613    0.0000
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              GTR+I+G4
+lnL:                -9375.8629
+Frequencies:        0.2512 0.2261 0.2790 0.2437
+Subst. Rates:       2.1248 0.9118 0.1197 2.2716 48.3473 1.0000 
+Inv. sites prop:    0.7486
+Gamma shape:        0.1320
+Score:              25357.8921
+Weight:             1.0000
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.8045
+Alpha:              0.0722
+Alpha-P.Inv:        0.1320
+P.Inv-Alpha:        0.7486
+Frequencies:        0.2512 0.2261 0.2790 0.2437 
+
+Commands:
+  > phyml  -i combined_aligned.fa -m 012345 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s combined_aligned.fa -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa combined_aligned.fa --model GTR+I+G4
+  > paup -s combined_aligned.fa
+  > iqtree -s combined_aligned.fa -m GTR+I+G4
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+I+G4          10     -9375.8629     20209.7259         0.0000    1.0000
+       2  HKY+I+G4           6     -9422.3824     20294.7649        85.0390    0.0000
+       3  GTR+G4             9     -9431.7862     20319.5725       109.8466    0.0000
+       4  GTR+I              9     -9439.6578     20335.3155       125.5897    0.0000
+       5  F81+I+G4           5     -9465.2384     20378.4767       168.7509    0.0000
+       6  HKY+I              5     -9488.2535     20424.5070       214.7812    0.0000
+       7  HKY+G4             5     -9494.1436     20436.2872       226.5613    0.0000
+       8  F81+G4             4     -9523.7902     20493.5803       283.8545    0.0000
+       9  GTR                8     -9521.3463     20496.6926       286.9667    0.0000
+      10  F81+I              4     -9540.4795     20526.9589       317.2331    0.0000
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              GTR+I+G4
+lnL:                -9375.8629
+Frequencies:        0.2512 0.2261 0.2790 0.2437
+Subst. Rates:       2.1248 0.9118 0.1197 2.2716 48.3473 1.0000 
+Inv. sites prop:    0.7486
+Gamma shape:        0.1320
+Score:              20209.7259
+Weight:             1.0000
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.8045
+Alpha:              0.0722
+Alpha-P.Inv:        0.1320
+P.Inv-Alpha:        0.7486
+Frequencies:        0.2512 0.2261 0.2790 0.2437 
+
+Commands:
+  > phyml  -i combined_aligned.fa -m 012345 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s combined_aligned.fa -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa combined_aligned.fa --model GTR+I+G4
+  > paup -s combined_aligned.fa
+  > iqtree -s combined_aligned.fa -m GTR+I+G4
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+I+G4          10     -9375.8629     20343.7259         0.0000    1.0000
+       2  HKY+I+G4           6     -9422.3824     20427.7649        84.0390    0.0000
+       3  GTR+G4             9     -9431.7862     20453.5725       109.8466    0.0000
+       4  GTR+I              9     -9439.6578     20469.3155       125.5897    0.0000
+       5  F81+I+G4           5     -9465.2384     20510.4767       166.7509    0.0000
+       6  HKY+I              5     -9488.2535     20556.5070       212.7812    0.0000
+       7  HKY+G4             5     -9494.1436     20568.2872       224.5613    0.0000
+       8  F81+G4             4     -9523.7902     20625.5803       281.8545    0.0000
+       9  GTR                8     -9521.3463     20630.6926       286.9667    0.0000
+      10  F81+I              4     -9540.4795     20658.9589       315.2331    0.0000
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              GTR+I+G4
+lnL:                -9375.8629
+Frequencies:        0.2512 0.2261 0.2790 0.2437
+Subst. Rates:       2.1248 0.9118 0.1197 2.2716 48.3473 1.0000 
+Inv. sites prop:    0.7486
+Gamma shape:        0.1320
+Score:              20343.7259
+Weight:             1.0000
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.0000
+Gamma-Inv:          1.0000
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.8045
+Alpha:              0.0722
+Alpha-P.Inv:        0.1320
+P.Inv-Alpha:        0.7486
+Frequencies:        0.2512 0.2261 0.2790 0.2437 
+
+Commands:
+  > phyml  -i combined_aligned.fa -m 012345 -f m -v e -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s combined_aligned.fa -m GTRGAMMAIX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa combined_aligned.fa --model GTR+I+G4
+  > paup -s combined_aligned.fa
+  > iqtree -s combined_aligned.fa -m GTR+I+G4
+
+Partition 5/5
+
+ ----ID---  ----MODEL---- ---Time--- -Elapsed--- -------LnL------- -Alpha- -P-inv-
+
+Computation of likelihood scores completed. It took 0h:00:17
+
+BIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  HKY+G4             5     -4531.0931     15623.0425         0.0000    0.7695
+       2  GTR+G4             9     -4514.2233     15625.5509         2.5084    0.2195
+       3  HKY+I+G4           6     -4531.0075     15631.9334         8.8909    0.0090
+       4  GTR+I+G4          10     -4514.4428     15635.0517        12.0092    0.0019
+       5  F81+G4             4     -4684.9856     15921.7656       298.7231    0.0000
+       6  F81+I+G4           5     -4684.7142     15930.2849       307.2424    0.0000
+       7  HKY+I              5     -4697.0024     15954.8613       331.8188    0.0000
+       8  GTR+I              9     -4690.0733     15977.2509       354.2084    0.0000
+       9  GTR                8     -4828.2787     16244.5996       621.5571    0.0000
+      10  HKY                4     -4848.5371     16248.8686       625.8261    0.0000
+--------------------------------------------------------------------------------
+Best model according to BIC
+---------------------------
+Model:              HKY+G4
+lnL:                -4531.0931
+Frequencies:        0.2371 0.3247 0.2172 0.2209
+Subst. Rates:       1.0000 4.6088 1.0000 1.0000 4.6088 1.0000 
+Inv. sites prop:    -
+Gamma shape:        0.3156
+Score:              15623.0425
+Weight:             0.7695
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.9891
+Gamma-Inv:          0.0109
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.4302
+Alpha:              0.3150
+Alpha-P.Inv:        0.3498
+P.Inv-Alpha:        0.0715
+Frequencies:        0.2416 0.3223 0.2194 0.2167 
+
+Commands:
+  > phyml  -i combined_aligned.fa -m 010010 -f m -v 0 -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s combined_aligned.fa -m GTRGAMMAX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa combined_aligned.fa --model HKY+G4
+  > paup -s combined_aligned.fa
+  > iqtree -s combined_aligned.fa -m HKY+G4
+
+AIC       model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+G4             9     -4514.2233     10484.4467         0.0000    0.7720
+       2  GTR+I+G4          10     -4514.4428     10486.8855         2.4389    0.2280
+       3  HKY+G4             5     -4531.0931     10510.1861        25.7394    0.0000
+       4  HKY+I+G4           6     -4531.0075     10512.0151        27.5684    0.0000
+       5  F81+G4             4     -4684.9856     10815.9711       331.5245    0.0000
+       6  F81+I+G4           5     -4684.7142     10817.4285       332.9818    0.0000
+       7  GTR+I              9     -4690.0733     10836.1467       351.7000    0.0000
+       8  HKY+I              5     -4697.0024     10842.0049       357.5582    0.0000
+       9  GTR                8     -4828.2787     11110.5573       626.1106    0.0000
+      10  HKY                4     -4848.5371     11143.0741       658.6274    0.0000
+--------------------------------------------------------------------------------
+Best model according to AIC
+---------------------------
+Model:              GTR+G4
+lnL:                -4514.2233
+Frequencies:        0.2574 0.3139 0.2271 0.2016
+Subst. Rates:       0.6081 3.0305 1.1406 0.9863 5.4320 1.0000 
+Inv. sites prop:    -
+Gamma shape:        0.3130
+Score:              10484.4467
+Weight:             0.7720
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.7720
+Gamma-Inv:          0.2280
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.4289
+Alpha:              0.3130
+Alpha-P.Inv:        0.3480
+P.Inv-Alpha:        0.0543
+Frequencies:        0.2573 0.3140 0.2273 0.2014 
+
+Commands:
+  > phyml  -i combined_aligned.fa -m 012345 -f m -v 0 -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s combined_aligned.fa -m GTRGAMMAX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa combined_aligned.fa --model GTR+G4
+  > paup -s combined_aligned.fa
+  > iqtree -s combined_aligned.fa -m GTR+G4
+
+AICc      model              K            lnL          score          delta    weight
+--------------------------------------------------------------------------------
+       1  GTR+G4             9     -4514.2233     10618.4467         0.0000    0.7720
+       2  GTR+I+G4          10     -4514.4428     10620.8855         2.4389    0.2280
+       3  HKY+G4             5     -4531.0931     10642.1861        23.7394    0.0000
+       4  HKY+I+G4           6     -4531.0075     10645.0151        26.5684    0.0000
+       5  F81+G4             4     -4684.9856     10947.9711       329.5245    0.0000
+       6  F81+I+G4           5     -4684.7142     10949.4285       330.9818    0.0000
+       7  GTR+I              9     -4690.0733     10970.1467       351.7000    0.0000
+       8  HKY+I              5     -4697.0024     10974.0049       355.5582    0.0000
+       9  GTR                8     -4828.2787     11244.5573       626.1106    0.0000
+      10  HKY                4     -4848.5371     11275.0741       656.6274    0.0000
+--------------------------------------------------------------------------------
+Best model according to AICc
+---------------------------
+Model:              GTR+G4
+lnL:                -4514.2233
+Frequencies:        0.2574 0.3139 0.2271 0.2016
+Subst. Rates:       0.6081 3.0305 1.1406 0.9863 5.4320 1.0000 
+Inv. sites prop:    -
+Gamma shape:        0.3130
+Score:              10618.4467
+Weight:             0.7720
+---------------------------
+Parameter importances
+---------------------------
+P.Inv:              0.0000
+Gamma:              0.7720
+Gamma-Inv:          0.2280
+Frequencies:        1.0000
+---------------------------
+Model averaged estimates
+---------------------------
+P.Inv:              0.4290
+Alpha:              0.3130
+Alpha-P.Inv:        0.3480
+P.Inv-Alpha:        0.0543
+Frequencies:        0.2573 0.3140 0.2273 0.2014 
+
+Commands:
+  > phyml  -i combined_aligned.fa -m 012345 -f m -v 0 -a e -c 4 -o tlr
+  > raxmlHPC-SSE3 -s combined_aligned.fa -m GTRGAMMAX -n EXEC_NAME -p PARSIMONY_SEED
+  > raxml-ng --msa combined_aligned.fa --model GTR+G4
+  > paup -s combined_aligned.fa
+  > iqtree -s combined_aligned.fa -m GTR+G4
+Summary:
+
+Partition 1/5:
+                         Model         Score        Weight
+----------------------------------------------------------
+       BIC              HKY+G4    12322.4833        0.9971
+       AIC              GTR+G4     7199.0739        0.9266
+      AICc              GTR+G4     7333.0739        0.9188
+
+Partition 2/5:
+                         Model         Score        Weight
+----------------------------------------------------------
+       BIC            HKY+I+G4    13545.8563        0.9028
+       AIC            GTR+I+G4     8422.3856        0.8518
+      AICc            GTR+I+G4     8556.3856        0.7783
+
+Partition 3/5:
+                         Model         Score        Weight
+----------------------------------------------------------
+       BIC            HKY+I+G4    14545.2725        0.9999
+       AIC            GTR+I+G4     9416.5245        0.9880
+      AICc            GTR+I+G4     9550.5245        0.9804
+
+Partition 4/5:
+                         Model         Score        Weight
+----------------------------------------------------------
+       BIC            GTR+I+G4    25357.8921        1.0000
+       AIC            GTR+I+G4    20209.7259        1.0000
+      AICc            GTR+I+G4    20343.7259        1.0000
+
+Partition 5/5:
+                         Model         Score        Weight
+----------------------------------------------------------
+       BIC              HKY+G4    15623.0425        0.7695
+       AIC              GTR+G4    10484.4467        0.7720
+      AICc              GTR+G4    10618.4467        0.7720
+
+Result partition files written to combined_aligned.fa.part.*
+Execution results written to combined_aligned.fa.out
+Starting tree written to combined_aligned.fa.tree
