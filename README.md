@@ -1,11 +1,19 @@
 # Linked Marker Table Analysis
 
-Scripts to parse NCBI PMC Table 1, fetch sequences, and perform phylogenetic analysis.
+Scripts to parse NCBI PMC Table from Studies in Mycology paper, fetch sequences, and perform phylogenetic analysis.
+Using https://pmc.ncbi.nlm.nih.gov/articles/PMC3713887/table/T1/ - but theoretically may work for any SIG paper with table format
+but it has hard coded the column names which have the Strain Info and the columns which have the markers so you will need to adjust code
+to accomodate that.
 
 ## Overview
 
-This project parses Table 1 from a PMC article about Cercospora species, fetches corresponding sequences from NCBI, and prepares alignments for phylogenetic analysis.
+This project parses [Table 1](Using https://pmc.ncbi.nlm.nih.gov/articles/PMC3713887/table/T1/) from a PMC article about Cercospora species, fetches corresponding sequences from NCBI, and prepares alignments for phylogenetic analysis.
 
+This was initially generated with opencode AI Open Code Zen and then manually adjusted.
+
+Use Conda to install the dependency tools for alignment, concatenation, and phylogenetics.
+
+You could further trim the alignments with clipkit before doing concatenation if you want to tighten up the alignments ahead of the runs.
 ## Setup
 
 Create the conda environment:
