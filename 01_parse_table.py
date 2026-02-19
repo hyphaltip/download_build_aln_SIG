@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 import csv
 import re
+import requests
 from bs4 import BeautifulSoup
 
-with open('/Users/jstajich/.local/share/opencode/tool-output/tool_c740fc100001xn54RmfWbPk2k0', 'r') as f:
-    html_content = f.read()
+url = 'https://pmc.ncbi.nlm.nih.gov/articles/PMC3713887/table/T1/'
+response = requests.get(url)
+response.raise_for_status()
+html_content = response.text
 
 soup = BeautifulSoup(html_content, 'lxml')
 table = soup.find('table')

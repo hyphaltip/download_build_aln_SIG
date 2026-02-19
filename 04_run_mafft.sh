@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# could replace mafft with muscle for probably better alignment
 for file in sequences/*.fasta; do
     if [ -f "$file" ]; then
         basename=$(basename "$file" .fasta)
