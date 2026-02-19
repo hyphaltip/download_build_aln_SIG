@@ -7,7 +7,7 @@ to accomodate that.
 
 ## Overview
 
-This project parses [Table 1](Using https://pmc.ncbi.nlm.nih.gov/articles/PMC3713887/table/T1/) from a PMC article about Cercospora species, fetches corresponding sequences from NCBI, and prepares alignments for phylogenetic analysis.
+This project parses [Table 1](https://pmc.ncbi.nlm.nih.gov/articles/PMC3713887/table/T1/) from a PMC article about Cercospora species, fetches corresponding sequences from NCBI, and prepares alignments for phylogenetic analysis.
 
 This was initially generated with opencode AI Open Code Zen and then manually adjusted.
 
