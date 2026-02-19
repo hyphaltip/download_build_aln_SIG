@@ -1,0 +1,1534 @@
+IQ-TREE 3.0.1 built Jul  9 2025
+
+Partition file name: combined_aligned.fa.part.aic
+Input file name: combined_aligned.fa
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 486537
+
+REFERENCES
+----------
+
+To cite IQ-TREE 3 please use:
+
+Thomas K.F. Wong, Nhan Ly-Trong, Huaiyan Ren, Hector Banos, Andrew J. Roger,
+Edward Susko, Chris Bielow, Nicola De Maio, Nick Goldman, Matthew W. Hahn,
+Gavin Huttley, Robert Lanfear, Bui Quang Minh (2025)
+IQ-TREE 3: Phylogenomic Inference Software using Complex Evolutionary Models.
+Submitted.
+
+Please also cite the following paper(s) for the feature(s) that you used:
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+Since you used partition models please also cite:
+
+Olga Chernomor, Arndt von Haeseler, and Bui Quang Minh (2016)
+Terrace aware data structure for phylogenomic inference from
+supermatrices. Syst. Biol., 65:997-1008.
+https://doi.org/10.1093/sysbio/syw037
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 361 taxa with 5 partitions and 8621 total sites (0.481383% missing data)
+
+  ID	Type	Seq	Site	Unique	Infor	Invar	Const	Name
+   1	DNA	337	617	159	87	498	498	ACT
+   2	DNA	338	473	201	115	324	324	CAL
+   3	DNA	338	402	167	97	272	272	HIS
+   4	DNA	336	6281	146	21	6226	6226	ITS
+   5	DNA	337	848	336	147	614	614	TEF
+
+Column meanings:
+  Unique: Number of unique site patterns
+  Infor:  Number of parsimony-informative sites
+  Invar:  Number of invariant sites
+  Const:  Number of constant sites (can be subset of invariant sites)
+
+SUBSTITUTION PROCESS
+--------------------
+
+Edge-linked-proportional partition model with separate substitution models and separate rates across sites
+
+  ID  Model           Speed  Parameters
+   1  GTR+F+G4       2.9770  GTR{1.01777,3.2189,2.37209,1.09993,5.13358}+F{0.245227,0.281334,0.283547,0.189893}+G4{0.269031}
+   2  GTR+F+I+G4     2.6916  GTR{0.946122,3.57251,0.892661,0.889612,6.67978}+F{0.27313,0.313491,0.243922,0.169458}+I{0.4128}+G4{0.832187}
+   3  GTR+F+I+G4     2.2159  GTR{0.686144,1.34364,0.374855,0.56131,3.41473}+F{0.207535,0.367886,0.219005,0.205574}+I{0.520667}+G4{0.63044}
+   4  GTR+F+I+G4     0.3221  GTR{3.02603,1.73614,0.233567,2.28347,31.0368}+F{0.234698,0.253169,0.261395,0.250738}+I{0.861985}+G4{0.395379}
+   5  GTR+F+G4       3.0628  GTR{0.91272,2.73289,1.224,0.988463,5.47298}+F{0.231414,0.312807,0.24261,0.213169}+G4{0.410239}
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -24329.3105 (s.e. 603.1642)
+Unconstrained log-likelihood (without tree): -24311.8986
+Number of free parameters (#branches + #model parameters): 725
+Akaike information criterion (AIC) score: 50108.6210
+Corrected Akaike information criterion (AICc) score: 50241.9585
+Bayesian information criterion (BIC) score: 55228.5393
+
+Mixture-based log-likelihood of the tree: -25944.3715
+Marginal Akaike information criterion (mAIC) score: 53338.7430
+
+Total tree length (sum of branch lengths): 0.7696
+Sum of internal branch lengths: 0.3130 (40.6646% of tree length)
+
+WARNING: 123 near-zero internal branches (<0.0001) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'Cercospora_achyranthis_CBS_132613' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++**Cercospora_achyranthis_CBS_132613
+|
++**Cercospora_achyranthis_CPC_10091
+|
+|                                                     +--Cercospora_agavicola_CBS_117292
+|                                                  +--| (69)
+|                                                  |  |                 +--Cercosporacf.flagellaris_CBS_113127
+|                                                  |  |              +**| (84)
+|                                                  |  |              |  +**Cercosporacf.flagellaris_CBS_132637
+|                                                  |  |           +--| (87)
+|                                                  |  |           |  |              +**Cercosporacf.flagellaris_CBS_132648
+|                                                  |  |           |  |           +**| (73)
+|                                                  |  |           |  |           |  +--Cercosporacf.flagellaris_CBS_132670
+|                                                  |  |           |  |        +--| (78)
+|                                                  |  |           |  |        |  |        +**Cercosporacf.flagellaris_CPC_1051
+|                                                  |  |           |  |        |  |     +--| (85)
+|                                                  |  |           |  |        |  |     |  +--Cercosporacf.flagellaris_CPC_1052
+|                                                  |  |           |  |        |  |  +**| (54)
+|                                                  |  |           |  |        |  |  |  +--Cercosporacf.flagellaris_MUCC_831
+|                                                  |  |           |  |        |  +**| (63)
+|                                                  |  |           |  |        |     +--Cercosporacf.flagellaris_MUCC_127
+|                                                  |  |           |  |     +--| (89)
+|                                                  |  |           |  |     |  +**Cercosporacf.flagellaris_CBS_143.51
+|                                                  |  |           |  |  +**| (56)
+|                                                  |  |           |  |  |  |  +**Cercosporacf.flagellaris_CPC_10124
+|                                                  |  |           |  |  |  +**| (74)
+|                                                  |  |           |  |  |     +--Cercosporacf.flagellaris_CPC_10684
+|                                                  |  |           |  +--| (75)
+|                                                  |  |           |     +--Cercosporacf.flagellaris_CBS_132674
+|                                                  |  |        +**| (79)
+|                                                  |  |        |  +--Cercosporacf.flagellaris_CBS_132667
+|                                                  |  |     +--| (97)
+|                                                  |  |     |  |        +**Cercosporacf.flagellaris_CBS_115482
+|                                                  |  |     |  |     +--| (100)
+|                                                  |  |     |  |     |  +--Cercosporacf.flagellaris_CPC_4411
+|                                                  |  |     |  |  +**| (89)
+|                                                  |  |     |  |  |  +--Cercosporacf.flagellaris_CBS_132653
+|                                                  |  |     |  +--| (88)
+|                                                  |  |     |     +--Cercosporacf.flagellaris_MUCC_735
+|                                                  |  |  +--| (94)
+|                                                  |  |  |  +**Cercosporacf.flagellaris_CBS_132646
+|                                                  |  +--| (98)
+|                                                  |     +--Cercosporacf.flagellaris_CPC_5441
+|                                               +--| (59)
+|                                               |  |     +--Cercosporacf.brunkii_CBS_132657
+|                                               |  |  +--| (100)
+|                                               |  |  |  +--Cercosporacf.brunkii_MUCC_732
+|                                               |  +--| (79)
+|                                               |     |     +**Cercosporacf.nicotianae_CBS_131.32
+|                                               |     |  +--| (100)
+|                                               |     |  |  +--Cercosporacf.nicotianae_CBS_570.69
+|                                               |     +--| (100)
+|                                               |        +--Cercosporacf.nicotianae_CBS_132632
+|                                            +--| (44)
+|                                            |  |           +**Cercospora_canescenscomplex_CBS_111133
+|                                            |  |        +--| (100)
+|                                            |  |        |  +**Cercospora_canescenscomplex_CBS_111134
+|                                            |  |     +--| (79)
+|                                            |  |     |  +--Cercospora_canescenscomplex_CBS_153.55
+|                                            |  |  +--| (78)
+|                                            |  |  |  |           +**Cercospora_canescenscomplex_CBS_132658
+|                                            |  |  |  |        +**| (54)
+|                                            |  |  |  |        |  |  +**Cercospora_canescenscomplex_CPC_11628
+|                                            |  |  |  |        |  +--| (98)
+|                                            |  |  |  |        |     +**Cercospora_canescenscomplex_CPC_11640
+|                                            |  |  |  |     +**| (70)
+|                                            |  |  |  |     |  +**Cercospora_canescenscomplex_CBS_132659
+|                                            |  |  |  |  +**| (43)
+|                                            |  |  |  |  |  +**Cercospora_canescenscomplex_CPC_4409
+|                                            |  |  |  +--| (100)
+|                                            |  |  |     +**Cercospora_canescenscomplex_CPC_4408
+|                                            |  +--| (100)
+|                                            |     +--Cercospora_canescenscomplex_CPC_15871
+|                                         +--| (87)
+|                                         |  |                                      +**Cercospora_apii_CBS_110813
+|                                         |  |                                   +**| (69)
+|                                         |  |                                   |  +**Cercospora_apii_CBS_110816
+|                                         |  |                                +**| (38)
+|                                         |  |                                |  +--Cercospora_apii_CBS_252.67
+|                                         |  |                             +**| (62)
+|                                         |  |                             |  +--Cercospora_apii_MUCC_573
+|                                         |  |                          +--| (64)
+|                                         |  |                          |  |        +--Cercospora_apii_CBS_132683
+|                                         |  |                          |  |     +**| (61)
+|                                         |  |                          |  |     |  |  +--Cercospora_apii_CPC_18601
+|                                         |  |                          |  |     |  +--| (85)
+|                                         |  |                          |  |     |     +--Cercospora_apii_MUCC_923
+|                                         |  |                          |  |  +--| (78)
+|                                         |  |                          |  |  |  +**Cercospora_apii_CPC_5260
+|                                         |  |                          |  +**| (48)
+|                                         |  |                          |     +**Cercospora_apii_CPC_5112
+|                                         |  |                       +--| (64)
+|                                         |  |                       |  |     +--Cercospora_apii_CBS_114416
+|                                         |  |                       |  |  +**| (53)
+|                                         |  |                       |  |  |  |        +**Cercospora_apii_CBS_114418
+|                                         |  |                       |  |  |  |     +**| (74)
+|                                         |  |                       |  |  |  |     |  +**Cercospora_apii_CBS_114485
+|                                         |  |                       |  |  |  |  +**| (67)
+|                                         |  |                       |  |  |  |  |  |  +**Cercospora_apii_MUCC_567
+|                                         |  |                       |  |  |  |  |  +**| (74)
+|                                         |  |                       |  |  |  |  |     +--Cercospora_apii_MUCC_593
+|                                         |  |                       |  |  |  +--| (71)
+|                                         |  |                       |  |  |     |     +**Cercospora_apii_CBS_116455
+|                                         |  |                       |  |  |     |  +**| (63)
+|                                         |  |                       |  |  |     |  |  +**Cercospora_apii_CBS_116504
+|                                         |  |                       |  |  |     +--| (84)
+|                                         |  |                       |  |  |        +--Cercospora_apii_CBS_119.25
+|                                         |  |                       |  +**| (51)
+|                                         |  |                       |     |        +**Cercospora_apii_CBS_121.31
+|                                         |  |                       |     |     +**| (35)
+|                                         |  |                       |     |     |  |  +--Cercospora_apii_CBS_553.71
+|                                         |  |                       |     |     |  +**| (36)
+|                                         |  |                       |     |     |     |  +--Cercosporacf.resedae_CBS_118793
+|                                         |  |                       |     |     |     +--| (100)
+|                                         |  |                       |     |     |        +**Cercosporacf.resedae_CBS_257.67
+|                                         |  |                       |     |  +**| (42)
+|                                         |  |                       |     |  |  +**Cercospora_apii_CBS_152.52
+|                                         |  |                       |     +**| (51)
+|                                         |  |                       |        +**Cercospora_apii_CBS_127.31
+|                                         |  |                    +--| (65)
+|                                         |  |                    |  +**Cercospora_apii_CBS_536.71
+|                                         |  |                 +--| (51)
+|                                         |  |                 |  |        +--Cercospora_beticola_CPC_5123
+|                                         |  |                 |  |     +--| (99)
+|                                         |  |                 |  |     |  +--Cercospora_beticola_CPC_5125
+|                                         |  |                 |  |  +**| (56)
+|                                         |  |                 |  |  |  +**Cercospora_beticola_CPC_5128
+|                                         |  |                 |  +**| (84)
+|                                         |  |                 |     +--Cercospora_beticola_MUCC_569
+|                                         |  |              +**| (47)
+|                                         |  |              |  |        +**Cercospora_beticola_CBS_123907
+|                                         |  |              |  |     +**| (51)
+|                                         |  |              |  |     |  +**Cercospora_beticola_CBS_123908
+|                                         |  |              |  |  +**| (92)
+|                                         |  |              |  |  |  +**Cercospora_beticola_CBS_132673
+|                                         |  |              |  +**| (60)
+|                                         |  |              |     +--Cercospora_beticola_CPC_15623
+|                                         |  |           +--| (22)
+|                                         |  |           |  +**Cercospora_beticola_CBS_122.31
+|                                         |  |        +**| (47)
+|                                         |  |        |  +**Cercospora_beticola_CBS_116.47
+|                                         |  |     +--| (64)
+|                                         |  |     |  |                             +**Cercospora_beticola_CBS_113069
+|                                         |  |     |  |                          +--| (100)
+|                                         |  |     |  |                          |  +**Cercospora_beticola_CPC_5370
+|                                         |  |     |  |                       +**| (52)
+|                                         |  |     |  |                       |  +**Cercospora_beticola_CBS_548.71
+|                                         |  |     |  |                    +**| (19)
+|                                         |  |     |  |                    |  |     +**Cercospora_beticola_CBS_116454
+|                                         |  |     |  |                    |  |  +--| (79)
+|                                         |  |     |  |                    |  |  |  +**Cercospora_beticola_CPC_10168
+|                                         |  |     |  |                    |  +--| (77)
+|                                         |  |     |  |                    |     |  +**Cercospora_beticola_CBS_116456
+|                                         |  |     |  |                    |     +**| (56)
+|                                         |  |     |  |                    |        |     +**Cercospora_beticola_CBS_116501
+|                                         |  |     |  |                    |        |  +**| (27)
+|                                         |  |     |  |                    |        |  |  +**Cercospora_beticola_CBS_116505
+|                                         |  |     |  |                    |        +**| (59)
+|                                         |  |     |  |                    |           +**Cercospora_beticola_CBS_116502
+|                                         |  |     |  |                 +**| (18)
+|                                         |  |     |  |                 |  |  +**Cercospora_beticola_CBS_124.31
+|                                         |  |     |  |                 |  +**| (65)
+|                                         |  |     |  |                 |     +**Cercospora_beticola_CBS_126.31
+|                                         |  |     |  |              +**| (19)
+|                                         |  |     |  |              |  +**Cercospora_beticola_CBS_115478
+|                                         |  |     |  |           +**| (10)
+|                                         |  |     |  |           |  +**Cercospora_beticola_CBS_123.31
+|                                         |  |     |  |        +**| (9)
+|                                         |  |     |  |        |  +**Cercospora_beticola_CBS_125.31
+|                                         |  |     |  |     +**| (36)
+|                                         |  |     |  |     |  +--Cercospora_beticola_CBS_117556
+|                                         |  |     |  |  +**| (35)
+|                                         |  |     |  |  |  +**Cercospora_beticola_MUCC_568
+|                                         |  |     |  +**| (46)
+|                                         |  |     |     |           +**Cercospora_beticola_CBS_132655
+|                                         |  |     |     |        +--| (100)
+|                                         |  |     |     |        |  +**Cercospora_beticola_CPC_11344
+|                                         |  |     |     |     +**| (25)
+|                                         |  |     |     |     |  +--Cercospora_beticola_CPC_12030
+|                                         |  |     |     |  +**| (4)
+|                                         |  |     |     |  |  +**Cercospora_beticola_CPC_12029
+|                                         |  |     |     +**| (37)
+|                                         |  |     |        +**Cercospora_beticola_CPC_12028
+|                                         |  |  +--| (82)
+|                                         |  |  |  |     +--Cercospora_beticola_CBS_117.47
+|                                         |  |  |  |  +**| (86)
+|                                         |  |  |  |  |  |  +**Cercospora_beticola_CBS_539.71
+|                                         |  |  |  |  |  +**| (74)
+|                                         |  |  |  |  |     |  +**Cercospora_beticola_CPC_10166
+|                                         |  |  |  |  |     +--| (100)
+|                                         |  |  |  |  |        |  +**Cercospora_beticola_CPC_10195
+|                                         |  |  |  |  |        +**| (70)
+|                                         |  |  |  |  |           +**Cercospora_beticola_CPC_12022
+|                                         |  |  |  +--| (98)
+|                                         |  |  |     +--Cercospora_beticola_CPC_18813
+|                                         |  +--| (65)
+|                                         |     |  +**Cercosporacf.coreopsidis_CBS_132598
+|                                         |     +--| (100)
+|                                         |        +--Cercosporacf.coreopsidis_CPC_10122
+|                                      +--| (40)
+|                                      |  |                       +--Cercospora_althaeina_CBS_126.26
+|                                      |  |                    +--| (100)
+|                                      |  |                    |  +**Cercospora_althaeina_CBS_248.67
+|                                      |  |                 +--| (100)
+|                                      |  |                 |  +--Cercospora_althaeina_CBS_132609
+|                                      |  |              +--| (70)
+|                                      |  |              |  |  +**Cercospora_zebrina_CBS_118791
+|                                      |  |              |  +--| (100)
+|                                      |  |              |     +--Cercospora_zebrina_CBS_137.56
+|                                      |  |           +**| (62)
+|                                      |  |           |  |                 +--Cercospora_violae_CBS_251.67
+|                                      |  |           |  |              +**| (58)
+|                                      |  |           |  |              |  +--Cercospora_violae_MUCC_133
+|                                      |  |           |  |           +**| (80)
+|                                      |  |           |  |           |  +**Cercospora_violae_CPC_5368
+|                                      |  |           |  |        +--| (100)
+|                                      |  |           |  |        |  |  +**Cercospora_violae_MUCC_129
+|                                      |  |           |  |        |  +**| (62)
+|                                      |  |           |  |        |     +**Cercospora_violae_MUCC_136
+|                                      |  |           |  |     +**| (24)
+|                                      |  |           |  |     |  |  +--Cercospora_zebrina_CBS_108.22
+|                                      |  |           |  |     |  +--| (99)
+|                                      |  |           |  |     |     +--Cercospora_zebrina_CBS_537.71
+|                                      |  |           |  |  +--| (53)
+|                                      |  |           |  |  |  |        +**Cercospora_zebrina_CBS_112723
+|                                      |  |           |  |  |  |     +--| (100)
+|                                      |  |           |  |  |  |     |  +**Cercospora_zebrina_CBS_112736
+|                                      |  |           |  |  |  |  +--| (60)
+|                                      |  |           |  |  |  |  |  |  +--Cercospora_zebrina_CBS_112893
+|                                      |  |           |  |  |  |  |  +**| (37)
+|                                      |  |           |  |  |  |  |     |     +--Cercospora_zebrina_CBS_113070
+|                                      |  |           |  |  |  |  |     |  +--| (71)
+|                                      |  |           |  |  |  |  |     |  |  +**Cercospora_zebrina_CBS_132650
+|                                      |  |           |  |  |  |  |     +**| (75)
+|                                      |  |           |  |  |  |  |        +**Cercospora_zebrina_CBS_129.39
+|                                      |  |           |  |  |  +**| (24)
+|                                      |  |           |  |  |     |        +--Cercospora_zebrina_CBS_114359
+|                                      |  |           |  |  |     |     +**| (55)
+|                                      |  |           |  |  |     |     |  |  +**Cercospora_zebrina_CPC_5437
+|                                      |  |           |  |  |     |     |  +--| (100)
+|                                      |  |           |  |  |     |     |     +**Cercospora_zebrina_CPC_5473
+|                                      |  |           |  |  |     |  +**| (24)
+|                                      |  |           |  |  |     |  |  +--Cercospora_zebrina_CBS_118790
+|                                      |  |           |  |  |     +**| (24)
+|                                      |  |           |  |  |        +**Cercospora_zebrina_CBS_118789
+|                                      |  |           |  +--| (50)
+|                                      |  |           |     +--Cercosporasp._L_CBS_115477
+|                                      |  |        +--| (88)
+|                                      |  |        |  +--Cercospora_rumicis_CPC_5439
+|                                      |  |     +--| (85)
+|                                      |  |     |  |        +--Cercospora_capsici_CBS_118712
+|                                      |  |     |  |     +--| (79)
+|                                      |  |     |  |     |  +--Cercospora_capsici_CBS_132622
+|                                      |  |     |  |  +**| (96)
+|                                      |  |     |  |  |  +**Cercospora_capsici_MUCC_574
+|                                      |  |     |  +--| (100)
+|                                      |  |     |     +**Cercospora_capsici_CPC_12307
+|                                      |  |  +--| (92)
+|                                      |  |  |  |                             +**Cercospora_armoraciae_CBS_115060
+|                                      |  |  |  |                          +--| (99)
+|                                      |  |  |  |                          |  +**Cercospora_armoraciae_CBS_115409
+|                                      |  |  |  |                       +**| (55)
+|                                      |  |  |  |                       |  +--Cercospora_armoraciae_CBS_132610
+|                                      |  |  |  |                    +**| (91)
+|                                      |  |  |  |                    |  +**Cercospora_armoraciae_CBS_250.67
+|                                      |  |  |  |                 +**| (25)
+|                                      |  |  |  |                 |  +**Cercospora_armoraciae_MUCC_768
+|                                      |  |  |  |              +--| (99)
+|                                      |  |  |  |              |  |  +--Cercospora_armoraciae_CBS_132672
+|                                      |  |  |  |              |  +--| (100)
+|                                      |  |  |  |              |     +**Cercospora_armoraciae_CPC_10133
+|                                      |  |  |  |           +--| (93)
+|                                      |  |  |  |           |  +--Cercospora_armoraciae_CBS_132638
+|                                      |  |  |  |        +**| (48)
+|                                      |  |  |  |        |  |     +**Cercospora_armoraciae_CBS_132654
+|                                      |  |  |  |        |  |  +--| (100)
+|                                      |  |  |  |        |  |  |  +**Cercospora_armoraciae_CPC_11364
+|                                      |  |  |  |        |  +--| (89)
+|                                      |  |  |  |        |     +--Cercospora_armoraciae_CPC_11530
+|                                      |  |  |  |     +--| (98)
+|                                      |  |  |  |     |  +--Cercospora_armoraciae_CBS_115394
+|                                      |  |  |  |  +--| (96)
+|                                      |  |  |  |  |  |  +**Cercospora_armoraciae_CBS_258.67
+|                                      |  |  |  |  |  +--| (100)
+|                                      |  |  |  |  |     +**Cercospora_armoraciae_CBS_540.71
+|                                      |  |  |  +--| (100)
+|                                      |  |  |     |     +--Cercospora_armoraciae_CBS_538.71
+|                                      |  |  |     |  +--| (98)
+|                                      |  |  |     |  |  +--Cercospora_armoraciae_CBS_545.71
+|                                      |  |  |     +**| (52)
+|                                      |  |  |        +--Cercospora_armoraciae_CBS_555.71
+|                                      |  +--| (96)
+|                                      |     +--Cercosporasp._J_MUCC_541
+|                                   +--| (64)
+|                                   |  |        +**Cercospora_delaireae_CBS_132595
+|                                   |  |     +--| (100)
+|                                   |  |     |  +**Cercospora_delaireae_CPC_10629
+|                                   |  |  +--| (100)
+|                                   |  |  |  |  +**Cercospora_delaireae_CPC_10627
+|                                   |  |  |  +**| (70)
+|                                   |  |  |     +--Cercospora_delaireae_CPC_10628
+|                                   |  +--| (100)
+|                                   |     |  +**Cercospora_ricinella_CBS_132605
+|                                   |     +--| (100)
+|                                   |        +**Cercospora_ricinella_CPC_10104
+|                                +--| (53)
+|                                |  |     +--Cercosporasp._K_CBS_132603
+|                                |  |  +--| (100)
+|                                |  |  |  +**Cercosporasp._K_CPC_10094
+|                                |  +--| (100)
+|                                |     +--Cercosporasp._K_CPC_12391
+|                             +--| (33)
+|                             |  |  +--Cercospora_chenopodii_CBS_132620
+|                             |  +--| (100)
+|                             |     |  +--Cercosporacf.chenopodii_CBS_132594
+|                             |     +--| (100)
+|                             |        |     +--Cercosporacf.chenopodii_CBS_132677
+|                             |        |  +--| (100)
+|                             |        |  |  |     +**Cercosporacf.chenopodii_CPC_15763
+|                             |        |  |  |  +**| (92)
+|                             |        |  |  |  |  +**Cercosporacf.chenopodii_CPC_15859
+|                             |        |  |  +**| (91)
+|                             |        |  |     +**Cercosporacf.chenopodii_CPC_15862
+|                             |        +--| (100)
+|                             |           +--Cercosporacf.chenopodii_CPC_12450
+|                          +--| (24)
+|                          |  |                 +--Cercospora_celosiae_CBS_132600
+|                          |  |              +--| (99)
+|                          |  |              |  |           +**Cercosporasp._I_CBS_114815
+|                          |  |              |  |        +**| (84)
+|                          |  |              |  |        |  +**Cercosporasp._I_CBS_114818
+|                          |  |              |  |     +**| (69)
+|                          |  |              |  |     |  +**Cercosporasp._I_CBS_114817
+|                          |  |              |  |  +--| (98)
+|                          |  |              |  |  |  |  +**Cercosporasp._I_CBS_115121
+|                          |  |              |  |  |  +**| (54)
+|                          |  |              |  |  |     |  +**Cercosporasp._I_CBS_132597
+|                          |  |              |  |  |     +**| (82)
+|                          |  |              |  |  |        +**Cercosporasp._I_CPC_10616
+|                          |  |              |  +--| (94)
+|                          |  |              |     |  +**Cercosporasp._I_CBS_114816
+|                          |  |              |     +**| (77)
+|                          |  |              |        |     +**Cercosporasp._I_CBS_115117
+|                          |  |              |        |  +--| (100)
+|                          |  |              |        |  |  +--Cercosporasp._I_CPC_5440
+|                          |  |              |        +**| (87)
+|                          |  |              |           +**Cercosporasp._I_CBS_132643
+|                          |  |           +--| (93)
+|                          |  |           |  |     +--Cercosporasp._G_CBS_115518
+|                          |  |           |  |  +--| (100)
+|                          |  |           |  |  |  +--Cercosporasp._G_CPC_5438
+|                          |  |           |  +**| (59)
+|                          |  |           |     |  +--Cercosporasp._H_CBS_115205
+|                          |  |           |     +--| (96)
+|                          |  |           |        +--Cercosporasp._H_CPC_11620
+|                          |  |        +--| (100)
+|                          |  |        |  +--Cercosporacf.physalidis_CBS_765.79
+|                          |  |     +--| (100)
+|                          |  |     |  +--Cercosporasp._F_CBS_132618
+|                          |  |  +--| (100)
+|                          |  |  |  +--Cercospora_olivascens_CBS_253.67
+|                          |  +--| (29)
+|                          |     |           +--Cercospora_chinensis_CBS_132612
+|                          |     |        +--| (99)
+|                          |     |        |  +--Cercospora_dispori_CBS_132608
+|                          |     |     +--| (68)
+|                          |     |     |  |           +**Cercosporacf.citrulina_CBS_119395
+|                          |     |     |  |        +--| (100)
+|                          |     |     |  |        |  +**Cercosporacf.citrulina_CBS_132669
+|                          |     |     |  |     +--| (100)
+|                          |     |     |  |     |  +--Cercosporacf.citrulina_MUCC_588
+|                          |     |     |  |  +--| (100)
+|                          |     |     |  |  |  |     +**Cercosporacf.citrulina_MUCC_576
+|                          |     |     |  |  |  |  +--| (100)
+|                          |     |     |  |  |  |  |  +**Cercosporacf.citrulina_MUCC_577
+|                          |     |     |  |  |  +--| (100)
+|                          |     |     |  |  |     +--Cercosporacf.citrulina_MUCC_584
+|                          |     |     |  +--| (99)
+|                          |     |     |     +--Cercosporacf.helianthicola_MUCC_716
+|                          |     |  +--| (48)
+|                          |     |  |  |        +--Cercospora_lactucae-sativae_CBS_132604
+|                          |     |  |  |     +--| (100)
+|                          |     |  |  |     |  +--Cercospora_lactucae-sativae_CPC_10082
+|                          |     |  |  |  +--| (100)
+|                          |     |  |  |  |  |  +--Cercospora_lactucae-sativae_MUCC_570
+|                          |     |  |  |  |  +--| (100)
+|                          |     |  |  |  |     +**Cercospora_lactucae-sativae_MUCC_571
+|                          |     |  |  +--| (86)
+|                          |     |  |     +--Cercosporasp._S_CBS_132599
+|                          |     +--| (93)
+|                          |        |  +--Cercospora_corchori_MUCC_585
+|                          |        +--| (95)
+|                          |           +--Cercosporasp._R_CBS_114644
+|                       +**| (46)
+|                       |  +----Cercosporasp._B_CBS_132602
+|                    +--| (94)
+|                    |  |              +**Cercospora_alchemillicola_CPC_5259___TYPE
+|                    |  |           +--| (100)
+|                    |  |           |  |  +**Cercospora_cf._alchemillicola_CPC_5126
+|                    |  |           |  +--| (100)
+|                    |  |           |     +**Cercospora_cf._alchemillicola_CPC_5127
+|                    |  |        +--| (92)
+|                    |  |        |  |                          +**Cercospora_kikuchii_CBS_128.27
+|                    |  |        |  |                       +--| (100)
+|                    |  |        |  |                       |  +**Cercospora_kikuchii_CBS_135.28
+|                    |  |        |  |                    +**| (88)
+|                    |  |        |  |                    |  +--Cercospora_kikuchii_MUCC_590
+|                    |  |        |  |                 +--| (100)
+|                    |  |        |  |                 |  +--Cercospora_kikuchii_CBS_132633
+|                    |  |        |  |              +--| (84)
+|                    |  |        |  |              |  +--Cercosporacf.richardiicola_CBS_132627
+|                    |  |        |  |           +--| (90)
+|                    |  |        |  |           |  |        +**Cercosporacf.sigesbeckiae_CBS_132601
+|                    |  |        |  |           |  |     +**| (86)
+|                    |  |        |  |           |  |     |  +**Cercosporacf.sigesbeckiae_CBS_132642
+|                    |  |        |  |           |  |  +--| (95)
+|                    |  |        |  |           |  |  |  |     +--Cercosporacf.sigesbeckiae_MUCC_587
+|                    |  |        |  |           |  |  |  |  +**| (81)
+|                    |  |        |  |           |  |  |  |  |  +**Cercosporacf.sigesbeckiae_MUCC_589
+|                    |  |        |  |           |  |  |  +**| (84)
+|                    |  |        |  |           |  |  |     +**Cercosporacf.sigesbeckiae_MUCC_849
+|                    |  |        |  |           |  +--| (98)
+|                    |  |        |  |           |     |     +--Cercosporacf.sigesbeckiae_CBS_132606
+|                    |  |        |  |           |     |  +**| (85)
+|                    |  |        |  |           |     |  |  |  +**Cercosporacf.sigesbeckiae_CBS_132621
+|                    |  |        |  |           |     |  |  +--| (100)
+|                    |  |        |  |           |     |  |     +--Cercosporacf.sigesbeckiae_CBS_132675
+|                    |  |        |  |           |     +--| (100)
+|                    |  |        |  |           |        +**Cercosporacf.sigesbeckiae_CBS_132641
+|                    |  |        |  |        +--| (92)
+|                    |  |        |  |        |  |     +**Cercosporacf.richardiicola_MUCC_128
+|                    |  |        |  |        |  |  +--| (100)
+|                    |  |        |  |        |  |  |  |  +**Cercosporacf.richardiicola_MUCC_132
+|                    |  |        |  |        |  |  |  +**| (81)
+|                    |  |        |  |        |  |  |     +**Cercosporacf.richardiicola_MUCC_578
+|                    |  |        |  |        |  +--| (78)
+|                    |  |        |  |        |     |  +**Cercosporacf.richardiicola_MUCC_138
+|                    |  |        |  |        |     +**| (87)
+|                    |  |        |  |        |        +**Cercosporacf.richardiicola_MUCC_582
+|                    |  |        |  |     +--| (92)
+|                    |  |        |  |     |  |                       +--Cercospora_rodmanii_CBS_113123
+|                    |  |        |  |     |  |                    +--| (92)
+|                    |  |        |  |     |  |                    |  +**Cercospora_rodmanii_CBS_113126
+|                    |  |        |  |     |  |                 +**| (88)
+|                    |  |        |  |     |  |                 |  +**Cercospora_rodmanii_CBS_113129
+|                    |  |        |  |     |  |              +**| (82)
+|                    |  |        |  |     |  |              |  +**Cercospora_rodmanii_CBS_113128
+|                    |  |        |  |     |  |           +--| (97)
+|                    |  |        |  |     |  |           |  +**Cercospora_rodmanii_CBS_113130
+|                    |  |        |  |     |  |        +**| (80)
+|                    |  |        |  |     |  |        |  +--Cercospora_rodmanii_CBS_113131
+|                    |  |        |  |     |  |     +**| (85)
+|                    |  |        |  |     |  |     |  +**Cercospora_rodmanii_CBS_113125
+|                    |  |        |  |     |  |  +--| (100)
+|                    |  |        |  |     |  |  |  +--Cercospora_rodmanii_CBS_113124
+|                    |  |        |  |     |  +--| (93)
+|                    |  |        |  |     |     +**Cercosporasp._N_CBS_132619
+|                    |  |        |  |  +--| (81)
+|                    |  |        |  |  |  |     +**Cercosporacf.malloti_MUCC_575
+|                    |  |        |  |  |  |  +--| (100)
+|                    |  |        |  |  |  |  |  +**Cercosporacf.malloti_MUCC_787
+|                    |  |        |  |  |  +--| (83)
+|                    |  |        |  |  |     |        +--Cercosporasp._O_CBS_132635
+|                    |  |        |  |  |     |     +--| (91)
+|                    |  |        |  |  |     |     |  |              +**Cercosporasp._Q_CBS_113997
+|                    |  |        |  |  |     |     |  |           +**| (90)
+|                    |  |        |  |  |     |     |  |           |  |  +**Cercosporasp._Q_CBS_115410
+|                    |  |        |  |  |     |     |  |           |  +**| (94)
+|                    |  |        |  |  |     |     |  |           |     +**Cercosporasp._Q_CBS_115411
+|                    |  |        |  |  |     |     |  |        +--| (94)
+|                    |  |        |  |  |     |     |  |        |  |     +--Cercosporasp._Q_CBS_132681
+|                    |  |        |  |  |     |     |  |        |  |  +--| (69)
+|                    |  |        |  |  |     |     |  |        |  |  |  +--Cercosporasp._Q_CPC_10551
+|                    |  |        |  |  |     |     |  |        |  +**| (59)
+|                    |  |        |  |  |     |     |  |        |     +--Cercosporasp._Q_CPC_11639
+|                    |  |        |  |  |     |     |  |     +--| (63)
+|                    |  |        |  |  |     |     |  |     |  |  +**Cercosporasp._Q_CBS_115536
+|                    |  |        |  |  |     |     |  |     |  +--| (100)
+|                    |  |        |  |  |     |     |  |     |     +**Cercosporasp._Q_CBS_115537
+|                    |  |        |  |  |     |     |  |  +--| (84)
+|                    |  |        |  |  |     |     |  |  |  |        +**Cercosporasp._Q_CBS_132656
+|                    |  |        |  |  |     |     |  |  |  |     +--| (100)
+|                    |  |        |  |  |     |     |  |  |  |     |  +--Cercosporasp._Q_CPC_11539
+|                    |  |        |  |  |     |     |  |  |  |  +--| (76)
+|                    |  |        |  |  |     |     |  |  |  |  |  +--Cercosporasp._Q_CPC_10550
+|                    |  |        |  |  |     |     |  |  |  +--| (47)
+|                    |  |        |  |  |     |     |  |  |     |  +**Cercosporasp._Q_CBS_132661
+|                    |  |        |  |  |     |     |  |  |     +--| (99)
+|                    |  |        |  |  |     |     |  |  |        +**Cercosporasp._Q_CBS_132663
+|                    |  |        |  |  |     |     |  +--| (97)
+|                    |  |        |  |  |     |     |     |     +**Cercosporasp._Q_CBS_132679
+|                    |  |        |  |  |     |     |     |  +--| (100)
+|                    |  |        |  |  |     |     |     |  |  +**Cercosporasp._Q_CBS_132682
+|                    |  |        |  |  |     |     |     +--| (66)
+|                    |  |        |  |  |     |     |        +--Cercosporasp._Q_CPC_15875
+|                    |  |        |  |  |     |  +**| (48)
+|                    |  |        |  |  |     |  |  |           +**Cercosporasp._P_CBS_112649
+|                    |  |        |  |  |     |  |  |        +--| (100)
+|                    |  |        |  |  |     |  |  |        |  +**Cercosporasp._P_CBS_112722
+|                    |  |        |  |  |     |  |  |     +--| (33)
+|                    |  |        |  |  |     |  |  |     |  |  +--Cercosporasp._P_CBS_132664
+|                    |  |        |  |  |     |  |  |     |  +--| (83)
+|                    |  |        |  |  |     |  |  |     |     +--Cercosporasp._P_CPC_5262
+|                    |  |        |  |  |     |  |  |  +--| (39)
+|                    |  |        |  |  |     |  |  |  |  |        +--Cercosporasp._P_CBS_116365
+|                    |  |        |  |  |     |  |  |  |  |     +--| (100)
+|                    |  |        |  |  |     |  |  |  |  |     |  +**Cercosporasp._P_CBS_132645
+|                    |  |        |  |  |     |  |  |  |  |  +--| (93)
+|                    |  |        |  |  |     |  |  |  |  |  |  +--Cercosporasp._P_MUCC_771
+|                    |  |        |  |  |     |  |  |  |  +--| (91)
+|                    |  |        |  |  |     |  |  |  |     |           +--Cercosporasp._P_CBS_132660
+|                    |  |        |  |  |     |  |  |  |     |        +**| (92)
+|                    |  |        |  |  |     |  |  |  |     |        |  +**Cercosporasp._P_CPC_11630
+|                    |  |        |  |  |     |  |  |  |     |     +**| (95)
+|                    |  |        |  |  |     |  |  |  |     |     |  +--Cercosporasp._P_CPC_11632
+|                    |  |        |  |  |     |  |  |  |     |  +--| (96)
+|                    |  |        |  |  |     |  |  |  |     |  |  +--Cercosporasp._P_CPC_10552
+|                    |  |        |  |  |     |  |  |  |     +**| (81)
+|                    |  |        |  |  |     |  |  |  |        +**Cercosporasp._P_CBS_132662
+|                    |  |        |  |  |     |  |  +--| (80)
+|                    |  |        |  |  |     |  |     |  +--Cercosporasp._P_CBS_132665
+|                    |  |        |  |  |     |  |     +**| (41)
+|                    |  |        |  |  |     |  |        |  +--Cercosporasp._P_CPC_11631
+|                    |  |        |  |  |     |  |        +--| (99)
+|                    |  |        |  |  |     |  |           +**Cercosporasp._P_CPC_11633
+|                    |  |        |  |  |     +--| (81)
+|                    |  |        |  |  |        |                 +**Cercosporasp._P_CBS_112728
+|                    |  |        |  |  |        |              +--| (100)
+|                    |  |        |  |  |        |              |  +**Cercosporasp._P_CBS_112730
+|                    |  |        |  |  |        |           +**| (71)
+|                    |  |        |  |  |        |           |  +**Cercosporasp._P_CPC_4002
+|                    |  |        |  |  |        |        +**| (65)
+|                    |  |        |  |  |        |        |  +**Cercosporasp._P_CBS_115413
+|                    |  |        |  |  |        |     +**| (55)
+|                    |  |        |  |  |        |     |  +**Cercosporasp._P_CPC_4001
+|                    |  |        |  |  |        |  +--| (99)
+|                    |  |        |  |  |        |  |  |  +**Cercosporasp._P_CBS_113996
+|                    |  |        |  |  |        |  |  +**| (53)
+|                    |  |        |  |  |        |  |     +**Cercosporasp._P_CPC_5327
+|                    |  |        |  |  |        +--| (100)
+|                    |  |        |  |  |           +--Cercosporasp._P_CBS_132680
+|                    |  |        |  +--| (100)
+|                    |  |        |     +--Cercosporasp._M_CBS_132596
+|                    |  |     +--| (85)
+|                    |  |     |  |           +**Cercospora_fagopyri_CBS_132623
+|                    |  |     |  |        +--| (100)
+|                    |  |     |  |        |  +--Cercospora_fagopyri_CBS_132671
+|                    |  |     |  |     +--| (100)
+|                    |  |     |  |     |  |  +--Cercospora_fagopyri_CBS_132640
+|                    |  |     |  |     |  +**| (84)
+|                    |  |     |  |     |     |  +--Cercospora_fagopyri_MUCC_130
+|                    |  |     |  |     |     +**| (85)
+|                    |  |     |  |     |        +--Cercospora_fagopyri_MUCC_866
+|                    |  |     |  |  +--| (100)
+|                    |  |     |  |  |  +**Cercospora_fagopyri_CBS_132649
+|                    |  |     |  +--| (91)
+|                    |  |     |     |     +--Cercosporacf.ipomoeae_CBS_132639
+|                    |  |     |     |  +--| (100)
+|                    |  |     |     |  |  +--Cercosporacf.ipomoeae_CBS_132652
+|                    |  |     |     +--| (97)
+|                    |  |     |        +--Cercosporacf.ipomoeae_MUCC_442
+|                    |  |  +--| (97)
+|                    |  |  |  |     +--Cercosporacf.zinniae_CBS_132624
+|                    |  |  |  |  +--| (100)
+|                    |  |  |  |  |  +--Cercosporacf.zinniae_CBS_132676
+|                    |  |  |  +--| (100)
+|                    |  |  |     |  +**Cercosporacf.zinniae_MUCC_131
+|                    |  |  |     +--| (100)
+|                    |  |  |        +**Cercosporacf.zinniae_MUCC_572
+|                    |  +--| (72)
+|                    |     |            +---------Cercospora_coniogrammes_CBS_132634
+|                    |     |         +--| (69)
+|                    |     |         |  |                          +**Cercospora_zeae-maydis_CBS_117755
+|                    |     |         |  |                       +**| (2)
+|                    |     |         |  |                       |  |  +**Cercospora_zeae-maydis_CBS_117759
+|                    |     |         |  |                       |  +**| (33)
+|                    |     |         |  |                       |     +**Cercospora_zeae-maydis_CBS_117760
+|                    |     |         |  |                    +**| (78)
+|                    |     |         |  |                    |  |  +**Cercospora_zeae-maydis_CBS_117756
+|                    |     |         |  |                    |  +**| (3)
+|                    |     |         |  |                    |     +**Cercospora_zeae-maydis_CBS_117757
+|                    |     |         |  |                 +**| (95)
+|                    |     |         |  |                 |  +**Cercospora_zeae-maydis_CBS_132668
+|                    |     |         |  |        +--------| (100)
+|                    |     |         |  |        |        +--Cercospora_zeae-maydis_CBS_132678
+|                    |     |         |  |  +-----| (100)
+|                    |     |         |  |  |     |         +**Cercospora_zeina_CBS_118820
+|                    |     |         |  |  |     +---------| (100)
+|                    |     |         |  |  |               +--Cercospora_zeina_CBS_132617
+|                    |     |         |  +--| (99)
+|                    |     |         |     +------------------Cercosporasp._A_CBS_132631
+|                    |     |     +---| (69)
+|                    |     |     |   +----------Cercospora_senecioniswalkeri_CBS_132636
+|                    |     |  +--| (91)
+|                    |     |  |  +----------------------------------------------------Septoria_provencialis_CBS_118910
+|                    |     +--| (82)
+|                    |        |        +---Cercosporacf.erysimi_CBS_115059
+|                    |        |     +--| (100)
+|                    |        |     |  |  +--Cercosporacf.modiolae_CPC_5115
+|                    |        |     |  +--| (100)
+|                    |        |     |     |  +--Cercosporasp._E_CBS_132628
+|                    |        |     |     +--| (100)
+|                    |        |     |        +**Cercosporasp._E_CPC_15801
+|                    |        |  +--| (90)
+|                    |        |  |  +---Cercosporasp._D_CBS_132630
+|                    |        +--| (100)
+|                    |           +----Cercosporasp._C_CBS_132629
+|                 +--| (100)
+|                 |  |        +--Cercospora_mercurialis_CBS_549.71
+|                 |  |     +--| (100)
+|                 |  |     |  +--Cercospora_mercurialis_CBS_551.71
+|                 |  |  +--| (100)
+|                 |  |  |  +--Cercospora_mercurialis_CBS_550.71__TYPE
+|                 |  +--| (77)
+|                 |     |  +--Cercospora_pileicola_CBS_132607
+|                 |     +--| (100)
+|                 |        |  +**Cercospora_pileicola_CBS_132647
+|                 |        +**| (95)
+|                 |           +--Cercospora_pileicola_CPC_11369
+|              +--| (97)
+|              |  |             +**Cercospora_apiicola_CBS_116457
+|              |  |          +**| (33)
+|              |  |          |  +**Cercospora_apiicola_CPC_10265
+|              |  |       +**| (74)
+|              |  |       |  +**Cercospora_apiicola_CPC_10266
+|              |  |    +--| (100)
+|              |  |    |  |     +**Cercospora_apiicola_CBS_116458
+|              |  |    |  |  +**| (53)
+|              |  |    |  |  |  +**Cercospora_apiicola_CBS_132651
+|              |  |    |  +**| (78)
+|              |  |    |     |        +**Cercospora_apiicola_CBS_132644
+|              |  |    |     |     +**| (17)
+|              |  |    |     |     |  +**Cercospora_apiicola_CPC_10220
+|              |  |    |     |  +**| (76)
+|              |  |    |     |  |  +**Cercospora_apiicola_CPC_10279
+|              |  |    |     +**| (43)
+|              |  |    |        +**Cercospora_apiicola_CPC_10666
+|              |  +----| (100)
+|              |       |  +**Cercospora_apiicola_CBS_132666
+|              |       +**| (81)
+|              |          +**Cercospora_apiicola_CPC_11641
+|           +--| (100)
+|           |  |  +--Cercospora_vignigena_CBS_132611
+|           |  +--| (100)
+|           |     |  +--Cercospora_vignigena_CPC_1134
+|           |     +--| (100)
+|           |        +**Cercospora_vignigena_MUCC_579
+|        +--| (96)
+|        |  +--Cercospora_euphorbiaesieboldianae_CBS_113306__TYPE
+|     +--| (100)
+|     |  +--Cercospora_punctiformis_CBS_132626
+|  +--| (99)
+|  |  |  +--Cercospora_campi-silii_CBS_132625
+|  |  +--| (100)
+|  |     |  +--Cercospora_sojina_CBS_132018
+|  |     +--| (100)
+|  |        |     +--Cercospora_sojina_CBS_132615
+|  |        |  +--| (78)
+|  |        |  |  +**Cercospora_sojina_CPC_11420
+|  |        +--| (92)
+|  |           |        +**Cercospora_sojina_CBS_132684
+|  |           |     +**| (81)
+|  |           |     |  +**Cercospora_sojina_CPC_17966
+|  |           |  +--| (100)
+|  |           |  |  |  +**Cercospora_sojina_CPC_17965
+|  |           |  |  +**| (69)
+|  |           |  |     +**Cercospora_sojina_CPC_17967
+|  |           +--| (100)
+|  |              |     +**Cercospora_sojina_CPC_17964
+|  |              |  +**| (74)
+|  |              |  |  +--Cercospora_sojina_CPC_17974
+|  |              +**| (94)
+|  |                 +**Cercospora_sojina_CPC_17970
++--| (100)
+   +--Cercospora_polygonacea_CBS_132614
+
+Tree in newick format:
+
+(Cercospora_achyranthis_CBS_132613:0.0000010000,Cercospora_achyranthis_CPC_10091:0.0000010000,((((((((((((((((((Cercospora_agavicola_CBS_117292:0.0066018463,((((((Cercosporacf.flagellaris_CBS_113127:0.0010817811,Cercosporacf.flagellaris_CBS_132637:0.0000020169)84:0.0000025164,(((((Cercosporacf.flagellaris_CBS_132648:0.0000010000,Cercosporacf.flagellaris_CBS_132670:0.0006693387)73:0.0000010000,(((Cercosporacf.flagellaris_CPC_1051:0.0000025094,Cercosporacf.flagellaris_CPC_1052:0.0014008746)85:0.0006828766,Cercosporacf.flagellaris_MUCC_831:0.0020781312)54:0.0000020642,Cercosporacf.flagellaris_MUCC_127:0.0003400394)63:0.0000020640)78:0.0003310094,Cercosporacf.flagellaris_CBS_143.51:0.0000010000)89:0.0006705381,(Cercosporacf.flagellaris_CPC_10124:0.0000010000,Cercosporacf.flagellaris_CPC_10684:0.0003408059)74:0.0000010000)56:0.0000022537,Cercosporacf.flagellaris_CBS_132674:0.0017151113)75:0.0003347319)87:0.0007239803,Cercosporacf.flagellaris_CBS_132667:0.0006728703)79:0.0000021953,(((Cercosporacf.flagellaris_CBS_115482:0.0000010000,Cercosporacf.flagellaris_CPC_4411:0.0003444840)100:0.0020959608,Cercosporacf.flagellaris_CBS_132653:0.0017180118)89:0.0000026221,Cercosporacf.flagellaris_MUCC_735:0.0025091070)88:0.0016698956)97:0.0007213665,Cercosporacf.flagellaris_CBS_132646:0.0000019273)94:0.0014241108,Cercosporacf.flagellaris_CPC_5441:0.0014409153)98:0.0014487380)69:0.0008361461,((Cercosporacf.brunkii_CBS_132657:0.0011264663,Cercosporacf.brunkii_MUCC_732:0.0002819122)100:0.0050198373,((Cercosporacf.nicotianae_CBS_131.32:0.0000010000,Cercosporacf.nicotianae_CBS_570.69:0.0021207228)100:0.0008293416,Cercosporacf.nicotianae_CBS_132632:0.0013539419)100:0.0020635010)79:0.0022240752)59:0.0003027673,((((Cercospora_canescenscomplex_CBS_111133:0.0000010000,Cercospora_canescenscomplex_CBS_111134:0.0000010000)100:0.0010365451,Cercospora_canescenscomplex_CBS_153.55:0.0014807112)79:0.0005587185,((((Cercospora_canescenscomplex_CBS_132658:0.0000010000,(Cercospora_canescenscomplex_CPC_11628:0.0000022674,Cercospora_canescenscomplex_CPC_11640:0.0000018907)98:0.0003923729)54:0.0000010000,Cercospora_canescenscomplex_CBS_132659:0.0000010000)70:0.0000027329,Cercospora_canescenscomplex_CPC_4409:0.0000010000)43:0.0000025777,Cercospora_canescenscomplex_CPC_4408:0.0000010000)100:0.0017062857)78:0.0007798233,Cercospora_canescenscomplex_CPC_15871:0.0008404559)100:0.0076372536)44:0.0005183710,(((((((((((((Cercospora_apii_CBS_110813:0.0000010000,Cercospora_apii_CBS_110816:0.0000010000)69:0.0000010000,Cercospora_apii_CBS_252.67:0.0010366770)38:0.0000010000,Cercospora_apii_MUCC_573:0.0006888607)62:0.0000027504,(((Cercospora_apii_CBS_132683:0.0012729456,(Cercospora_apii_CPC_18601:0.0005212347,Cercospora_apii_MUCC_923:0.0012127531)85:0.0003869297)61:0.0000026335,Cercospora_apii_CPC_5260:0.0000023073)78:0.0006944258,Cercospora_apii_CPC_5112:0.0000023636)48:0.0000022106)64:0.0002308315,((Cercospora_apii_CBS_114416:0.0006884081,(((Cercospora_apii_CBS_114418:0.0000010000,Cercospora_apii_CBS_114485:0.0000010000)74:0.0000010000,(Cercospora_apii_MUCC_567:0.0000010000,Cercospora_apii_MUCC_593:0.0006862514)74:0.0000010000)67:0.0000022452,((Cercospora_apii_CBS_116455:0.0000010000,Cercospora_apii_CBS_116504:0.0000010000)63:0.0000010000,Cercospora_apii_CBS_119.25:0.0003514989)84:0.0003363869)71:0.0003336601)53:0.0000022239,(((Cercospora_apii_CBS_121.31:0.0000010000,(Cercospora_apii_CBS_553.71:0.0003439904,(Cercosporacf.resedae_CBS_118793:0.0011774195,Cercosporacf.resedae_CBS_257.67:0.0000010000)100:0.0039972382)36:0.0000010000)35:0.0000010000,Cercospora_apii_CBS_152.52:0.0000010000)42:0.0000010000,Cercospora_apii_CBS_127.31:0.0000010000)51:0.0000023173)51:0.0000019530)64:0.0002512701,Cercospora_apii_CBS_536.71:0.0000023157)65:0.0025512146,(((Cercospora_beticola_CPC_5123:0.0003496945,Cercospora_beticola_CPC_5125:0.0003496940)99:0.0006967536,Cercospora_beticola_CPC_5128:0.0000010000)56:0.0000028479,Cercospora_beticola_MUCC_569:0.0003430499)84:0.0000022499)51:0.0002302898,(((Cercospora_beticola_CBS_123907:0.0000010000,Cercospora_beticola_CBS_123908:0.0000010000)51:0.0000010000,Cercospora_beticola_CBS_132673:0.0000010000)92:0.0000023418,Cercospora_beticola_CPC_15623:0.0020580980)60:0.0000019187)47:0.0000554585,Cercospora_beticola_CBS_122.31:0.0000010000)22:0.0001767005,Cercospora_beticola_CBS_116.47:0.0000010000)47:0.0000123379,((((((((((Cercospora_beticola_CBS_113069:0.0000010000,Cercospora_beticola_CPC_5370:0.0000010000)100:0.0003499775,Cercospora_beticola_CBS_548.71:0.0000010000)52:0.0000020713,((Cercospora_beticola_CBS_116454:0.0000010000,Cercospora_beticola_CPC_10168:0.0000010000)79:0.0003486734,(Cercospora_beticola_CBS_116456:0.0000010000,((Cercospora_beticola_CBS_116501:0.0000010000,Cercospora_beticola_CBS_116505:0.0000010000)27:0.0000010000,Cercospora_beticola_CBS_116502:0.0000010000)59:0.0000010000)56:0.0000021579)77:0.0003490577)19:0.0000021523,(Cercospora_beticola_CBS_124.31:0.0000010000,Cercospora_beticola_CBS_126.31:0.0000010000)65:0.0000010000)18:0.0000010000,Cercospora_beticola_CBS_115478:0.0000010000)19:0.0000010000,Cercospora_beticola_CBS_123.31:0.0000010000)10:0.0000010000,Cercospora_beticola_CBS_125.31:0.0000010000)9:0.0000010000,Cercospora_beticola_CBS_117556:0.0003423333)36:0.0000021051,Cercospora_beticola_MUCC_568:0.0000010000)35:0.0000010000,((((Cercospora_beticola_CBS_132655:0.0000010000,Cercospora_beticola_CPC_11344:0.0000010000)100:0.0003359048,Cercospora_beticola_CPC_12030:0.0003365094)25:0.0000010000,Cercospora_beticola_CPC_12029:0.0000010000)4:0.0000010000,Cercospora_beticola_CPC_12028:0.0000010000)37:0.0000010000)46:0.0000019538)64:0.0022291489,((Cercospora_beticola_CBS_117.47:0.0006771789,(Cercospora_beticola_CBS_539.71:0.0000010000,(Cercospora_beticola_CPC_10166:0.0000010000,(Cercospora_beticola_CPC_10195:0.0000010000,Cercospora_beticola_CPC_12022:0.0000010000)70:0.0000010000)100:0.0003516608)74:0.0000019991)86:0.0000010000,Cercospora_beticola_CPC_18813:0.0002854817)98:0.0008775018)82:0.0028793773,(Cercosporacf.coreopsidis_CBS_132598:0.0000024405,Cercosporacf.coreopsidis_CPC_10122:0.0003389877)100:0.0024425088)65:0.0010639377)87:0.0010848049,((((((((Cercospora_althaeina_CBS_126.26:0.0010476867,Cercospora_althaeina_CBS_248.67:0.0000010000)100:0.0003499377,Cercospora_althaeina_CBS_132609:0.0003858653)100:0.0030840293,(Cercospora_zebrina_CBS_118791:0.0000010000,Cercospora_zebrina_CBS_137.56:0.0003489375)100:0.0006804488)70:0.0006710291,((((((Cercospora_violae_CBS_251.67:0.0003485948,Cercospora_violae_MUCC_133:0.0013766645)58:0.0000010000,Cercospora_violae_CPC_5368:0.0000010000)80:0.0000024031,(Cercospora_violae_MUCC_129:0.0000010000,Cercospora_violae_MUCC_136:0.0000010000)62:0.0000025592)100:0.0020642055,(Cercospora_zebrina_CBS_108.22:0.0006970766,Cercospora_zebrina_CBS_537.71:0.0003487850)99:0.0003479648)24:0.0000019719,(((Cercospora_zebrina_CBS_112723:0.0000010000,Cercospora_zebrina_CBS_112736:0.0000028373)100:0.0003394627,(Cercospora_zebrina_CBS_112893:0.0010226758,((Cercospora_zebrina_CBS_113070:0.0014135441,Cercospora_zebrina_CBS_132650:0.0000299702)71:0.0003083193,Cercospora_zebrina_CBS_129.39:0.0000010000)75:0.0000021104)37:0.0000021600)60:0.0003340344,(((Cercospora_zebrina_CBS_114359:0.0006739935,(Cercospora_zebrina_CPC_5437:0.0000010000,Cercospora_zebrina_CPC_5473:0.0000010000)100:0.0003478464)55:0.0000027278,Cercospora_zebrina_CBS_118790:0.0003359848)24:0.0000010000,Cercospora_zebrina_CBS_118789:0.0000010000)24:0.0000010000)24:0.0000010000)53:0.0003354400,Cercosporasp._L_CBS_115477:0.0017515189)50:0.0003345093)62:0.0000024335,Cercospora_rumicis_CPC_5439:0.0028549816)88:0.0010779294,(((Cercospora_capsici_CBS_118712:0.0004897081,Cercospora_capsici_CBS_132622:0.0003359862)79:0.0015592430,Cercospora_capsici_MUCC_574:0.0000010000)96:0.0000020090,Cercospora_capsici_CPC_12307:0.0000010000)100:0.0027290361)85:0.0009170172,((((((((((Cercospora_armoraciae_CBS_115060:0.0000010000,Cercospora_armoraciae_CBS_115409:0.0000010000)99:0.0003483078,Cercospora_armoraciae_CBS_132610:0.0003391603)55:0.0000011315,Cercospora_armoraciae_CBS_250.67:0.0000010000)91:0.0000019742,Cercospora_armoraciae_MUCC_768:0.0000010000)25:0.0000012834,(Cercospora_armoraciae_CBS_132672:0.0003388030,Cercospora_armoraciae_CPC_10133:0.0000010000)100:0.0003394496)99:0.0003371561,Cercospora_armoraciae_CBS_132638:0.0010262622)93:0.0003360060,((Cercospora_armoraciae_CBS_132654:0.0000010000,Cercospora_armoraciae_CPC_11364:0.0000010000)100:0.0006716757,Cercospora_armoraciae_CPC_11530:0.0013685814)89:0.0003375927)48:0.0000023721,Cercospora_armoraciae_CBS_115394:0.0013642702)98:0.0003423544,(Cercospora_armoraciae_CBS_258.67:0.0000025210,Cercospora_armoraciae_CBS_540.71:0.0000025261)100:0.0017775460)96:0.0003324486,((Cercospora_armoraciae_CBS_538.71:0.0006941719,Cercospora_armoraciae_CBS_545.71:0.0014065009)98:0.0021226523,Cercospora_armoraciae_CBS_555.71:0.0014049125)52:0.0000019404)100:0.0013449752)92:0.0007805958,Cercosporasp._J_MUCC_541:0.0075057241)96:0.0007839270)40:0.0002758473,(((Cercospora_delaireae_CBS_132595:0.0000010000,Cercospora_delaireae_CPC_10629:0.0000010000)100:0.0003391706,(Cercospora_delaireae_CPC_10627:0.0000010000,Cercospora_delaireae_CPC_10628:0.0003393052)70:0.0000010000)100:0.0026004672,(Cercospora_ricinella_CBS_132605:0.0000010000,Cercospora_ricinella_CPC_10104:0.0000010000)100:0.0037226764)100:0.0024205659)64:0.0002526879,((Cercosporasp._K_CBS_132603:0.0003418530,Cercosporasp._K_CPC_10094:0.0000025083)100:0.0003564050,Cercosporasp._K_CPC_12391:0.0003242536)100:0.0060670389)53:0.0014213421,(Cercospora_chenopodii_CBS_132620:0.0081731834,(Cercosporacf.chenopodii_CBS_132594:0.0022627756,((Cercosporacf.chenopodii_CBS_132677:0.0016377916,((Cercosporacf.chenopodii_CPC_15763:0.0000010000,Cercosporacf.chenopodii_CPC_15859:0.0000010000)92:0.0000010000,Cercosporacf.chenopodii_CPC_15862:0.0000010000)91:0.0000020250)100:0.0010321189,Cercosporacf.chenopodii_CPC_12450:0.0013851927)100:0.0005315589)100:0.0030303671)100:0.0020787760)33:0.0001922395,((((((Cercospora_celosiae_CBS_132600:0.0003458423,((((Cercosporasp._I_CBS_114815:0.0000010000,Cercosporasp._I_CBS_114818:0.0000010000)84:0.0000010000,Cercosporasp._I_CBS_114817:0.0000010000)69:0.0000010000,(Cercosporasp._I_CBS_115121:0.0000010000,(Cercosporasp._I_CBS_132597:0.0000010000,Cercosporasp._I_CPC_10616:0.0000010000)82:0.0000010000)54:0.0000010000)98:0.0006756893,(Cercosporasp._I_CBS_114816:0.0000010000,((Cercosporasp._I_CBS_115117:0.0000010000,Cercosporasp._I_CPC_5440:0.0003491248)100:0.0003381685,Cercosporasp._I_CBS_132643:0.0000010000)87:0.0000021412)77:0.0000027274)94:0.0006649841)99:0.0010126057,((Cercosporasp._G_CBS_115518:0.0006857047,Cercosporasp._G_CPC_5438:0.0003442305)100:0.0003399382,(Cercosporasp._H_CBS_115205:0.0021362954,Cercosporasp._H_CPC_11620:0.0008422343)96:0.0008571670)59:0.0000027642)93:0.0003142677,Cercosporacf.physalidis_CBS_765.79:0.0037959771)100:0.0017602564,Cercosporasp._F_CBS_132618:0.0037889748)100:0.0006263510,Cercospora_olivascens_CBS_253.67:0.0058760445)100:0.0027458014,((((Cercospora_chinensis_CBS_132612:0.0042902801,Cercospora_dispori_CBS_132608:0.0035464284)99:0.0056695857,((((Cercosporacf.citrulina_CBS_119395:0.0000010000,Cercosporacf.citrulina_CBS_132669:0.0000010000)100:0.0013599124,Cercosporacf.citrulina_MUCC_588:0.0010249183)100:0.0013984019,((Cercosporacf.citrulina_MUCC_576:0.0000010000,Cercosporacf.citrulina_MUCC_577:0.0000010000)100:0.0007259116,Cercosporacf.citrulina_MUCC_584:0.0031945209)100:0.0006337965)100:0.0014923968,Cercosporacf.helianthicola_MUCC_716:0.0045459588)99:0.0023659168)68:0.0006766453,(((Cercospora_lactucae-sativae_CBS_132604:0.0023373715,Cercospora_lactucae-sativae_CPC_10082:0.0013446930)100:0.0011222797,(Cercospora_lactucae-sativae_MUCC_570:0.0003398306,Cercospora_lactucae-sativae_MUCC_571:0.0000010000)100:0.0006788845)100:0.0026586735,Cercosporasp._S_CBS_132599:0.0021857252)86:0.0017137873)48:0.0004398984,(Cercospora_corchori_MUCC_585:0.0059646078,Cercosporasp._R_CBS_114644:0.0056196128)95:0.0018636982)93:0.0024875298)29:0.0006854901)24:0.0004121893,Cercosporasp._B_CBS_132602:0.0114029600)46:0.0000023738,(((((Cercospora_alchemillicola_CPC_5259___TYPE:0.0000010000,(Cercospora_cf._alchemillicola_CPC_5126:0.0000010000,Cercospora_cf._alchemillicola_CPC_5127:0.0000010000)100:0.0006942148)100:0.0037923478,(((((((((Cercospora_kikuchii_CBS_128.27:0.0000010000,Cercospora_kikuchii_CBS_135.28:0.0000010000)100:0.0003483415,Cercospora_kikuchii_MUCC_590:0.0003401755)88:0.0000020687,Cercospora_kikuchii_CBS_132633:0.0003244912)100:0.0029702407,Cercosporacf.richardiicola_CBS_132627:0.0010238150)84:0.0002730175,(((Cercosporacf.sigesbeckiae_CBS_132601:0.0000010000,Cercosporacf.sigesbeckiae_CBS_132642:0.0000010000)86:0.0000022640,((Cercosporacf.sigesbeckiae_MUCC_587:0.0003426687,Cercosporacf.sigesbeckiae_MUCC_589:0.0000010000)81:0.0000010000,Cercosporacf.sigesbeckiae_MUCC_849:0.0000010000)84:0.0000010000)95:0.0003437577,((Cercosporacf.sigesbeckiae_CBS_132606:0.0020527348,(Cercosporacf.sigesbeckiae_CBS_132621:0.0000010000,Cercosporacf.sigesbeckiae_CBS_132675:0.0003361807)100:0.0006716274)85:0.0000027888,Cercosporacf.sigesbeckiae_CBS_132641:0.0000021183)100:0.0010102714)98:0.0023924948)90:0.0003420969,((Cercosporacf.richardiicola_MUCC_128:0.0000010000,(Cercosporacf.richardiicola_MUCC_132:0.0000010000,Cercosporacf.richardiicola_MUCC_578:0.0000010000)81:0.0000010000)100:0.0010365462,(Cercosporacf.richardiicola_MUCC_138:0.0000010000,Cercosporacf.richardiicola_MUCC_582:0.0000010000)87:0.0000022911)78:0.0003432508)92:0.0010259897,((((((((Cercospora_rodmanii_CBS_113123:0.0005993207,Cercospora_rodmanii_CBS_113126:0.0000020335)92:0.0002981346,Cercospora_rodmanii_CBS_113129:0.0000010000)88:0.0000010000,Cercospora_rodmanii_CBS_113128:0.0000010000)82:0.0000010000,Cercospora_rodmanii_CBS_113130:0.0000010000)97:0.0003198176,Cercospora_rodmanii_CBS_113131:0.0006060022)80:0.0000010000,Cercospora_rodmanii_CBS_113125:0.0000010000)85:0.0000010000,Cercospora_rodmanii_CBS_113124:0.0006122509)100:0.0035695775,Cercosporasp._N_CBS_132619:0.0000025876)93:0.0005090272)92:0.0010199720,((Cercosporacf.malloti_MUCC_575:0.0000010000,Cercosporacf.malloti_MUCC_787:0.0000010000)100:0.0020170954,(((Cercosporasp._O_CBS_132635:0.0016201615,(((((Cercosporasp._Q_CBS_113997:0.0000010000,(Cercosporasp._Q_CBS_115410:0.0000010000,Cercosporasp._Q_CBS_115411:0.0000010000)94:0.0000021131)90:0.0000010000,((Cercosporasp._Q_CBS_132681:0.0007742967,Cercosporasp._Q_CPC_10551:0.0006837026)69:0.0003791782,Cercosporasp._Q_CPC_11639:0.0010275157)59:0.0000022216)94:0.0008598291,(Cercosporasp._Q_CBS_115536:0.0000020330,Cercosporasp._Q_CBS_115537:0.0000021152)100:0.0010730577)63:0.0002858231,(((Cercosporasp._Q_CBS_132656:0.0000010000,Cercosporasp._Q_CPC_11539:0.0003376843)100:0.0011440009,Cercosporasp._Q_CPC_10550:0.0005612088)76:0.0010249211,(Cercosporasp._Q_CBS_132661:0.0000010000,Cercosporasp._Q_CBS_132663:0.0000010000)99:0.0002030150)47:0.0004839469)84:0.0004111241,((Cercosporasp._Q_CBS_132679:0.0000010000,Cercosporasp._Q_CBS_132682:0.0000010000)100:0.0002904606,Cercosporasp._Q_CPC_15875:0.0002855707)66:0.0001642971)97:0.0008621970)91:0.0006959070,((((Cercosporasp._P_CBS_112649:0.0000010000,Cercosporasp._P_CBS_112722:0.0000010000)100:0.0010690545,(Cercosporasp._P_CBS_132664:0.0010476826,Cercosporasp._P_CPC_5262:0.0006992342)83:0.0010480504)33:0.0003440470,(((Cercosporasp._P_CBS_116365:0.0003401056,Cercosporasp._P_CBS_132645:0.0000010000)100:0.0003420917,Cercosporasp._P_MUCC_771:0.0013935096)93:0.0006738318,((((Cercosporasp._P_CBS_132660:0.0003464443,Cercosporasp._P_CPC_11630:0.0000010000)92:0.0000019057,Cercosporasp._P_CPC_11632:0.0003450290)95:0.0000010000,Cercosporasp._P_CPC_10552:0.0003398691)96:0.0003383313,Cercosporasp._P_CBS_132662:0.0000010000)81:0.0000021261)91:0.0007753554)39:0.0002426145,(Cercosporasp._P_CBS_132665:0.0003453288,(Cercosporasp._P_CPC_11631:0.0003479853,Cercosporasp._P_CPC_11633:0.0000019551)99:0.0003477668)41:0.0000021743)80:0.0006828599)48:0.0000022960,((((((Cercosporasp._P_CBS_112728:0.0000010000,Cercosporasp._P_CBS_112730:0.0000010000)100:0.0007138575,Cercosporasp._P_CPC_4002:0.0000010000)71:0.0000019480,Cercosporasp._P_CBS_115413:0.0000010000)65:0.0000010000,Cercosporasp._P_CPC_4001:0.0000010000)55:0.0000010000,(Cercosporasp._P_CBS_113996:0.0000010000,Cercosporasp._P_CPC_5327:0.0000010000)53:0.0000022572)99:0.0003420132,Cercosporasp._P_CBS_132680:0.0008660092)100:0.0005761961)81:0.0006745642)83:0.0005785116)81:0.0002471884,Cercosporasp._M_CBS_132596:0.0022334451)100:0.0017221726)92:0.0015464588,((((Cercospora_fagopyri_CBS_132623:0.0000010000,Cercospora_fagopyri_CBS_132671:0.0003365452)100:0.0006739243,(Cercospora_fagopyri_CBS_132640:0.0006771260,(Cercospora_fagopyri_MUCC_130:0.0003408444,Cercospora_fagopyri_MUCC_866:0.0010272196)85:0.0000010000)84:0.0000022801)100:0.0003344998,Cercospora_fagopyri_CBS_132649:0.0000021157)100:0.0030888760,((Cercosporacf.ipomoeae_CBS_132639:0.0013788475,Cercosporacf.ipomoeae_CBS_132652:0.0021072608)100:0.0017484449,Cercosporacf.ipomoeae_MUCC_442:0.0035217591)97:0.0010144953)91:0.0006792161)85:0.0005604535,((Cercosporacf.zinniae_CBS_132624:0.0006914919,Cercosporacf.zinniae_CBS_132676:0.0008764615)100:0.0018007021,(Cercosporacf.zinniae_MUCC_131:0.0000010000,Cercosporacf.zinniae_MUCC_572:0.0000010000)100:0.0006836054)100:0.0011786027)97:0.0016684084,((((Cercospora_coniogrammes_CBS_132634:0.0220986144,((((((Cercospora_zeae-maydis_CBS_117755:0.0000010000,(Cercospora_zeae-maydis_CBS_117759:0.0000010000,Cercospora_zeae-maydis_CBS_117760:0.0000010000)33:0.0000010000)2:0.0000010000,(Cercospora_zeae-maydis_CBS_117756:0.0000010000,Cercospora_zeae-maydis_CBS_117757:0.0000010000)3:0.0000010000)78:0.0000010000,Cercospora_zeae-maydis_CBS_132668:0.0000010000)95:0.0000746812,Cercospora_zeae-maydis_CBS_132678:0.0032704537)100:0.0189346207,(Cercospora_zeina_CBS_118820:0.0000010000,Cercospora_zeina_CBS_132617:0.0003391248)100:0.0222497027)100:0.0126343408,Cercosporasp._A_CBS_132631:0.0392708798)99:0.0055309508)69:0.0033448252,Cercospora_senecioniswalkeri_CBS_132636:0.0232661818)69:0.0088830204,Septoria_provencialis_CBS_118910:0.1101116983)91:0.0027142391,(((Cercosporacf.erysimi_CBS_115059:0.0084167676,(Cercosporacf.modiolae_CPC_5115:0.0020007537,(Cercosporasp._E_CBS_132628:0.0002905553,Cercosporasp._E_CPC_15801:0.0000010000)100:0.0012257898)100:0.0073290925)100:0.0023045373,Cercosporasp._D_CBS_132630:0.0085312628)90:0.0024713763,Cercosporasp._C_CBS_132629:0.0114884501)100:0.0018054548)82:0.0012629121)72:0.0008095912)94:0.0013427381,(((Cercospora_mercurialis_CBS_549.71:0.0020532236,Cercospora_mercurialis_CBS_551.71:0.0010151638)100:0.0019275222,Cercospora_mercurialis_CBS_550.71__TYPE:0.0031124781)100:0.0069112024,(Cercospora_pileicola_CBS_132607:0.0017194634,(Cercospora_pileicola_CBS_132647:0.0000010000,Cercospora_pileicola_CPC_11369:0.0003349922)95:0.0000021985)100:0.0061945740)77:0.0008293342)100:0.0014689023,((((Cercospora_apiicola_CBS_116457:0.0000010000,Cercospora_apiicola_CPC_10265:0.0000010000)33:0.0000010000,Cercospora_apiicola_CPC_10266:0.0000010000)74:0.0000010000,((Cercospora_apiicola_CBS_116458:0.0000010000,Cercospora_apiicola_CBS_132651:0.0000010000)53:0.0000010000,(((Cercospora_apiicola_CBS_132644:0.0000010000,Cercospora_apiicola_CPC_10220:0.0000010000)17:0.0000010000,Cercospora_apiicola_CPC_10279:0.0000010000)76:0.0000010000,Cercospora_apiicola_CPC_10666:0.0000010000)43:0.0000010000)78:0.0000010000)100:0.0003357478,(Cercospora_apiicola_CBS_132666:0.0000010000,Cercospora_apiicola_CPC_11641:0.0000010000)81:0.0000010000)100:0.0120841683)97:0.0002198445,(Cercospora_vignigena_CBS_132611:0.0031684505,(Cercospora_vignigena_CPC_1134:0.0003414073,Cercospora_vignigena_MUCC_579:0.0000021593)100:0.0010127151)100:0.0044565898)100:0.0020931748,Cercospora_euphorbiaesieboldianae_CBS_113306__TYPE:0.0035535510)96:0.0007913858,Cercospora_punctiformis_CBS_132626:0.0037892238)100:0.0007829508,(Cercospora_campi-silii_CBS_132625:0.0031613203,(Cercospora_sojina_CBS_132018:0.0004978783,((Cercospora_sojina_CBS_132615:0.0003358171,Cercospora_sojina_CPC_11420:0.0000010000)78:0.0003188165,(((Cercospora_sojina_CBS_132684:0.0000010000,Cercospora_sojina_CPC_17966:0.0000010000)81:0.0000010000,(Cercospora_sojina_CPC_17965:0.0000010000,Cercospora_sojina_CPC_17967:0.0000010000)69:0.0000010000)100:0.0005509748,((Cercospora_sojina_CPC_17964:0.0000010000,Cercospora_sojina_CPC_17974:0.0002850627)74:0.0000010000,Cercospora_sojina_CPC_17970:0.0000010000)94:0.0000010000)100:0.0003696695)92:0.0007011665)100:0.0010171000)100:0.0004450753)99:0.0003567260,Cercospora_polygonacea_CBS_132614:0.0024078134)100:0.0010330174);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -24332.495135
+Robinson-Foulds distance between ML tree and consensus tree: 34
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--Cercospora_achyranthis_CBS_132613
+|
++--Cercospora_achyranthis_CPC_10091
+|
+|                                                  +--Cercospora_agavicola_CBS_117292
+|                                               +--| (69)
+|                                               |  |                 +--Cercosporacf.flagellaris_CBS_113127
+|                                               |  |              +--| (84)
+|                                               |  |              |  +--Cercosporacf.flagellaris_CBS_132637
+|                                               |  |           +--| (87)
+|                                               |  |           |  |              +--Cercosporacf.flagellaris_CBS_132648
+|                                               |  |           |  |           +--| (73)
+|                                               |  |           |  |           |  +--Cercosporacf.flagellaris_CBS_132670
+|                                               |  |           |  |        +--| (78)
+|                                               |  |           |  |        |  |        +--Cercosporacf.flagellaris_CPC_1051
+|                                               |  |           |  |        |  |     +--| (85)
+|                                               |  |           |  |        |  |     |  +--Cercosporacf.flagellaris_CPC_1052
+|                                               |  |           |  |        |  |  +--| (54)
+|                                               |  |           |  |        |  |  |  +--Cercosporacf.flagellaris_MUCC_831
+|                                               |  |           |  |        |  +--| (63)
+|                                               |  |           |  |        |     +--Cercosporacf.flagellaris_MUCC_127
+|                                               |  |           |  |     +--| (89)
+|                                               |  |           |  |     |  +--Cercosporacf.flagellaris_CBS_143.51
+|                                               |  |           |  |  +--| (56)
+|                                               |  |           |  |  |  |  +--Cercosporacf.flagellaris_CPC_10124
+|                                               |  |           |  |  |  +--| (74)
+|                                               |  |           |  |  |     +--Cercosporacf.flagellaris_CPC_10684
+|                                               |  |           |  +--| (75)
+|                                               |  |           |     +--Cercosporacf.flagellaris_CBS_132674
+|                                               |  |        +--| (79)
+|                                               |  |        |  +--Cercosporacf.flagellaris_CBS_132667
+|                                               |  |     +--| (97)
+|                                               |  |     |  |        +--Cercosporacf.flagellaris_CBS_115482
+|                                               |  |     |  |     +--| (100)
+|                                               |  |     |  |     |  +--Cercosporacf.flagellaris_CPC_4411
+|                                               |  |     |  |  +--| (89)
+|                                               |  |     |  |  |  +--Cercosporacf.flagellaris_CBS_132653
+|                                               |  |     |  +--| (88)
+|                                               |  |     |     +--Cercosporacf.flagellaris_MUCC_735
+|                                               |  |  +--| (94)
+|                                               |  |  |  +--Cercosporacf.flagellaris_CBS_132646
+|                                               |  +--| (98)
+|                                               |     +--Cercosporacf.flagellaris_CPC_5441
+|                                            +--| (59)
+|                                            |  |     +--Cercosporacf.brunkii_CBS_132657
+|                                            |  |  +--| (100)
+|                                            |  |  |  +--Cercosporacf.brunkii_MUCC_732
+|                                            |  +--| (79)
+|                                            |     |     +--Cercosporacf.nicotianae_CBS_131.32
+|                                            |     |  +--| (100)
+|                                            |     |  |  +--Cercosporacf.nicotianae_CBS_570.69
+|                                            |     +--| (100)
+|                                            |        +--Cercosporacf.nicotianae_CBS_132632
+|                                         +--| (44)
+|                                         |  |           +--Cercospora_canescenscomplex_CBS_111133
+|                                         |  |        +--| (100)
+|                                         |  |        |  +--Cercospora_canescenscomplex_CBS_111134
+|                                         |  |     +--| (79)
+|                                         |  |     |  +--Cercospora_canescenscomplex_CBS_153.55
+|                                         |  |  +--| (78)
+|                                         |  |  |  |           +--Cercospora_canescenscomplex_CBS_132658
+|                                         |  |  |  |        +--| (54)
+|                                         |  |  |  |        |  |  +--Cercospora_canescenscomplex_CPC_11628
+|                                         |  |  |  |        |  +--| (98)
+|                                         |  |  |  |        |     +--Cercospora_canescenscomplex_CPC_11640
+|                                         |  |  |  |     +--| (70)
+|                                         |  |  |  |     |  +--Cercospora_canescenscomplex_CBS_132659
+|                                         |  |  |  |  +--| (43)
+|                                         |  |  |  |  |  +--Cercospora_canescenscomplex_CPC_4409
+|                                         |  |  |  +--| (100)
+|                                         |  |  |     +--Cercospora_canescenscomplex_CPC_4408
+|                                         |  +--| (100)
+|                                         |     +--Cercospora_canescenscomplex_CPC_15871
+|                                      +--| (87)
+|                                      |  |                                      +--Cercospora_apii_CBS_110813
+|                                      |  |                                   +--| (69)
+|                                      |  |                                   |  +--Cercospora_apii_CBS_110816
+|                                      |  |                                +--| (38)
+|                                      |  |                                |  +--Cercospora_apii_CBS_252.67
+|                                      |  |                             +--| (62)
+|                                      |  |                             |  +--Cercospora_apii_MUCC_573
+|                                      |  |                          +--| (64)
+|                                      |  |                          |  |        +--Cercospora_apii_CBS_132683
+|                                      |  |                          |  |     +--| (61)
+|                                      |  |                          |  |     |  |  +--Cercospora_apii_CPC_18601
+|                                      |  |                          |  |     |  +--| (85)
+|                                      |  |                          |  |     |     +--Cercospora_apii_MUCC_923
+|                                      |  |                          |  |  +--| (78)
+|                                      |  |                          |  |  |  +--Cercospora_apii_CPC_5260
+|                                      |  |                          |  +--| (48)
+|                                      |  |                          |     +--Cercospora_apii_CPC_5112
+|                                      |  |                       +--| (64)
+|                                      |  |                       |  |     +--Cercospora_apii_CBS_114416
+|                                      |  |                       |  |  +--| (53)
+|                                      |  |                       |  |  |  |        +--Cercospora_apii_CBS_114418
+|                                      |  |                       |  |  |  |     +--| (74)
+|                                      |  |                       |  |  |  |     |  +--Cercospora_apii_CBS_114485
+|                                      |  |                       |  |  |  |  +--| (67)
+|                                      |  |                       |  |  |  |  |  |  +--Cercospora_apii_MUCC_567
+|                                      |  |                       |  |  |  |  |  +--| (74)
+|                                      |  |                       |  |  |  |  |     +--Cercospora_apii_MUCC_593
+|                                      |  |                       |  |  |  +--| (71)
+|                                      |  |                       |  |  |     |        +**Cercospora_apii_CBS_116455
+|                                      |  |                       |  |  |     |     +--|
+|                                      |  |                       |  |  |     |     |  +**Cercospora_apii_CBS_116507
+|                                      |  |                       |  |  |     |  +--| (63)
+|                                      |  |                       |  |  |     |  |  +--Cercospora_apii_CBS_116504
+|                                      |  |                       |  |  |     +--| (84)
+|                                      |  |                       |  |  |        +--Cercospora_apii_CBS_119.25
+|                                      |  |                       |  +--| (51)
+|                                      |  |                       |     |        +--Cercospora_apii_CBS_121.31
+|                                      |  |                       |     |     +--| (35)
+|                                      |  |                       |     |     |  |  +--Cercospora_apii_CBS_553.71
+|                                      |  |                       |     |     |  +--| (36)
+|                                      |  |                       |     |     |     |  +--Cercosporacf.resedae_CBS_118793
+|                                      |  |                       |     |     |     +--| (100)
+|                                      |  |                       |     |     |        +--Cercosporacf.resedae_CBS_257.67
+|                                      |  |                       |     |  +--| (42)
+|                                      |  |                       |     |  |  +--Cercospora_apii_CBS_152.52
+|                                      |  |                       |     +--| (51)
+|                                      |  |                       |        +--Cercospora_apii_CBS_127.31
+|                                      |  |                    +--| (65)
+|                                      |  |                    |  +--Cercospora_apii_CBS_536.71
+|                                      |  |                 +--| (51)
+|                                      |  |                 |  |        +--Cercospora_beticola_CPC_5123
+|                                      |  |                 |  |     +--| (99)
+|                                      |  |                 |  |     |  +--Cercospora_beticola_CPC_5125
+|                                      |  |                 |  |  +--| (56)
+|                                      |  |                 |  |  |  +--Cercospora_beticola_CPC_5128
+|                                      |  |                 |  +--| (84)
+|                                      |  |                 |     +--Cercospora_beticola_MUCC_569
+|                                      |  |              +--| (47)
+|                                      |  |              |  |              +**Cercospora_beticola_CBS_123907
+|                                      |  |              |  |           +**|
+|                                      |  |              |  |           |  +**Cercospora_beticola_CPC_14619
+|                                      |  |              |  |        +--|
+|                                      |  |              |  |        |  +**Cercospora_beticola_CPC_14618
+|                                      |  |              |  |     +--| (51)
+|                                      |  |              |  |     |  +--Cercospora_beticola_CBS_123908
+|                                      |  |              |  |  +--| (92)
+|                                      |  |              |  |  |  +--Cercospora_beticola_CBS_132673
+|                                      |  |              |  +--| (60)
+|                                      |  |              |     +--Cercospora_beticola_CPC_15623
+|                                      |  |           +--| (26)
+|                                      |  |           |  +--Cercospora_beticola_CBS_116.47
+|                                      |  |        +--| (47)
+|                                      |  |        |  +--Cercospora_beticola_CBS_122.31
+|                                      |  |     +--| (64)
+|                                      |  |     |  |                          +--Cercospora_beticola_CBS_113069
+|                                      |  |     |  |                       +--| (100)
+|                                      |  |     |  |                       |  +--Cercospora_beticola_CPC_5370
+|                                      |  |     |  |                    +--| (52)
+|                                      |  |     |  |                    |  +--Cercospora_beticola_CBS_548.71
+|                                      |  |     |  |                 +--| (43)
+|                                      |  |     |  |                 |  |  +--Cercospora_beticola_CBS_124.31
+|                                      |  |     |  |                 |  +--| (65)
+|                                      |  |     |  |                 |     +--Cercospora_beticola_CBS_126.31
+|                                      |  |     |  |              +--| (29)
+|                                      |  |     |  |              |  +--Cercospora_beticola_CBS_115478
+|                                      |  |     |  |           +--| (18)
+|                                      |  |     |  |           |  +--Cercospora_beticola_CBS_117556
+|                                      |  |     |  |        +--| (31)
+|                                      |  |     |  |        |  |  +--Cercospora_beticola_CBS_123.31
+|                                      |  |     |  |        |  +--| (25)
+|                                      |  |     |  |        |     +--Cercospora_beticola_CBS_125.31
+|                                      |  |     |  |     +--| (36)
+|                                      |  |     |  |     |  |     +--Cercospora_beticola_CBS_116454
+|                                      |  |     |  |     |  |  +--| (79)
+|                                      |  |     |  |     |  |  |  +--Cercospora_beticola_CPC_10168
+|                                      |  |     |  |     |  +--| (77)
+|                                      |  |     |  |     |     |  +--Cercospora_beticola_CBS_116456
+|                                      |  |     |  |     |     +--| (56)
+|                                      |  |     |  |     |        |              +**Cercospora_beticola_CBS_116501
+|                                      |  |     |  |     |        |           +**|
+|                                      |  |     |  |     |        |           |  +**Cercospora_beticola_CBS_116506
+|                                      |  |     |  |     |        |        +**|
+|                                      |  |     |  |     |        |        |  +**Cercospora_beticola_CPC_10204
+|                                      |  |     |  |     |        |     +**|
+|                                      |  |     |  |     |        |     |  +**Cercospora_beticola_CPC_10197
+|                                      |  |     |  |     |        |  +--|
+|                                      |  |     |  |     |        |  |  +**Cercospora_beticola_CBS_116503
+|                                      |  |     |  |     |        +--| (59)
+|                                      |  |     |  |     |           |  +--Cercospora_beticola_CBS_116502
+|                                      |  |     |  |     |           +--| (32)
+|                                      |  |     |  |     |              +--Cercospora_beticola_CBS_116505
+|                                      |  |     |  |  +--| (35)
+|                                      |  |     |  |  |  +--Cercospora_beticola_MUCC_568
+|                                      |  |     |  +--| (46)
+|                                      |  |     |     |        +--Cercospora_beticola_CBS_132655
+|                                      |  |     |     |     +--| (100)
+|                                      |  |     |     |     |  +--Cercospora_beticola_CPC_11344
+|                                      |  |     |     |  +--| (25)
+|                                      |  |     |     |  |  +--Cercospora_beticola_CPC_12030
+|                                      |  |     |     +--| (37)
+|                                      |  |     |        |  +--Cercospora_beticola_CPC_12028
+|                                      |  |     |        +--| (59)
+|                                      |  |     |           +--Cercospora_beticola_CPC_12029
+|                                      |  |  +--| (82)
+|                                      |  |  |  |     +--Cercospora_beticola_CBS_117.47
+|                                      |  |  |  |  +--| (86)
+|                                      |  |  |  |  |  |  +--Cercospora_beticola_CBS_539.71
+|                                      |  |  |  |  |  +--| (74)
+|                                      |  |  |  |  |     |  +--Cercospora_beticola_CPC_10166
+|                                      |  |  |  |  |     +--| (100)
+|                                      |  |  |  |  |        |        +**Cercospora_beticola_CPC_10195
+|                                      |  |  |  |  |        |     +**|
+|                                      |  |  |  |  |        |     |  +**Cercospora_beticola_CPC_12027
+|                                      |  |  |  |  |        |  +--|
+|                                      |  |  |  |  |        |  |  +**Cercospora_beticola_CPC_12031
+|                                      |  |  |  |  |        +--| (70)
+|                                      |  |  |  |  |           +--Cercospora_beticola_CPC_12022
+|                                      |  |  |  +--| (98)
+|                                      |  |  |     +--Cercospora_beticola_CPC_18813
+|                                      |  +--| (65)
+|                                      |     |  +--Cercosporacf.coreopsidis_CBS_132598
+|                                      |     +--| (100)
+|                                      |        +--Cercosporacf.coreopsidis_CPC_10122
+|                                   +--| (64)
+|                                   |  |                          +--Cercospora_althaeina_CBS_126.26
+|                                   |  |                       +--| (100)
+|                                   |  |                       |  +--Cercospora_althaeina_CBS_248.67
+|                                   |  |                    +--| (100)
+|                                   |  |                    |  +--Cercospora_althaeina_CBS_132609
+|                                   |  |                 +--| (70)
+|                                   |  |                 |  |  +--Cercospora_zebrina_CBS_118791
+|                                   |  |                 |  +--| (100)
+|                                   |  |                 |     +--Cercospora_zebrina_CBS_137.56
+|                                   |  |              +--| (62)
+|                                   |  |              |  |              +--Cercospora_violae_CBS_251.67
+|                                   |  |              |  |           +--| (58)
+|                                   |  |              |  |           |  +--Cercospora_violae_MUCC_133
+|                                   |  |              |  |        +--| (80)
+|                                   |  |              |  |        |  +--Cercospora_violae_CPC_5368
+|                                   |  |              |  |     +--| (100)
+|                                   |  |              |  |     |  |  +--Cercospora_violae_MUCC_129
+|                                   |  |              |  |     |  +--| (62)
+|                                   |  |              |  |     |     +--Cercospora_violae_MUCC_136
+|                                   |  |              |  |  +--| (53)
+|                                   |  |              |  |  |  |     +--Cercospora_zebrina_CBS_108.22
+|                                   |  |              |  |  |  |  +--| (99)
+|                                   |  |              |  |  |  |  |  +--Cercospora_zebrina_CBS_537.71
+|                                   |  |              |  |  |  +--| (27)
+|                                   |  |              |  |  |     |        +--Cercospora_zebrina_CBS_112723
+|                                   |  |              |  |  |     |     +--| (100)
+|                                   |  |              |  |  |     |     |  +--Cercospora_zebrina_CBS_112736
+|                                   |  |              |  |  |     |  +--| (60)
+|                                   |  |              |  |  |     |  |  |  +--Cercospora_zebrina_CBS_112893
+|                                   |  |              |  |  |     |  |  +--| (37)
+|                                   |  |              |  |  |     |  |     |     +--Cercospora_zebrina_CBS_113070
+|                                   |  |              |  |  |     |  |     |  +--| (71)
+|                                   |  |              |  |  |     |  |     |  |  +--Cercospora_zebrina_CBS_132650
+|                                   |  |              |  |  |     |  |     +--| (75)
+|                                   |  |              |  |  |     |  |        +--Cercospora_zebrina_CBS_129.39
+|                                   |  |              |  |  |     +--| (24)
+|                                   |  |              |  |  |        |     +--Cercospora_zebrina_CBS_114359
+|                                   |  |              |  |  |        |  +--| (55)
+|                                   |  |              |  |  |        |  |  |  +--Cercospora_zebrina_CPC_5437
+|                                   |  |              |  |  |        |  |  +--| (100)
+|                                   |  |              |  |  |        |  |     +--Cercospora_zebrina_CPC_5473
+|                                   |  |              |  |  |        +--| (24)
+|                                   |  |              |  |  |           |  +--Cercospora_zebrina_CBS_118789
+|                                   |  |              |  |  |           +--| (44)
+|                                   |  |              |  |  |              +--Cercospora_zebrina_CBS_118790
+|                                   |  |              |  +--| (50)
+|                                   |  |              |     +--Cercosporasp._L_CBS_115477
+|                                   |  |           +--| (88)
+|                                   |  |           |  +--Cercospora_rumicis_CPC_5439
+|                                   |  |        +--| (85)
+|                                   |  |        |  |        +--Cercospora_capsici_CBS_118712
+|                                   |  |        |  |     +--| (79)
+|                                   |  |        |  |     |  +--Cercospora_capsici_CBS_132622
+|                                   |  |        |  |  +--| (96)
+|                                   |  |        |  |  |  +--Cercospora_capsici_MUCC_574
+|                                   |  |        |  +--| (100)
+|                                   |  |        |     +--Cercospora_capsici_CPC_12307
+|                                   |  |     +--| (92)
+|                                   |  |     |  |                          +--Cercospora_armoraciae_CBS_115060
+|                                   |  |     |  |                       +--| (99)
+|                                   |  |     |  |                       |  +--Cercospora_armoraciae_CBS_115409
+|                                   |  |     |  |                    +--| (55)
+|                                   |  |     |  |                    |  +--Cercospora_armoraciae_CBS_132610
+|                                   |  |     |  |                 +--| (91)
+|                                   |  |     |  |                 |  +--Cercospora_armoraciae_CBS_250.67
+|                                   |  |     |  |              +--| (99)
+|                                   |  |     |  |              |  |     +--Cercospora_armoraciae_CBS_132672
+|                                   |  |     |  |              |  |  +--| (100)
+|                                   |  |     |  |              |  |  |  +--Cercospora_armoraciae_CPC_10133
+|                                   |  |     |  |              |  +--| (49)
+|                                   |  |     |  |              |     +--Cercospora_armoraciae_MUCC_768
+|                                   |  |     |  |           +--| (93)
+|                                   |  |     |  |           |  +--Cercospora_armoraciae_CBS_132638
+|                                   |  |     |  |        +--| (48)
+|                                   |  |     |  |        |  |     +--Cercospora_armoraciae_CBS_132654
+|                                   |  |     |  |        |  |  +--| (100)
+|                                   |  |     |  |        |  |  |  +--Cercospora_armoraciae_CPC_11364
+|                                   |  |     |  |        |  +--| (89)
+|                                   |  |     |  |        |     +--Cercospora_armoraciae_CPC_11530
+|                                   |  |     |  |     +--| (98)
+|                                   |  |     |  |     |  +--Cercospora_armoraciae_CBS_115394
+|                                   |  |     |  |  +--| (96)
+|                                   |  |     |  |  |  |  +--Cercospora_armoraciae_CBS_258.67
+|                                   |  |     |  |  |  +--| (100)
+|                                   |  |     |  |  |     +--Cercospora_armoraciae_CBS_540.71
+|                                   |  |     |  +--| (100)
+|                                   |  |     |     |     +--Cercospora_armoraciae_CBS_538.71
+|                                   |  |     |     |  +--| (98)
+|                                   |  |     |     |  |  +--Cercospora_armoraciae_CBS_545.71
+|                                   |  |     |     +--| (52)
+|                                   |  |     |        +--Cercospora_armoraciae_CBS_555.71
+|                                   |  |  +--| (96)
+|                                   |  |  |  +--Cercosporasp._J_MUCC_541
+|                                   |  +--| (46)
+|                                   |     |        +--Cercospora_delaireae_CBS_132595
+|                                   |     |     +--| (100)
+|                                   |     |     |  +--Cercospora_delaireae_CPC_10629
+|                                   |     |  +--| (100)
+|                                   |     |  |  |  +--Cercospora_delaireae_CPC_10627
+|                                   |     |  |  +--| (70)
+|                                   |     |  |     +--Cercospora_delaireae_CPC_10628
+|                                   |     +--| (100)
+|                                   |        |  +--Cercospora_ricinella_CBS_132605
+|                                   |        +--| (100)
+|                                   |           +--Cercospora_ricinella_CPC_10104
+|                                +--| (53)
+|                                |  |     +--Cercosporasp._K_CBS_132603
+|                                |  |  +--| (100)
+|                                |  |  |  +--Cercosporasp._K_CPC_10094
+|                                |  +--| (100)
+|                                |     +--Cercosporasp._K_CPC_12391
+|                             +--| (33)
+|                             |  |  +--Cercospora_chenopodii_CBS_132620
+|                             |  +--| (100)
+|                             |     |  +--Cercosporacf.chenopodii_CBS_132594
+|                             |     +--| (100)
+|                             |        |     +--Cercosporacf.chenopodii_CBS_132677
+|                             |        |  +--| (100)
+|                             |        |  |  |     +--Cercosporacf.chenopodii_CPC_15763
+|                             |        |  |  |  +--| (92)
+|                             |        |  |  |  |  +--Cercosporacf.chenopodii_CPC_15859
+|                             |        |  |  +--| (91)
+|                             |        |  |     +--Cercosporacf.chenopodii_CPC_15862
+|                             |        +--| (100)
+|                             |           +--Cercosporacf.chenopodii_CPC_12450
+|                          +--| (24)
+|                          |  |                 +--Cercospora_celosiae_CBS_132600
+|                          |  |              +--| (99)
+|                          |  |              |  |           +--Cercosporasp._I_CBS_114815
+|                          |  |              |  |        +--| (84)
+|                          |  |              |  |        |  +--Cercosporasp._I_CBS_114818
+|                          |  |              |  |     +--| (69)
+|                          |  |              |  |     |  +--Cercosporasp._I_CBS_114817
+|                          |  |              |  |  +--| (98)
+|                          |  |              |  |  |  |  +--Cercosporasp._I_CBS_115121
+|                          |  |              |  |  |  +--| (54)
+|                          |  |              |  |  |     |  +--Cercosporasp._I_CBS_132597
+|                          |  |              |  |  |     +--| (82)
+|                          |  |              |  |  |        +--Cercosporasp._I_CPC_10616
+|                          |  |              |  +--| (94)
+|                          |  |              |     |  +--Cercosporasp._I_CBS_114816
+|                          |  |              |     +--| (77)
+|                          |  |              |        |     +--Cercosporasp._I_CBS_115117
+|                          |  |              |        |  +--| (100)
+|                          |  |              |        |  |  +--Cercosporasp._I_CPC_5440
+|                          |  |              |        +--| (87)
+|                          |  |              |           +--Cercosporasp._I_CBS_132643
+|                          |  |           +--| (93)
+|                          |  |           |  |     +--Cercosporasp._G_CBS_115518
+|                          |  |           |  |  +--| (100)
+|                          |  |           |  |  |  +--Cercosporasp._G_CPC_5438
+|                          |  |           |  +--| (59)
+|                          |  |           |     |  +--Cercosporasp._H_CBS_115205
+|                          |  |           |     +--| (96)
+|                          |  |           |        +--Cercosporasp._H_CPC_11620
+|                          |  |        +--| (100)
+|                          |  |        |  +--Cercosporacf.physalidis_CBS_765.79
+|                          |  |     +--| (100)
+|                          |  |     |  +--Cercosporasp._F_CBS_132618
+|                          |  |  +--| (100)
+|                          |  |  |  +--Cercospora_olivascens_CBS_253.67
+|                          |  +--| (29)
+|                          |     |           +--Cercospora_chinensis_CBS_132612
+|                          |     |        +--| (99)
+|                          |     |        |  +--Cercospora_dispori_CBS_132608
+|                          |     |     +--| (68)
+|                          |     |     |  |           +--Cercosporacf.citrulina_CBS_119395
+|                          |     |     |  |        +--| (100)
+|                          |     |     |  |        |  +--Cercosporacf.citrulina_CBS_132669
+|                          |     |     |  |     +--| (100)
+|                          |     |     |  |     |  +--Cercosporacf.citrulina_MUCC_588
+|                          |     |     |  |  +--| (100)
+|                          |     |     |  |  |  |     +--Cercosporacf.citrulina_MUCC_576
+|                          |     |     |  |  |  |  +--| (100)
+|                          |     |     |  |  |  |  |  +--Cercosporacf.citrulina_MUCC_577
+|                          |     |     |  |  |  +--| (100)
+|                          |     |     |  |  |     +--Cercosporacf.citrulina_MUCC_584
+|                          |     |     |  +--| (99)
+|                          |     |     |     +--Cercosporacf.helianthicola_MUCC_716
+|                          |     |  +--| (48)
+|                          |     |  |  |        +--Cercospora_lactucae-sativae_CBS_132604
+|                          |     |  |  |     +--| (100)
+|                          |     |  |  |     |  +--Cercospora_lactucae-sativae_CPC_10082
+|                          |     |  |  |  +--| (100)
+|                          |     |  |  |  |  |  +--Cercospora_lactucae-sativae_MUCC_570
+|                          |     |  |  |  |  +--| (100)
+|                          |     |  |  |  |     +--Cercospora_lactucae-sativae_MUCC_571
+|                          |     |  |  +--| (86)
+|                          |     |  |     +--Cercosporasp._S_CBS_132599
+|                          |     +--| (93)
+|                          |        |  +--Cercospora_corchori_MUCC_585
+|                          |        +--| (95)
+|                          |           +--Cercosporasp._R_CBS_114644
+|                       +--| (46)
+|                       |  +----Cercosporasp._B_CBS_132602
+|                    +--| (94)
+|                    |  |              +--Cercospora_alchemillicola_CPC_5259___TYPE
+|                    |  |           +--| (100)
+|                    |  |           |  |  +--Cercospora_cf._alchemillicola_CPC_5126
+|                    |  |           |  +--| (100)
+|                    |  |           |     +--Cercospora_cf._alchemillicola_CPC_5127
+|                    |  |        +--| (92)
+|                    |  |        |  |                          +--Cercospora_kikuchii_CBS_128.27
+|                    |  |        |  |                       +--| (100)
+|                    |  |        |  |                       |  +--Cercospora_kikuchii_CBS_135.28
+|                    |  |        |  |                    +--| (88)
+|                    |  |        |  |                    |  +--Cercospora_kikuchii_MUCC_590
+|                    |  |        |  |                 +--| (100)
+|                    |  |        |  |                 |  +--Cercospora_kikuchii_CBS_132633
+|                    |  |        |  |              +--| (84)
+|                    |  |        |  |              |  +--Cercosporacf.richardiicola_CBS_132627
+|                    |  |        |  |           +--| (90)
+|                    |  |        |  |           |  |        +--Cercosporacf.sigesbeckiae_CBS_132601
+|                    |  |        |  |           |  |     +--| (86)
+|                    |  |        |  |           |  |     |  +--Cercosporacf.sigesbeckiae_CBS_132642
+|                    |  |        |  |           |  |  +--| (95)
+|                    |  |        |  |           |  |  |  |     +--Cercosporacf.sigesbeckiae_MUCC_587
+|                    |  |        |  |           |  |  |  |  +--| (81)
+|                    |  |        |  |           |  |  |  |  |  +--Cercosporacf.sigesbeckiae_MUCC_589
+|                    |  |        |  |           |  |  |  +--| (84)
+|                    |  |        |  |           |  |  |     +--Cercosporacf.sigesbeckiae_MUCC_849
+|                    |  |        |  |           |  +--| (98)
+|                    |  |        |  |           |     |     +--Cercosporacf.sigesbeckiae_CBS_132606
+|                    |  |        |  |           |     |  +--| (85)
+|                    |  |        |  |           |     |  |  |  +--Cercosporacf.sigesbeckiae_CBS_132621
+|                    |  |        |  |           |     |  |  +--| (100)
+|                    |  |        |  |           |     |  |     +--Cercosporacf.sigesbeckiae_CBS_132675
+|                    |  |        |  |           |     +--| (100)
+|                    |  |        |  |           |        +--Cercosporacf.sigesbeckiae_CBS_132641
+|                    |  |        |  |        +--| (92)
+|                    |  |        |  |        |  |     +--Cercosporacf.richardiicola_MUCC_128
+|                    |  |        |  |        |  |  +--| (100)
+|                    |  |        |  |        |  |  |  |  +--Cercosporacf.richardiicola_MUCC_132
+|                    |  |        |  |        |  |  |  +--| (81)
+|                    |  |        |  |        |  |  |     +--Cercosporacf.richardiicola_MUCC_578
+|                    |  |        |  |        |  +--| (78)
+|                    |  |        |  |        |     |  +--Cercosporacf.richardiicola_MUCC_138
+|                    |  |        |  |        |     +--| (87)
+|                    |  |        |  |        |        +--Cercosporacf.richardiicola_MUCC_582
+|                    |  |        |  |     +--| (92)
+|                    |  |        |  |     |  |                       +--Cercospora_rodmanii_CBS_113123
+|                    |  |        |  |     |  |                    +--| (92)
+|                    |  |        |  |     |  |                    |  +--Cercospora_rodmanii_CBS_113126
+|                    |  |        |  |     |  |                 +--| (88)
+|                    |  |        |  |     |  |                 |  +--Cercospora_rodmanii_CBS_113129
+|                    |  |        |  |     |  |              +--| (82)
+|                    |  |        |  |     |  |              |  +--Cercospora_rodmanii_CBS_113128
+|                    |  |        |  |     |  |           +--| (97)
+|                    |  |        |  |     |  |           |  +--Cercospora_rodmanii_CBS_113130
+|                    |  |        |  |     |  |        +--| (80)
+|                    |  |        |  |     |  |        |  +--Cercospora_rodmanii_CBS_113131
+|                    |  |        |  |     |  |     +--| (85)
+|                    |  |        |  |     |  |     |  +--Cercospora_rodmanii_CBS_113125
+|                    |  |        |  |     |  |  +--| (100)
+|                    |  |        |  |     |  |  |  +--Cercospora_rodmanii_CBS_113124
+|                    |  |        |  |     |  +--| (93)
+|                    |  |        |  |     |     +--Cercosporasp._N_CBS_132619
+|                    |  |        |  |  +--| (81)
+|                    |  |        |  |  |  |     +--Cercosporacf.malloti_MUCC_575
+|                    |  |        |  |  |  |  +--| (100)
+|                    |  |        |  |  |  |  |  +--Cercosporacf.malloti_MUCC_787
+|                    |  |        |  |  |  +--| (83)
+|                    |  |        |  |  |     |        +--Cercosporasp._O_CBS_132635
+|                    |  |        |  |  |     |     +--| (91)
+|                    |  |        |  |  |     |     |  |              +--Cercosporasp._Q_CBS_113997
+|                    |  |        |  |  |     |     |  |           +--| (90)
+|                    |  |        |  |  |     |     |  |           |  |     +**Cercosporasp._Q_CBS_115410
+|                    |  |        |  |  |     |     |  |           |  |  +--|
+|                    |  |        |  |  |     |     |  |           |  |  |  +**Cercosporasp._Q_CBS_115412
+|                    |  |        |  |  |     |     |  |           |  +--| (94)
+|                    |  |        |  |  |     |     |  |           |     +--Cercosporasp._Q_CBS_115411
+|                    |  |        |  |  |     |     |  |        +--| (94)
+|                    |  |        |  |  |     |     |  |        |  |     +--Cercosporasp._Q_CBS_132681
+|                    |  |        |  |  |     |     |  |        |  |  +--| (69)
+|                    |  |        |  |  |     |     |  |        |  |  |  +--Cercosporasp._Q_CPC_10551
+|                    |  |        |  |  |     |     |  |        |  +--| (59)
+|                    |  |        |  |  |     |     |  |        |     +--Cercosporasp._Q_CPC_11639
+|                    |  |        |  |  |     |     |  |     +--| (63)
+|                    |  |        |  |  |     |     |  |     |  |  +--Cercosporasp._Q_CBS_115536
+|                    |  |        |  |  |     |     |  |     |  +--| (100)
+|                    |  |        |  |  |     |     |  |     |     +--Cercosporasp._Q_CBS_115537
+|                    |  |        |  |  |     |     |  |  +--| (84)
+|                    |  |        |  |  |     |     |  |  |  |        +--Cercosporasp._Q_CBS_132656
+|                    |  |        |  |  |     |     |  |  |  |     +--| (100)
+|                    |  |        |  |  |     |     |  |  |  |     |  +--Cercosporasp._Q_CPC_11539
+|                    |  |        |  |  |     |     |  |  |  |  +--| (76)
+|                    |  |        |  |  |     |     |  |  |  |  |  +--Cercosporasp._Q_CPC_10550
+|                    |  |        |  |  |     |     |  |  |  +--| (47)
+|                    |  |        |  |  |     |     |  |  |     |  +--Cercosporasp._Q_CBS_132661
+|                    |  |        |  |  |     |     |  |  |     +--| (99)
+|                    |  |        |  |  |     |     |  |  |        +--Cercosporasp._Q_CBS_132663
+|                    |  |        |  |  |     |     |  +--| (97)
+|                    |  |        |  |  |     |     |     |     +--Cercosporasp._Q_CBS_132679
+|                    |  |        |  |  |     |     |     |  +--| (100)
+|                    |  |        |  |  |     |     |     |  |  +--Cercosporasp._Q_CBS_132682
+|                    |  |        |  |  |     |     |     +--| (66)
+|                    |  |        |  |  |     |     |        +--Cercosporasp._Q_CPC_15875
+|                    |  |        |  |  |     |  +--| (48)
+|                    |  |        |  |  |     |  |  |              +**Cercosporasp._P_CBS_112649
+|                    |  |        |  |  |     |  |  |           +--|
+|                    |  |        |  |  |     |  |  |           |  +**Cercosporasp._P_CBS_115609
+|                    |  |        |  |  |     |  |  |        +--| (100)
+|                    |  |        |  |  |     |  |  |        |  +--Cercosporasp._P_CBS_112722
+|                    |  |        |  |  |     |  |  |     +--| (33)
+|                    |  |        |  |  |     |  |  |     |  |  +--Cercosporasp._P_CBS_132664
+|                    |  |        |  |  |     |  |  |     |  +--| (83)
+|                    |  |        |  |  |     |  |  |     |     +--Cercosporasp._P_CPC_5262
+|                    |  |        |  |  |     |  |  |  +--| (39)
+|                    |  |        |  |  |     |  |  |  |  |        +--Cercosporasp._P_CBS_116365
+|                    |  |        |  |  |     |  |  |  |  |     +--| (100)
+|                    |  |        |  |  |     |  |  |  |  |     |  +--Cercosporasp._P_CBS_132645
+|                    |  |        |  |  |     |  |  |  |  |  +--| (93)
+|                    |  |        |  |  |     |  |  |  |  |  |  +--Cercosporasp._P_MUCC_771
+|                    |  |        |  |  |     |  |  |  |  +--| (91)
+|                    |  |        |  |  |     |  |  |  |     |           +--Cercosporasp._P_CBS_132660
+|                    |  |        |  |  |     |  |  |  |     |        +--| (92)
+|                    |  |        |  |  |     |  |  |  |     |        |  +--Cercosporasp._P_CPC_11630
+|                    |  |        |  |  |     |  |  |  |     |     +--| (95)
+|                    |  |        |  |  |     |  |  |  |     |     |  +--Cercosporasp._P_CPC_11632
+|                    |  |        |  |  |     |  |  |  |     |  +--| (96)
+|                    |  |        |  |  |     |  |  |  |     |  |  +--Cercosporasp._P_CPC_10552
+|                    |  |        |  |  |     |  |  |  |     +--| (81)
+|                    |  |        |  |  |     |  |  |  |        +--Cercosporasp._P_CBS_132662
+|                    |  |        |  |  |     |  |  +--| (80)
+|                    |  |        |  |  |     |  |     |  +--Cercosporasp._P_CBS_132665
+|                    |  |        |  |  |     |  |     +--| (41)
+|                    |  |        |  |  |     |  |        |  +--Cercosporasp._P_CPC_11631
+|                    |  |        |  |  |     |  |        +--| (99)
+|                    |  |        |  |  |     |  |           +--Cercosporasp._P_CPC_11633
+|                    |  |        |  |  |     +--| (81)
+|                    |  |        |  |  |        |                    +**Cercosporasp._P_CBS_112728
+|                    |  |        |  |  |        |                 +--|
+|                    |  |        |  |  |        |                 |  +**Cercosporasp._P_CBS_112894
+|                    |  |        |  |  |        |              +--| (100)
+|                    |  |        |  |  |        |              |  +--Cercosporasp._P_CBS_112730
+|                    |  |        |  |  |        |           +--| (71)
+|                    |  |        |  |  |        |           |  +--Cercosporasp._P_CPC_4002
+|                    |  |        |  |  |        |        +--| (65)
+|                    |  |        |  |  |        |        |  +--Cercosporasp._P_CBS_115413
+|                    |  |        |  |  |        |     +--| (55)
+|                    |  |        |  |  |        |     |  +--Cercosporasp._P_CPC_4001
+|                    |  |        |  |  |        |  +--| (99)
+|                    |  |        |  |  |        |  |  |  +--Cercosporasp._P_CBS_113996
+|                    |  |        |  |  |        |  |  +--| (53)
+|                    |  |        |  |  |        |  |     +--Cercosporasp._P_CPC_5327
+|                    |  |        |  |  |        +--| (100)
+|                    |  |        |  |  |           +--Cercosporasp._P_CBS_132680
+|                    |  |        |  +--| (100)
+|                    |  |        |     +--Cercosporasp._M_CBS_132596
+|                    |  |     +--| (85)
+|                    |  |     |  |           +--Cercospora_fagopyri_CBS_132623
+|                    |  |     |  |        +--| (100)
+|                    |  |     |  |        |  +--Cercospora_fagopyri_CBS_132671
+|                    |  |     |  |     +--| (100)
+|                    |  |     |  |     |  |  +--Cercospora_fagopyri_CBS_132640
+|                    |  |     |  |     |  +--| (84)
+|                    |  |     |  |     |     |  +--Cercospora_fagopyri_MUCC_130
+|                    |  |     |  |     |     +--| (85)
+|                    |  |     |  |     |        +--Cercospora_fagopyri_MUCC_866
+|                    |  |     |  |  +--| (100)
+|                    |  |     |  |  |  +--Cercospora_fagopyri_CBS_132649
+|                    |  |     |  +--| (91)
+|                    |  |     |     |     +--Cercosporacf.ipomoeae_CBS_132639
+|                    |  |     |     |  +--| (100)
+|                    |  |     |     |  |  +--Cercosporacf.ipomoeae_CBS_132652
+|                    |  |     |     +--| (97)
+|                    |  |     |        +--Cercosporacf.ipomoeae_MUCC_442
+|                    |  |  +--| (97)
+|                    |  |  |  |     +--Cercosporacf.zinniae_CBS_132624
+|                    |  |  |  |  +--| (100)
+|                    |  |  |  |  |  +--Cercosporacf.zinniae_CBS_132676
+|                    |  |  |  +--| (100)
+|                    |  |  |     |  +--Cercosporacf.zinniae_MUCC_131
+|                    |  |  |     +--| (100)
+|                    |  |  |        +--Cercosporacf.zinniae_MUCC_572
+|                    |  +--| (72)
+|                    |     |            +---------Cercospora_coniogrammes_CBS_132634
+|                    |     |         +--| (69)
+|                    |     |         |  |                                   +**Cercospora_zeae-maydis_CBS_117755
+|                    |     |         |  |                                +**|
+|                    |     |         |  |                                |  +**Cercospora_zeae-maydis_CBS_117758
+|                    |     |         |  |                             +**|
+|                    |     |         |  |                             |  +**Cercospora_zeae-maydis_CBS_117761
+|                    |     |         |  |                          +--|
+|                    |     |         |  |                          |  +**Cercospora_zeae-maydis_CBS_117762
+|                    |     |         |  |                       +--| (36)
+|                    |     |         |  |                       |  +--Cercospora_zeae-maydis_CBS_117757
+|                    |     |         |  |                    +--| (78)
+|                    |     |         |  |                    |  |     +--Cercospora_zeae-maydis_CBS_117756
+|                    |     |         |  |                    |  |  +--| (35)
+|                    |     |         |  |                    |  |  |  +--Cercospora_zeae-maydis_CBS_117760
+|                    |     |         |  |                    |  +--| (71)
+|                    |     |         |  |                    |     |  +**Cercospora_zeae-maydis_CBS_117759
+|                    |     |         |  |                    |     +--|
+|                    |     |         |  |                    |        +**Cercospora_zeae-maydis_CBS_117763
+|                    |     |         |  |                 +--| (95)
+|                    |     |         |  |                 |  +--Cercospora_zeae-maydis_CBS_132668
+|                    |     |         |  |        +--------| (100)
+|                    |     |         |  |        |        +--Cercospora_zeae-maydis_CBS_132678
+|                    |     |         |  |  +-----| (100)
+|                    |     |         |  |  |     |         +--Cercospora_zeina_CBS_118820
+|                    |     |         |  |  |     +---------| (100)
+|                    |     |         |  |  |               +--Cercospora_zeina_CBS_132617
+|                    |     |         |  +--| (99)
+|                    |     |         |     +------------------Cercosporasp._A_CBS_132631
+|                    |     |     +---| (69)
+|                    |     |     |   +----------Cercospora_senecioniswalkeri_CBS_132636
+|                    |     |  +--| (91)
+|                    |     |  |  +----------------------------------------------------Septoria_provencialis_CBS_118910
+|                    |     +--| (82)
+|                    |        |        +---Cercosporacf.erysimi_CBS_115059
+|                    |        |     +--| (100)
+|                    |        |     |  |  +--Cercosporacf.modiolae_CPC_5115
+|                    |        |     |  +--| (100)
+|                    |        |     |     |  +--Cercosporasp._E_CBS_132628
+|                    |        |     |     +--| (100)
+|                    |        |     |        +--Cercosporasp._E_CPC_15801
+|                    |        |  +--| (90)
+|                    |        |  |  +---Cercosporasp._D_CBS_132630
+|                    |        +--| (100)
+|                    |           +----Cercosporasp._C_CBS_132629
+|                 +--| (100)
+|                 |  |        +--Cercospora_mercurialis_CBS_549.71
+|                 |  |     +--| (100)
+|                 |  |     |  +--Cercospora_mercurialis_CBS_551.71
+|                 |  |  +--| (100)
+|                 |  |  |  +--Cercospora_mercurialis_CBS_550.71__TYPE
+|                 |  +--| (77)
+|                 |     |  +--Cercospora_pileicola_CBS_132607
+|                 |     +--| (100)
+|                 |        |  +--Cercospora_pileicola_CBS_132647
+|                 |        +--| (95)
+|                 |           +--Cercospora_pileicola_CPC_11369
+|              +--| (97)
+|              |  |             +--Cercospora_apiicola_CBS_116457
+|              |  |          +--| (45)
+|              |  |          |  +--Cercospora_apiicola_CPC_10266
+|              |  |       +--| (74)
+|              |  |       |  +--Cercospora_apiicola_CPC_10265
+|              |  |    +--| (100)
+|              |  |    |  |     +--Cercospora_apiicola_CBS_116458
+|              |  |    |  |  +--| (53)
+|              |  |    |  |  |  +--Cercospora_apiicola_CBS_132651
+|              |  |    |  +--| (78)
+|              |  |    |     |        +--Cercospora_apiicola_CBS_132644
+|              |  |    |     |     +--| (66)
+|              |  |    |     |     |  +--Cercospora_apiicola_CPC_10279
+|              |  |    |     |  +--| (76)
+|              |  |    |     |  |  +--Cercospora_apiicola_CPC_10220
+|              |  |    |     +--| (43)
+|              |  |    |        +--Cercospora_apiicola_CPC_10666
+|              |  +----| (100)
+|              |       |  +--Cercospora_apiicola_CBS_132666
+|              |       +--| (81)
+|              |          +--Cercospora_apiicola_CPC_11641
+|           +--| (100)
+|           |  |  +--Cercospora_vignigena_CBS_132611
+|           |  +--| (100)
+|           |     |  +--Cercospora_vignigena_CPC_1134
+|           |     +--| (100)
+|           |        +--Cercospora_vignigena_MUCC_579
+|        +--| (96)
+|        |  +--Cercospora_euphorbiaesieboldianae_CBS_113306__TYPE
+|     +--| (100)
+|     |  +--Cercospora_punctiformis_CBS_132626
+|  +--| (99)
+|  |  |  +--Cercospora_campi-silii_CBS_132625
+|  |  +--| (100)
+|  |     |  +--Cercospora_sojina_CBS_132018
+|  |     +--| (100)
+|  |        |     +--Cercospora_sojina_CBS_132615
+|  |        |  +--| (78)
+|  |        |  |  +--Cercospora_sojina_CPC_11420
+|  |        +--| (92)
+|  |           |                 +**Cercospora_sojina_CBS_132684
+|  |           |              +**|
+|  |           |              |  +**Cercospora_sojina_CPC_17968
+|  |           |           +**|
+|  |           |           |  +**Cercospora_sojina_CPC_17975
+|  |           |        +--|
+|  |           |        |  +**Cercospora_sojina_CPC_17969
+|  |           |     +--| (81)
+|  |           |     |  +--Cercospora_sojina_CPC_17966
+|  |           |  +--| (100)
+|  |           |  |  |              +**Cercospora_sojina_CPC_17965
+|  |           |  |  |           +**|
+|  |           |  |  |           |  +**Cercospora_sojina_CPC_17973
+|  |           |  |  |        +**|
+|  |           |  |  |        |  +**Cercospora_sojina_CPC_17977
+|  |           |  |  |     +**|
+|  |           |  |  |     |  +**Cercospora_sojina_CPC_17976
+|  |           |  |  |  +--|
+|  |           |  |  |  |  +**Cercospora_sojina_CPC_17972
+|  |           |  |  +--| (69)
+|  |           |  |     +--Cercospora_sojina_CPC_17967
+|  |           +--| (100)
+|  |              |     +--Cercospora_sojina_CPC_17964
+|  |              |  +--| (74)
+|  |              |  |  +--Cercospora_sojina_CPC_17974
+|  |              +--| (94)
+|  |                 +--Cercospora_sojina_CPC_17970
++--| (100)
+   +--Cercospora_polygonacea_CBS_132614
+
+
+Consensus tree in newick format: 
+
+(Cercospora_achyranthis_CBS_132613:0.0000021344,Cercospora_achyranthis_CPC_10091:0.0000021344,(((((((((((((((((Cercospora_agavicola_CBS_117292:0.0066201715,((((((Cercosporacf.flagellaris_CBS_113127:0.0010832652,Cercosporacf.flagellaris_CBS_132637:0.0000021344)84:0.0000022619,(((((Cercosporacf.flagellaris_CBS_132648:0.0000021344,Cercosporacf.flagellaris_CBS_132670:0.0006707688)73:0.0000021344,(((Cercosporacf.flagellaris_CPC_1051:0.0000021344,Cercosporacf.flagellaris_CPC_1052:0.0014035271)85:0.0006846486,Cercosporacf.flagellaris_MUCC_831:0.0020825628)54:0.0000021344,Cercosporacf.flagellaris_MUCC_127:0.0003406412)63:0.0000021344)78:0.0003311755,Cercosporacf.flagellaris_CBS_143.51:0.0000021344)89:0.0006724878,(Cercosporacf.flagellaris_CPC_10124:0.0000021344,Cercosporacf.flagellaris_CPC_10684:0.0003411454)74:0.0000021344)56:0.0000021344,Cercosporacf.flagellaris_CBS_132674:0.0017186921)75:0.0003349012)87:0.0007253316,Cercosporacf.flagellaris_CBS_132667:0.0006749286)79:0.0000021445,(((Cercosporacf.flagellaris_CBS_115482:0.0000021344,Cercosporacf.flagellaris_CPC_4411:0.0003449558)100:0.0021004278,Cercosporacf.flagellaris_CBS_132653:0.0017216401)89:0.0000023640,Cercosporacf.flagellaris_MUCC_735:0.0025133724)88:0.0016736894)97:0.0007228962,Cercosporacf.flagellaris_CBS_132646:0.0000021344)94:0.0014207911,Cercosporacf.flagellaris_CPC_5441:0.0014502050)98:0.0014529824)69:0.0008394521,((Cercosporacf.brunkii_CBS_132657:0.0011274330,Cercosporacf.brunkii_MUCC_732:0.0002829082)100:0.0050220343,((Cercosporacf.nicotianae_CBS_131.32:0.0000021344,Cercosporacf.nicotianae_CBS_570.69:0.0021250560)100:0.0008302519,Cercosporacf.nicotianae_CBS_132632:0.0013558459)100:0.0020720972)79:0.0022285154)59:0.0003012340,((((Cercospora_canescenscomplex_CBS_111133:0.0000021344,Cercospora_canescenscomplex_CBS_111134:0.0000021344)100:0.0010395356,Cercospora_canescenscomplex_CBS_153.55:0.0014835000)79:0.0005606940,((((Cercospora_canescenscomplex_CBS_132658:0.0000021344,(Cercospora_canescenscomplex_CPC_11628:0.0000021344,Cercospora_canescenscomplex_CPC_11640:0.0000021344)98:0.0003921862)54:0.0000021344,Cercospora_canescenscomplex_CBS_132659:0.0000021344)70:0.0000021344,Cercospora_canescenscomplex_CPC_4409:0.0000021344)43:0.0000021344,Cercospora_canescenscomplex_CPC_4408:0.0000021344)100:0.0017081624)78:0.0007810694,Cercospora_canescenscomplex_CPC_15871:0.0008415636)100:0.0076452352)44:0.0005113354,(((((((((((((Cercospora_apii_CBS_110813:0.0000021344,Cercospora_apii_CBS_110816:0.0000021344)69:0.0000021344,Cercospora_apii_CBS_252.67:0.0010386116)38:0.0000021344,Cercospora_apii_MUCC_573:0.0006904121)62:0.0000021344,(((Cercospora_apii_CBS_132683:0.0012744741,(Cercospora_apii_CPC_18601:0.0005229886,Cercospora_apii_MUCC_923:0.0012150587)85:0.0003874898)61:0.0000025925,Cercospora_apii_CPC_5260:0.0000021344)78:0.0006954693,Cercospora_apii_CPC_5112:0.0000021344)48:0.0000023631)64:0.0002318457,((Cercospora_apii_CBS_114416:0.0006893311,(((Cercospora_apii_CBS_114418:0.0000021344,Cercospora_apii_CBS_114485:0.0000021344)74:0.0000021344,(Cercospora_apii_MUCC_567:0.0000021344,Cercospora_apii_MUCC_593:0.0006877941)74:0.0000021344)67:0.0000021344,(((Cercospora_apii_CBS_116455:0.0000000000,Cercospora_apii_CBS_116507:0.0000000000):0.0000021344,Cercospora_apii_CBS_116504:0.0000021344)63:0.0000021344,Cercospora_apii_CBS_119.25:0.0003514287)84:0.0003364899)71:0.0003337628)53:0.0000021344,(((Cercospora_apii_CBS_121.31:0.0000021344,(Cercospora_apii_CBS_553.71:0.0003442223,(Cercosporacf.resedae_CBS_118793:0.0011785943,Cercosporacf.resedae_CBS_257.67:0.0000021344)100:0.0040032932)36:0.0000023640)35:0.0000023640,Cercospora_apii_CBS_152.52:0.0000021344)42:0.0000023640,Cercospora_apii_CBS_127.31:0.0000021344)51:0.0000023640)51:0.0000021344)64:0.0002518374,Cercospora_apii_CBS_536.71:0.0000021344)65:0.0025553932,(((Cercospora_beticola_CPC_5123:0.0003499427,Cercospora_beticola_CPC_5125:0.0003499411)99:0.0006983293,Cercospora_beticola_CPC_5128:0.0000021344)56:0.0000021344,Cercospora_beticola_MUCC_569:0.0003433529)84:0.0000021344)51:0.0002314330,(((((Cercospora_beticola_CBS_123907:0.0000000000,Cercospora_beticola_CPC_14619:0.0000000000):0.0000000000,Cercospora_beticola_CPC_14618:0.0000000000):0.0000021344,Cercospora_beticola_CBS_123908:0.0000021344)51:0.0000021344,Cercospora_beticola_CBS_132673:0.0000021344)92:0.0000021344,Cercospora_beticola_CPC_15623:0.0020617662)60:0.0000021344)47:0.0000248660,Cercospora_beticola_CBS_116.47:0.0000021344)26:0.0000023645,Cercospora_beticola_CBS_122.31:0.0000021344)47:0.0002178519,(((((((((Cercospora_beticola_CBS_113069:0.0000021344,Cercospora_beticola_CPC_5370:0.0000021344)100:0.0003502319,Cercospora_beticola_CBS_548.71:0.0000021344)52:0.0000021344,(Cercospora_beticola_CBS_124.31:0.0000021344,Cercospora_beticola_CBS_126.31:0.0000021344)65:0.0000021344)43:0.0000021344,Cercospora_beticola_CBS_115478:0.0000021344)29:0.0000021344,Cercospora_beticola_CBS_117556:0.0003425835)18:0.0000021344,(Cercospora_beticola_CBS_123.31:0.0000021344,Cercospora_beticola_CBS_125.31:0.0000021344)25:0.0000021344)31:0.0000021344,((Cercospora_beticola_CBS_116454:0.0000021344,Cercospora_beticola_CPC_10168:0.0000021344)79:0.0003489254,(Cercospora_beticola_CBS_116456:0.0000026748,(((((Cercospora_beticola_CBS_116501:0.0000000000,Cercospora_beticola_CBS_116506:0.0000000000):0.0000000000,Cercospora_beticola_CPC_10204:0.0000000000):0.0000000000,Cercospora_beticola_CPC_10197:0.0000000000):0.0000000000,Cercospora_beticola_CBS_116503:0.0000000000):0.0000021344,(Cercospora_beticola_CBS_116502:0.0000021344,Cercospora_beticola_CBS_116505:0.0000021344)32:0.0000021344)59:0.0000020211)56:0.0000020211)77:0.0003493094)36:0.0000021344,Cercospora_beticola_MUCC_568:0.0000021344)35:0.0000021344,(((Cercospora_beticola_CBS_132655:0.0000021344,Cercospora_beticola_CPC_11344:0.0000021344)100:0.0003360194,Cercospora_beticola_CPC_12030:0.0003366220)25:0.0000021344,(Cercospora_beticola_CPC_12028:0.0000021344,Cercospora_beticola_CPC_12029:0.0000021344)59:0.0000021344)37:0.0000021344)46:0.0000021344)64:0.0022313713,((Cercospora_beticola_CBS_117.47:0.0006787172,(Cercospora_beticola_CBS_539.71:0.0000021344,(Cercospora_beticola_CPC_10166:0.0000021344,(((Cercospora_beticola_CPC_10195:0.0000000000,Cercospora_beticola_CPC_12027:0.0000000000):0.0000000000,Cercospora_beticola_CPC_12031:0.0000000000):0.0000021344,Cercospora_beticola_CPC_12022:0.0000021344)70:0.0000021344)100:0.0003519266)74:0.0000021344)86:0.0000021344,Cercospora_beticola_CPC_18813:0.0002864988)98:0.0008797404)82:0.0028833198,(Cercosporacf.coreopsidis_CBS_132598:0.0000021344,Cercosporacf.coreopsidis_CPC_10122:0.0003391223)100:0.0024461357)65:0.0010568783)87:0.0012879647,(((((((((Cercospora_althaeina_CBS_126.26:0.0010498020,Cercospora_althaeina_CBS_248.67:0.0000021344)100:0.0003504687,Cercospora_althaeina_CBS_132609:0.0003861431)100:0.0030893203,(Cercospora_zebrina_CBS_118791:0.0000021344,Cercospora_zebrina_CBS_137.56:0.0003494693)100:0.0006824502)70:0.0006731658,(((((Cercospora_violae_CBS_251.67:0.0003491328,Cercospora_violae_MUCC_133:0.0013787137)58:0.0000021344,Cercospora_violae_CPC_5368:0.0000021344)80:0.0000021344,(Cercospora_violae_MUCC_129:0.0000021344,Cercospora_violae_MUCC_136:0.0000021344)62:0.0000021344)100:0.0020680265,((Cercospora_zebrina_CBS_108.22:0.0006991473,Cercospora_zebrina_CBS_537.71:0.0003493278)99:0.0003486567,(((Cercospora_zebrina_CBS_112723:0.0000021344,Cercospora_zebrina_CBS_112736:0.0000021344)100:0.0003401448,(Cercospora_zebrina_CBS_112893:0.0010238293,((Cercospora_zebrina_CBS_113070:0.0014162061,Cercospora_zebrina_CBS_132650:0.0002956152)71:0.0000178465,Cercospora_zebrina_CBS_129.39:0.0000021344)75:0.0000275949)37:0.0000021344)60:0.0003347041,((Cercospora_zebrina_CBS_114359:0.0006762754,(Cercospora_zebrina_CPC_5437:0.0000021344,Cercospora_zebrina_CPC_5473:0.0000021344)100:0.0003483830)55:0.0000021344,(Cercospora_zebrina_CBS_118789:0.0000021344,Cercospora_zebrina_CBS_118790:0.0003366566)44:0.0000021344)24:0.0000021344)24:0.0000021344)27:0.0000021344)53:0.0003360092,Cercosporasp._L_CBS_115477:0.0017555273)50:0.0003356748)62:0.0000029440,Cercospora_rumicis_CPC_5439:0.0028592496)88:0.0010804301,(((Cercospora_capsici_CBS_118712:0.0014937306,Cercospora_capsici_CBS_132622:0.0003364015)79:0.0005529591,Cercospora_capsici_MUCC_574:0.0000021344)96:0.0000033588,Cercospora_capsici_CPC_12307:0.0000021344)100:0.0027359557)85:0.0008314880,(((((((((Cercospora_armoraciae_CBS_115060:0.0000021344,Cercospora_armoraciae_CBS_115409:0.0000021344)99:0.0003488210,Cercospora_armoraciae_CBS_132610:0.0003197646)55:0.0000021344,Cercospora_armoraciae_CBS_250.67:0.0000021344)91:0.0000213760,((Cercospora_armoraciae_CBS_132672:0.0003397857,Cercospora_armoraciae_CPC_10133:0.0000021344)100:0.0003401314,Cercospora_armoraciae_MUCC_768:0.0000021344)49:0.0000021344)99:0.0003378320,Cercospora_armoraciae_CBS_132638:0.0010273582)93:0.0003366754,((Cercospora_armoraciae_CBS_132654:0.0000021344,Cercospora_armoraciae_CPC_11364:0.0000021344)100:0.0006723228,Cercospora_armoraciae_CPC_11530:0.0013723759)89:0.0003378282)48:0.0000021344,Cercospora_armoraciae_CBS_115394:0.0013673020)98:0.0003431509,(Cercospora_armoraciae_CBS_258.67:0.0000021344,Cercospora_armoraciae_CBS_540.71:0.0000021344)100:0.0017812149)96:0.0003333376,((Cercospora_armoraciae_CBS_538.71:0.0006961779,Cercospora_armoraciae_CBS_545.71:0.0014090971)98:0.0021270289,Cercospora_armoraciae_CBS_555.71:0.0014075158)52:0.0000021344)100:0.0014633893)92:0.0007784958,Cercosporasp._J_MUCC_541:0.0073975699)96:0.0008927538,(((Cercospora_delaireae_CBS_132595:0.0000021344,Cercospora_delaireae_CPC_10629:0.0000021344)100:0.0003393546,(Cercospora_delaireae_CPC_10627:0.0000021344,Cercospora_delaireae_CPC_10628:0.0003395038)70:0.0000021344)100:0.0026252267,(Cercospora_ricinella_CBS_132605:0.0000021344,Cercospora_ricinella_CPC_10104:0.0000021344)100:0.0036337033)100:0.0025673614)46:0.0000913254)64:0.0003597504,((Cercosporasp._K_CBS_132603:0.0003425400,Cercosporasp._K_CPC_10094:0.0000021344)100:0.0003567913,Cercosporasp._K_CPC_12391:0.0003245845)100:0.0061375818)53:0.0014143096,(Cercospora_chenopodii_CBS_132620:0.0081256656,(Cercosporacf.chenopodii_CBS_132594:0.0022684927,((Cercosporacf.chenopodii_CBS_132677:0.0016406840,((Cercosporacf.chenopodii_CPC_15763:0.0000021344,Cercosporacf.chenopodii_CPC_15859:0.0000021344)92:0.0000021344,Cercosporacf.chenopodii_CPC_15862:0.0000021344)91:0.0000021344)100:0.0010306173,Cercosporacf.chenopodii_CPC_12450:0.0013883435)100:0.0005300354)100:0.0030907921)100:0.0020752314)33:0.0001927864,((((((Cercospora_celosiae_CBS_132600:0.0003462623,((((Cercosporasp._I_CBS_114815:0.0000021344,Cercosporasp._I_CBS_114818:0.0000021344)84:0.0000021344,Cercosporasp._I_CBS_114817:0.0000021344)69:0.0000021344,(Cercosporasp._I_CBS_115121:0.0000021344,(Cercosporasp._I_CBS_132597:0.0000021344,Cercosporasp._I_CPC_10616:0.0000021344)82:0.0000021344)54:0.0000021344)98:0.0006776620,(Cercosporasp._I_CBS_114816:0.0000021344,((Cercosporasp._I_CBS_115117:0.0000021344,Cercosporasp._I_CPC_5440:0.0003495490)100:0.0003392787,Cercosporasp._I_CBS_132643:0.0000021344)87:0.0000021344)77:0.0000021344)94:0.0006669031)99:0.0010138232,((Cercosporasp._G_CBS_115518:0.0006876890,Cercosporasp._G_CPC_5438:0.0003453585)100:0.0003410520,(Cercosporasp._H_CBS_115205:0.0021407022,Cercosporasp._H_CPC_11620:0.0008436493)96:0.0008588092)59:0.0000021344)93:0.0003156532,Cercosporacf.physalidis_CBS_765.79:0.0038022565)100:0.0017630511,Cercosporasp._F_CBS_132618:0.0037963223)100:0.0006284112,Cercospora_olivascens_CBS_253.67:0.0058850719)100:0.0027451342,((((Cercospora_chinensis_CBS_132612:0.0042977338,Cercospora_dispori_CBS_132608:0.0035524929)99:0.0056795659,((((Cercosporacf.citrulina_CBS_119395:0.0000021344,Cercosporacf.citrulina_CBS_132669:0.0000021344)100:0.0013619739,Cercosporacf.citrulina_MUCC_588:0.0010261624)100:0.0014000955,((Cercosporacf.citrulina_MUCC_576:0.0000021344,Cercosporacf.citrulina_MUCC_577:0.0000021344)100:0.0007274823,Cercosporacf.citrulina_MUCC_584:0.0031999669)100:0.0006347637)100:0.0014956843,Cercosporacf.helianthicola_MUCC_716:0.0045537916)99:0.0023708638)68:0.0006817555,(((Cercospora_lactucae-sativae_CBS_132604:0.0023420897,Cercospora_lactucae-sativae_CPC_10082:0.0013467363)100:0.0011236644,(Cercospora_lactucae-sativae_MUCC_570:0.0003409392,Cercospora_lactucae-sativae_MUCC_571:0.0000021344)100:0.0006802600)100:0.0026672323,Cercosporasp._S_CBS_132599:0.0021857677)86:0.0017173832)48:0.0004420886,(Cercospora_corchori_MUCC_585:0.0059781403,Cercosporasp._R_CBS_114644:0.0056302317)95:0.0018597264)93:0.0024857943)29:0.0007523104)24:0.0004115431,Cercosporasp._B_CBS_132602:0.0114931317)46:0.0000027222,(((((Cercospora_alchemillicola_CPC_5259___TYPE:0.0000021344,(Cercospora_cf._alchemillicola_CPC_5126:0.0000021344,Cercospora_cf._alchemillicola_CPC_5127:0.0000021344)100:0.0006948144)100:0.0037980565,(((((((((Cercospora_kikuchii_CBS_128.27:0.0000021344,Cercospora_kikuchii_CBS_135.28:0.0000021344)100:0.0003486834,Cercospora_kikuchii_MUCC_590:0.0003405160)88:0.0000021344,Cercospora_kikuchii_CBS_132633:0.0003242115)100:0.0029737512,Cercosporacf.richardiicola_CBS_132627:0.0010255822)84:0.0002732050,(((Cercosporacf.sigesbeckiae_CBS_132601:0.0000021344,Cercosporacf.sigesbeckiae_CBS_132642:0.0000021344)86:0.0000021344,((Cercosporacf.sigesbeckiae_MUCC_587:0.0003430132,Cercosporacf.sigesbeckiae_MUCC_589:0.0000021344)81:0.0000021344,Cercosporacf.sigesbeckiae_MUCC_849:0.0000021344)84:0.0000021344)95:0.0003441300,((Cercosporacf.sigesbeckiae_CBS_132606:0.0020560828,(Cercosporacf.sigesbeckiae_CBS_132621:0.0000021344,Cercosporacf.sigesbeckiae_CBS_132675:0.0003359362)100:0.0006728795)85:0.0000021344,Cercosporacf.sigesbeckiae_CBS_132641:0.0000021344)100:0.0010120342)98:0.0023964394)90:0.0003427410,((Cercosporacf.richardiicola_MUCC_128:0.0000021344,(Cercosporacf.richardiicola_MUCC_132:0.0000021344,Cercosporacf.richardiicola_MUCC_578:0.0000021344)81:0.0000021344)100:0.0010376711,(Cercosporacf.richardiicola_MUCC_138:0.0000021344,Cercosporacf.richardiicola_MUCC_582:0.0000021344)87:0.0000021344)78:0.0003435569)92:0.0010263909,((((((((Cercospora_rodmanii_CBS_113123:0.0006007702,Cercospora_rodmanii_CBS_113126:0.0000021344)92:0.0002979540,Cercospora_rodmanii_CBS_113129:0.0000021344)88:0.0000021344,Cercospora_rodmanii_CBS_113128:0.0000021344)82:0.0000021344,Cercospora_rodmanii_CBS_113130:0.0000021344)97:0.0003198887,Cercospora_rodmanii_CBS_113131:0.0006074791)80:0.0000021344,Cercospora_rodmanii_CBS_113125:0.0000021344)85:0.0000025925,Cercospora_rodmanii_CBS_113124:0.0006137448)100:0.0035744186,Cercosporasp._N_CBS_132619:0.0000021344)93:0.0005106368)92:0.0010216112,((Cercosporacf.malloti_MUCC_575:0.0000021344,Cercosporacf.malloti_MUCC_787:0.0000021344)100:0.0020217927,(((Cercosporasp._O_CBS_132635:0.0016219485,(((((Cercosporasp._Q_CBS_113997:0.0000021344,((Cercosporasp._Q_CBS_115410:0.0000000000,Cercosporasp._Q_CBS_115412:0.0000000000):0.0000021344,Cercosporasp._Q_CBS_115411:0.0000021344)94:0.0000021344)90:0.0000021344,((Cercosporasp._Q_CBS_132681:0.0007753534,Cercosporasp._Q_CPC_10551:0.0006850135)69:0.0003801572,Cercosporasp._Q_CPC_11639:0.0010293569)59:0.0000021344)94:0.0008613097,(Cercosporasp._Q_CBS_115536:0.0000021344,Cercosporasp._Q_CBS_115537:0.0000021344)100:0.0010749577)63:0.0002863788,(((Cercosporasp._Q_CBS_132656:0.0000021344,Cercosporasp._Q_CPC_11539:0.0003374817)100:0.0011516754,Cercosporasp._Q_CPC_10550:0.0005564424)76:0.0010257780,(Cercosporasp._Q_CBS_132661:0.0000021344,Cercosporasp._Q_CBS_132663:0.0000021344)99:0.0002141755)47:0.0004729238)84:0.0004125981,((Cercosporasp._Q_CBS_132679:0.0000021344,Cercosporasp._Q_CBS_132682:0.0000021344)100:0.0002902126,Cercosporasp._Q_CPC_15875:0.0002865869)66:0.0001640799)97:0.0008636925)91:0.0006980951,(((((Cercosporasp._P_CBS_112649:0.0000000000,Cercosporasp._P_CBS_115609:0.0000000000):0.0000021344,Cercosporasp._P_CBS_112722:0.0000021344)100:0.0010708569,(Cercosporasp._P_CBS_132664:0.0010497286,Cercosporasp._P_CPC_5262:0.0007005073)83:0.0010494226)33:0.0003444102,(((Cercosporasp._P_CBS_116365:0.0003398715,Cercosporasp._P_CBS_132645:0.0000021344)100:0.0003424563,Cercosporasp._P_MUCC_771:0.0013961402)93:0.0006750775,((((Cercosporasp._P_CBS_132660:0.0003468118,Cercosporasp._P_CPC_11630:0.0000021344)92:0.0000021344,Cercosporasp._P_CPC_11632:0.0003453963)95:0.0000021344,Cercosporasp._P_CPC_10552:0.0003396465)96:0.0003381033,Cercosporasp._P_CBS_132662:0.0000021344)81:0.0000021344)91:0.0007750987)39:0.0002440520,(Cercosporasp._P_CBS_132665:0.0003456847,(Cercosporasp._P_CPC_11631:0.0003483440,Cercosporasp._P_CPC_11633:0.0000021344)99:0.0003481251)41:0.0000021344)80:0.0006834991)48:0.0000021344,(((((((Cercosporasp._P_CBS_112728:0.0000000000,Cercosporasp._P_CBS_112894:0.0000000000):0.0000021344,Cercosporasp._P_CBS_112730:0.0000021344)100:0.0007145389,Cercosporasp._P_CPC_4002:0.0000021344)71:0.0000021344,Cercosporasp._P_CBS_115413:0.0000021344)65:0.0000021344,Cercosporasp._P_CPC_4001:0.0000021344)55:0.0000021344,(Cercosporasp._P_CBS_113996:0.0000021344,Cercosporasp._P_CPC_5327:0.0000021344)53:0.0000021344)99:0.0003423693,Cercosporasp._P_CBS_132680:0.0008675389)100:0.0005770646)81:0.0006745884)83:0.0005799155)81:0.0002469757,Cercosporasp._M_CBS_132596:0.0022357976)100:0.0017227814)92:0.0015718356,((((Cercospora_fagopyri_CBS_132623:0.0000021344,Cercospora_fagopyri_CBS_132671:0.0003362803)100:0.0006745353,(Cercospora_fagopyri_CBS_132640:0.0006777492,(Cercospora_fagopyri_MUCC_130:0.0003411606,Cercospora_fagopyri_MUCC_866:0.0010289696)85:0.0000021344)84:0.0000021344)100:0.0003348100,Cercospora_fagopyri_CBS_132649:0.0000021344)100:0.0030654246,((Cercosporacf.ipomoeae_CBS_132639:0.0013816244,Cercosporacf.ipomoeae_CBS_132652:0.0021108177)100:0.0017521277,Cercosporacf.ipomoeae_MUCC_442:0.0035286111)97:0.0010443991)91:0.0006791759)85:0.0005858343,((Cercosporacf.zinniae_CBS_132624:0.0006925866,Cercosporacf.zinniae_CBS_132676:0.0008773810)100:0.0018031942,(Cercosporacf.zinniae_MUCC_131:0.0000021344,Cercosporacf.zinniae_MUCC_572:0.0000021344)100:0.0006854389)100:0.0011288601)97:0.0016663547,((((Cercospora_coniogrammes_CBS_132634:0.0221322662,(((((((((Cercospora_zeae-maydis_CBS_117755:0.0000000000,Cercospora_zeae-maydis_CBS_117758:0.0000000000):0.0000000000,Cercospora_zeae-maydis_CBS_117761:0.0000000000):0.0000000000,Cercospora_zeae-maydis_CBS_117762:0.0000000000):0.0000021344,Cercospora_zeae-maydis_CBS_117757:0.0000021344)36:0.0000021344,((Cercospora_zeae-maydis_CBS_117756:0.0000021344,Cercospora_zeae-maydis_CBS_117760:0.0000021344)35:0.0000021344,(Cercospora_zeae-maydis_CBS_117759:0.0000000000,Cercospora_zeae-maydis_CBS_117763:0.0000000000):0.0000021344)71:0.0000021344)78:0.0000021344,Cercospora_zeae-maydis_CBS_132668:0.0000021344)95:0.0000754400,Cercospora_zeae-maydis_CBS_132678:0.0032758986)100:0.0189669682,(Cercospora_zeina_CBS_118820:0.0000021344,Cercospora_zeina_CBS_132617:0.0003397032)100:0.0222910971)100:0.0126562771,Cercosporasp._A_CBS_132631:0.0393478714)99:0.0055374784)69:0.0033430398,Cercospora_senecioniswalkeri_CBS_132636:0.0233097809)69:0.0089106164,Septoria_provencialis_CBS_118910:0.1104411841)91:0.0027752281,(((Cercosporacf.erysimi_CBS_115059:0.0084310071,(Cercosporacf.modiolae_CPC_5115:0.0020036352,(Cercosporasp._E_CBS_132628:0.0002905484,Cercosporasp._E_CPC_15801:0.0000021344)100:0.0012276733)100:0.0073419365)100:0.0023088978,Cercosporasp._D_CBS_132630:0.0085462612)90:0.0024831350,Cercosporasp._C_CBS_132629:0.0115081131)100:0.0017415267)82:0.0012705065)72:0.0008134195)94:0.0012962452,(((Cercospora_mercurialis_CBS_549.71:0.0020577294,Cercospora_mercurialis_CBS_551.71:0.0010162921)100:0.0019319845,Cercospora_mercurialis_CBS_550.71__TYPE:0.0031184644)100:0.0069228908,(Cercospora_pileicola_CBS_132607:0.0017231883,(Cercospora_pileicola_CBS_132647:0.0000021344,Cercospora_pileicola_CPC_11369:0.0003358027)95:0.0000021344)100:0.0062049520)77:0.0008289058)100:0.0014791650,((((Cercospora_apiicola_CBS_116457:0.0000021344,Cercospora_apiicola_CPC_10266:0.0000021344)45:0.0000021344,Cercospora_apiicola_CPC_10265:0.0000021344)74:0.0000021344,((Cercospora_apiicola_CBS_116458:0.0000021344,Cercospora_apiicola_CBS_132651:0.0000021344)53:0.0000021344,(((Cercospora_apiicola_CBS_132644:0.0000021344,Cercospora_apiicola_CPC_10279:0.0000021344)66:0.0000021344,Cercospora_apiicola_CPC_10220:0.0000021344)76:0.0000021344,Cercospora_apiicola_CPC_10666:0.0000021344)43:0.0000021344)78:0.0000021344)100:0.0003367953,(Cercospora_apiicola_CBS_132666:0.0000021344,Cercospora_apiicola_CPC_11641:0.0000021344)81:0.0000021344)100:0.0121059802)97:0.0002206766,(Cercospora_vignigena_CBS_132611:0.0031738061,(Cercospora_vignigena_CPC_1134:0.0003424606,Cercospora_vignigena_MUCC_579:0.0000022768)100:0.0010140915)100:0.0044650000)100:0.0020959135,Cercospora_euphorbiaesieboldianae_CBS_113306__TYPE:0.0035596625)96:0.0007930204,Cercospora_punctiformis_CBS_132626:0.0037954687)100:0.0007835989,(Cercospora_campi-silii_CBS_132625:0.0031669125,(Cercospora_sojina_CBS_132018:0.0004989995,((Cercospora_sojina_CBS_132615:0.0003369390,Cercospora_sojina_CPC_11420:0.0000021344)78:0.0003193665,((((((Cercospora_sojina_CBS_132684:0.0000000000,Cercospora_sojina_CPC_17968:0.0000000000):0.0000000000,Cercospora_sojina_CPC_17975:0.0000000000):0.0000000000,Cercospora_sojina_CPC_17969:0.0000000000):0.0000021344,Cercospora_sojina_CPC_17966:0.0000021344)81:0.0000021344,(((((Cercospora_sojina_CPC_17965:0.0000000000,Cercospora_sojina_CPC_17973:0.0000000000):0.0000000000,Cercospora_sojina_CPC_17977:0.0000000000):0.0000000000,Cercospora_sojina_CPC_17976:0.0000000000):0.0000000000,Cercospora_sojina_CPC_17972:0.0000000000):0.0000021344,Cercospora_sojina_CPC_17967:0.0000021344)69:0.0000021344)100:0.0005517352,((Cercospora_sojina_CPC_17964:0.0000021344,Cercospora_sojina_CPC_17974:0.0002855011)74:0.0000021344,Cercospora_sojina_CPC_17970:0.0000021344)94:0.0000021344)100:0.0003707431)92:0.0007031879)100:0.0010192570)100:0.0004449160)99:0.0003572780,Cercospora_polygonacea_CBS_132614:0.0024128546)100:0.0010346967);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t combined_aligned.fa.part.aic.treefile -p combined_aligned.fa.part.aic.best_model.nex
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s combined_aligned.fa --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s combined_aligned.fa --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Feb 18 22:19:16 2026
+Total CPU time used: 1316.171537 seconds (0h:21m:56s)
+Total wall-clock time used: 1600.947198 seconds (0h:26m:40s)
+
